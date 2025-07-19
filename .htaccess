@@ -1,0 +1,40 @@
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+Header always set Content-Security-Policy "upgrade-insecure-requests"
+
+
+# Define custom error pages
+ErrorDocument 404 /error.php	
+
+# Rewrite rules for clean URLs
+RewriteRule ^home$ index.php [L,NC]
+RewriteRule ^about$ about.php [L,NC]
+RewriteRule ^contact$ contact.php [L,NC]
+RewriteRule ^blog$ blog.php [L,NC]
+RewriteRule ^blog-details$ blog-details.php [L,NC]
+RewriteRule ^service$ service.php [L,NC]
+RewriteRule ^solution$ solution.php [L,NC]
+RewriteRule ^siteMap$ sitemap.php [L,NC]
+
+RewriteRule ^ai-machine-learning-development$ ai-ml-development.php [L,NC]
+RewriteRule ^billing-accounting-software$ billingaccountingSoftware.php [L,NC]
+RewriteRule ^cross-platform-app-development$ crossPlatformAppDevelopment.php [L,NC]
+RewriteRule ^custom-software-development$ custom-software-development.php [L,NC]
+RewriteRule ^education-technology-solution$ education-technology-solution.php [L,NC]
+RewriteRule ^health-care-solution$ healthCareSolution.php [L,NC]
+RewriteRule ^hospitalitymanagement$ hospitalitymanagement.php [L,NC]
+RewriteRule ^hotel-management$ hotelmanagement.php [L,NC]
+RewriteRule ^iOS&androidAppDevelopment$ iOS&androidAppDevelopment.php [L,NC]
+RewriteRule ^logistic-management$ logisticmanagement.php [L,NC]
+RewriteRule ^realestate-property-management$ realestatepropertymanagement.php [L,NC]
+RewriteRule ^retaile-commercesolution$ retaile-commercesolution.php [L,NC]
+RewriteRule ^ux-design$ uxdesign.php [L,NC]
+RewriteRule ^web-development$ webdevelopment.php [L,NC]
+RewriteRule ^home-digital-marking$ home-digital-marking.php [L,NC]
+
+
+
+
+
+

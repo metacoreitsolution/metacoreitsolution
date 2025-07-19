@@ -9612,7 +9612,7 @@ a.text-theme:hover,
 
 .footer-layout5 .footer-newsletter .newsletter-form i {
     position: absolute;
-    top     : 22px;
+    top     : 42px;
     left    : 30px;
     color   : var(--theme-color)
 }
@@ -23921,10 +23921,10 @@ span.select2-selection.select2-selection--single:focus {
     bottom       : 80px;
     left         : 0px;
     z-index      : 2;
-    padding      : 30px 30px 30px 40px;
+    padding      : 10px 10px 10px 20px;
     background   : var(--theme-color);
     border-radius: 25px 0px 0px 25px;
-    width        : 340px;
+    width        : 300px;
     color        : var(--white-color)
 }
 
@@ -33015,10 +33015,6 @@ span.select2-selection.select2-selection--single:focus {
     color: #141D38
 }
 
-.checklist.style4 li:not(:last-child) {
-    margin-bottom: 20px
-}
-
 .checklist.style4 li>i {
     font-size: 25px
 }
@@ -35350,7 +35346,7 @@ span.select2-selection.select2-selection--single:focus {
     align-items            : center;
     gap                    : 14px;
     background-color       : var(--white-color);
-    text-decoration        : underline;
+    /* text-decoration        : underline; */
     box-shadow             : 0px 15px 38px 0px rgba(0, 0, 0, 0.06);
     z-index                : 3;
     -webkit-transform      : translate(-50% -50%);
@@ -43736,7 +43732,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .project-card4 .box-title {
-    font-size    : 36px;
+    font-size    : 32px;
     font-weight  : 600;
     margin-top   : 20px;
     margin-bottom: 0
@@ -46617,17 +46613,13 @@ span.select2-selection.select2-selection--single:focus {
     font-size       : 18px !important;
     line-height     : 28px !important;
     border-radius   : 20px;
-    margin-bottom   : 24px
+    /* margin-bottom   : 24px */
 }
 
 @media (max-width: 1299px) {
     .choose-checklist.list-two-column li {
-        padding: 18px 20px
+        padding: 10px 10px
     }
-}
-
-.choose-checklist.list-two-column li:not(:last-child) {
-    margin-bottom: 24px
 }
 
 .choose-checklist.list-two-column li>i {
@@ -47879,7 +47871,7 @@ span.select2-selection.select2-selection--single:focus {
     background         : -webkit-linear-gradient(0.04deg, #5484FF 17.55%, #642CDC 87.6%);
     background         : linear-gradient(89.96deg, #5484FF 17.55%, #642CDC 87.6%);
     border-radius      : 16px;
-    padding            : 40px;
+    padding            : 20px;
     position           : absolute;
     bottom             : 38px;
     left               : -20%;
@@ -47925,7 +47917,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .th-experience2 .experience-text {
     font-family  : var(--title-font);
-    font-size    : 40px;
+    font-size    : 30px;
     line-height  : 40px;
     font-weight  : 500;
     color        : var(--white-color);
@@ -47939,7 +47931,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .th-experience2 .experience-text span {
-    font-size  : 24px;
+    font-size  : 20px;
     font-weight: 400;
     display    : block
 }
