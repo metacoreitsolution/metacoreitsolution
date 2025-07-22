@@ -27,8 +27,10 @@ echo
                         class="mask-icon"></span><img src="assets/img/logo.svg" alt="Webteck"></a></div>
             <div class="th-mobile-menu">
                 <ul>
-                    <li><a href="home">Home</a></li>
-                    <li><a href="about">About Us</a></li>
+                    <li><a href="home" class=" ' ?><?php if ($page == "index.php") {
+                                    echo 'active';
+                                } ?><?php echo '">Home</a></li>
+                    <li><a href="about" class="active">About Us</a></li>
                     <li class="menu-item-has-children-custom">
                         <a href="service" class="solution-link d-flex justify-content-between align-items-center">
                             Service
@@ -76,11 +78,17 @@ echo
                         <div class="col-auto">
                             <nav class="main-menu style2 d-none d-lg-inline-block">
                                 <ul>
-                                    <li><a href="home">Home</a> </li>
-                                    <li><a href="about">About Us</a></li>
+                                    <li><a href="home" class=" ' ?><?php if ($page == "index.php") {
+                                    echo 'active';
+                                } ?><?php echo '">Home</a></li>
+                                    <li><a href="about"class=" ' ?><?php if ($page == "about.php") {
+                                    echo 'active';
+                                } ?><?php echo '">About Us</a></li>
                                     <li class="menu-item-has-children-custom">
                                         <a href="service"
-                                            class="solution-link d-flex justify-content-between align-items-center">
+                                            class="solution-link d-flex justify-content-between align-items-center ' ?><?php if ($page == "service.php" || $page == "ai-ml-development.php" || $page == "uxdesign.php" || $page == "custom-software-development.php" || $page == "webdevelopment.php" || $page == "crossPlatformAppDevelopment.php" || $page == "iOS&androidAppDevelopment.php") {
+                                         echo 'active';
+                                     } ?><?php echo '">
                                             Service
                                             <span class="toggle-icon ms-2"></span>
                                         </a>
@@ -98,7 +106,9 @@ echo
                                     </li>
                                     <li class="menu-item-has-children-custom">
                                         <a href="solution"
-                                            class="solution-link d-flex justify-content-between align-items-center">
+                                            class="solution-link d-flex justify-content-between align-items-center ' ?><?php if ($page == "solution.php") {
+                                    echo 'active';
+                                } ?><?php echo '">
                                             Solution
                                             <span class="toggle-icon ms-2"></span>
                                         </a>
@@ -117,13 +127,17 @@ echo
                                             <li><a href="logistic-management">Logistic Management</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="blog">Blog</a></li>
+                                    <li><a href="blog"class=" ' ?><?php if ($page == "blog.php") {
+                                    echo 'active';
+                                } ?><?php echo '">Blog</a></li>
                                 </ul>
                             </nav>
                         </div>
                         <div class="col-auto">
                             <div class="header-button d-none d-lg-inline-block"><a href="contact"
-                                    class="th-btn btn-gradient2 style-radius">Contact</a></div><button type="button"
+                                    class="th-btn btn-gradient2 style-radius ' ?><?php if ($page == "contact.php") {
+                                    echo 'active';
+                                } ?><?php echo '">Contact</a></div><button type="button"
                                 class="th-menu-toggle d-block d-lg-none"><i class="far fa-bars"></i></button>
                         </div>
                     </div>
