@@ -8322,8 +8322,8 @@ a.text-theme:hover,
     background   : #EFF1F9;
     border-radius: 80px;
     border-radius: 50px;
-    padding      : 22px 15px;
-    margin-top   : 24px
+    padding      : 5px 15px;
+    margin-top   : 14px
 }
 
 @media (max-width: 375px) {
@@ -8349,7 +8349,12 @@ a.text-theme:hover,
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip        : text;
-    text-fill-color        : transparent
+    text-fill-color        : transparent;
+    padding: 2px 16px;
+    border-radius: 100px;
+    background-color: transparent;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 .header-layout23 .main-menu>ul>li>a:hover:before {
@@ -9612,7 +9617,7 @@ a.text-theme:hover,
 
 .footer-layout5 .footer-newsletter .newsletter-form i {
     position: absolute;
-    top     : 22px;
+    top     : 42px;
     left    : 30px;
     color   : var(--theme-color)
 }
@@ -23921,10 +23926,10 @@ span.select2-selection.select2-selection--single:focus {
     bottom       : 80px;
     left         : 0px;
     z-index      : 2;
-    padding      : 30px 30px 30px 40px;
+    padding      : 10px 10px 10px 20px;
     background   : var(--theme-color);
     border-radius: 25px 0px 0px 25px;
-    width        : 340px;
+    width        : 300px;
     color        : var(--white-color)
 }
 
@@ -33015,10 +33020,6 @@ span.select2-selection.select2-selection--single:focus {
     color: #141D38
 }
 
-.checklist.style4 li:not(:last-child) {
-    margin-bottom: 20px
-}
-
 .checklist.style4 li>i {
     font-size: 25px
 }
@@ -35350,7 +35351,7 @@ span.select2-selection.select2-selection--single:focus {
     align-items            : center;
     gap                    : 14px;
     background-color       : var(--white-color);
-    text-decoration        : underline;
+    /* text-decoration        : underline; */
     box-shadow             : 0px 15px 38px 0px rgba(0, 0, 0, 0.06);
     z-index                : 3;
     -webkit-transform      : translate(-50% -50%);
@@ -43736,7 +43737,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .project-card4 .box-title {
-    font-size    : 36px;
+    font-size    : 32px;
     font-weight  : 600;
     margin-top   : 20px;
     margin-bottom: 0
@@ -46617,17 +46618,13 @@ span.select2-selection.select2-selection--single:focus {
     font-size       : 18px !important;
     line-height     : 28px !important;
     border-radius   : 20px;
-    margin-bottom   : 24px
+    /* margin-bottom   : 24px */
 }
 
 @media (max-width: 1299px) {
     .choose-checklist.list-two-column li {
-        padding: 18px 20px
+        padding: 10px 10px
     }
-}
-
-.choose-checklist.list-two-column li:not(:last-child) {
-    margin-bottom: 24px
 }
 
 .choose-checklist.list-two-column li>i {
@@ -47879,7 +47876,7 @@ span.select2-selection.select2-selection--single:focus {
     background         : -webkit-linear-gradient(0.04deg, #5484FF 17.55%, #642CDC 87.6%);
     background         : linear-gradient(89.96deg, #5484FF 17.55%, #642CDC 87.6%);
     border-radius      : 16px;
-    padding            : 40px;
+    padding            : 20px;
     position           : absolute;
     bottom             : 38px;
     left               : -20%;
@@ -47925,7 +47922,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .th-experience2 .experience-text {
     font-family  : var(--title-font);
-    font-size    : 40px;
+    font-size    : 30px;
     line-height  : 40px;
     font-weight  : 500;
     color        : var(--white-color);
@@ -47939,7 +47936,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .th-experience2 .experience-text span {
-    font-size  : 24px;
+    font-size  : 20px;
     font-weight: 400;
     display    : block
 }
@@ -49170,3 +49167,42 @@ span.select2-selection.select2-selection--single:focus {
 .menu-item-has-children-custom:hover .toggle-icon::before {
   content: "-";
 }
+.main-menu.style2 ul li a {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Hide by default */
+.main-menu.style2 ul li a::before,
+.main-menu.style2 ul li a::after {
+  content: '';
+  position: absolute;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+/* ::before line */
+.main-menu.style2 ul li a.active::before {
+  height: 3px;
+  width: 40px;
+  background-color: var(--theme-color);
+  left: 15%;
+  bottom: 0;
+  opacity: 1;
+  border-radius: 30px;
+}
+
+
+
+/* Optional: Transition from hidden state */
+.main-menu.style2 ul li a::after,
+.main-menu.style2 ul li a::before {
+  transform: scale(0);
+}
+
+.main-menu.style2 ul li a.active::before,
+.main-menu.style2 ul li a.active::after {
+  transform: scale(1);
+}
+
