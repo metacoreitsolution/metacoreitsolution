@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Details - Advanced C# Performance Optimization</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #64748b;
+            --accent-color: #f59e0b;
+            --text-dark: #1e293b;
+            --text-light: #64748b;
+            --border-color: #e2e8f0;
+            --hover-shadow: 0 10px 25px rgba(37, 99, 235, 0.1);
+            --gradient-bg: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            color: var(--text-dark);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .blog-detail-header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, #1d4ed8 100%);
+            color: white;
+            padding: 2rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .blog-detail-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" fill="rgba(255,255,255,0.1)"><polygon points="0,0 1000,0 1000,100 0,20"/></svg>') no-repeat bottom;
+            background-size: cover;
+        }
+
+        .blog-detail-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        .breadcrumb {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        .breadcrumb a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s ease;
+        }
+
+        .breadcrumb a:hover {
+            opacity: 0.8;
+        }
+
+        .blog-detail-meta {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .blog-detail-language {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .blog-detail-category {
+            background: var(--accent-color);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .blog-detail-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .blog-detail-info {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            font-size: 1rem;
+            opacity: 0.9;
+            flex-wrap: wrap;
+        }
+
+        .blog-detail-info .author,
+        .blog-detail-info .date,
+        .blog-detail-info .read-time {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .blog-detail-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .blog-detail-main {
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 3rem;
+            margin-top: -2rem;
+            position: relative;
+            z-index: 10;
+        }
+
+        .blog-detail-article {
+            background: white;
+            border-radius: 20px;
+            padding: 3rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border: 1px solid var(--border-color);
+        }
+
+        .blog-detail-featured-image {
+            width: 100%;
+            height: 400px;
+            border-radius: 15px;
+            margin-bottom: 2rem;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .blog-detail-featured-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .blog-detail-text h2 {
+            font-size: 1.8rem;
+            color: var(--text-dark);
+            margin: 2rem 0 1rem;
+            font-weight: 700;
+        }
+
+        .blog-detail-text h3 {
+            font-size: 1.4rem;
+            color: var(--text-dark);
+            margin: 1.5rem 0 1rem;
+            font-weight: 600;
+        }
+
+        .blog-detail-text p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text-dark);
+        }
+
+        .blog-detail-text ul, .blog-detail-text ol {
+            margin: 1.5rem 0;
+            padding-left: 2rem;
+        }
+
+        .blog-detail-text li {
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+
+        .blog-detail-text blockquote {
+            background: #f8fafc;
+            border-left: 4px solid var(--primary-color);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 0 10px 10px 0;
+            font-style: italic;
+            color: var(--text-light);
+        }
+
+        .blog-detail-text code {
+            background: #f1f5f9;
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            color: var(--primary-color);
+        }
+
+        .blog-detail-text pre {
+            background: #1e293b;
+            color: #e2e8f0;
+            padding: 1.5rem;
+            border-radius: 10px;
+            overflow-x: auto;
+            margin: 2rem 0;
+            font-family: 'Courier New', monospace;
+        }
+
+        .blog-detail-text pre code {
+            background: none;
+            padding: 0;
+            color: inherit;
+        }
+
+        .blog-detail-sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .blog-detail-widget {
+            background: white;
+            border-radius: 20px;
+            padding: 2rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            border: 1px solid var(--border-color);
+        }
+
+        .blog-detail-widget h3 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: var(--text-dark);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .blog-detail-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .blog-detail-tag {
+            background: var(--primary-color);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .blog-detail-tag:hover {
+            background: #1d4ed8;
+            transform: translateY(-2px);
+        }
+
+        .blog-detail-share {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .blog-detail-share-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.75rem 1rem;
+            border: 2px solid var(--border-color);
+            border-radius: 12px;
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .blog-detail-share-btn:hover {
+            border-color: var(--primary-color);
+            background: var(--primary-color);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .blog-detail-share-btn.twitter:hover {
+            background: #1da1f2;
+            border-color: #1da1f2;
+        }
+
+        .blog-detail-share-btn.linkedin:hover {
+            background: #0077b5;
+            border-color: #0077b5;
+        }
+
+        .blog-detail-share-btn.facebook:hover {
+            background: #1877f2;
+            border-color: #1877f2;
+        }
+
+        .blog-detail-toc {
+            position: sticky;
+            top: 2rem;
+        }
+
+        .blog-detail-toc ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .blog-detail-toc li {
+            margin-bottom: 0.5rem;
+        }
+
+        .blog-detail-toc a {
+            color: var(--text-light);
+            text-decoration: none;
+            padding: 0.5rem 0;
+            display: block;
+            transition: color 0.3s ease;
+            font-size: 0.95rem;
+        }
+
+        .blog-detail-toc a:hover {
+            color: var(--primary-color);
+        }
+
+        .blog-detail-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .blog-detail-back-btn {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: var(--primary-color);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .blog-detail-back-btn:hover {
+            background: #1d4ed8;
+            transform: translateY(-2px);
+        }
+
+        .blog-detail-reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: rgba(37, 99, 235, 0.1);
+            z-index: 1000;
+        }
+
+        .blog-detail-progress-bar {
+            height: 100%;
+            background: var(--primary-color);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        .blog-detail-related {
+            background: white;
+            border-radius: 20px;
+            padding: 2rem;
+            margin-top: 3rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            border: 1px solid var(--border-color);
+        }
+
+        .blog-detail-related h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            color: var(--text-dark);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .blog-detail-related-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .blog-detail-related-card {
+            display: flex;
+            gap: 1rem;
+            padding: 1rem;
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .blog-detail-related-card:hover {
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transform: translateY(-2px);
+        }
+
+        .blog-detail-related-image {
+            width: 80px;
+            height: 80px;
+            border-radius: 8px;
+            overflow: hidden;
+            flex-shrink: 0;
+        }
+
+        .blog-detail-related-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .blog-detail-related-content h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--text-dark);
+            line-height: 1.3;
+        }
+
+        .blog-detail-related-meta {
+            font-size: 0.85rem;
+            color: var(--text-light);
+        }
+
+        @media (max-width: 968px) {
+            .blog-detail-main {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .blog-detail-sidebar {
+                order: -1;
+            }
+            
+            .blog-detail-article {
+                padding: 2rem;
+            }
+            
+            .blog-detail-title {
+                font-size: 2rem;
+            }
+            
+            .blog-detail-info {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 1rem;
+            }
+            
+            .blog-detail-meta {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 1rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .blog-detail-container {
+                padding: 0 1rem;
+            }
+            
+            .blog-detail-content {
+                padding: 0 1rem;
+            }
+            
+            .blog-detail-article {
+                padding: 1.5rem;
+            }
+            
+            .blog-detail-actions {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .blog-detail-related-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="blog-detail-reading-progress">
+        <div class="blog-detail-progress-bar" id="progressBar"></div>
+    </div>
+
+    <!-- Header Section -->
+    <div class="blog-detail-header">
+        <div class="blog-detail-container">
+            <nav class="breadcrumb">
+                <a href="#"><i class="fas fa-home"></i> Home</a>
+                <i class="fas fa-chevron-right"></i>
+                <a href="#">Blog</a>
+                <i class="fas fa-chevron-right"></i>
+                <span>Advanced C# Performance Optimization</span>
+            </nav>
+
+            <div class="blog-detail-meta">
+                <div class="blog-detail-language">C#</div>
+                <div class="blog-detail-category">Performance</div>
+            </div>
+
+            <h1 class="blog-detail-title">Advanced C# Performance Optimization Techniques</h1>
+
+            <div class="blog-detail-info">
+                <div class="author">
+                    <i class="fas fa-user"></i>
+                    <span>Shreyansh Padmani</span>
+                </div>
+                <div class="date">
+                    <i class="fas fa-calendar"></i>
+                    <span>June 15, 2025</span>
+                </div>
+                <div class="read-time">
+                    <i class="fas fa-clock"></i>
+                    <span>8 min read</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="blog-detail-content">
+        <div class="blog-detail-main">
+            <!-- Article Content -->
+            <article class="blog-detail-article">
+                <div class="blog-detail-featured-image">
+                    <img src="https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&q=80" alt="C# Performance Optimization">
+                </div>
+
+                <div class="blog-detail-text">
+                    <p>Performance optimization in C# is crucial for building scalable and efficient applications. In this comprehensive guide, we'll explore advanced techniques that can significantly improve your application's performance, reduce memory usage, and enhance overall user experience.</p>
+
+                    <h2>Understanding Memory Management</h2>
+                    <p>Memory management is at the heart of C# performance optimization. The .NET garbage collector (GC) handles memory allocation and deallocation automatically, but understanding how it works can help you write more efficient code.</p>
+
+                    <blockquote>
+                        "Premature optimization is the root of all evil, but strategic optimization based on profiling and measurement is essential for high-performance applications."
+                    </blockquote>
+
+                    <h3>Key Memory Optimization Strategies</h3>
+                    <ul>
+                        <li><strong>Object Pooling:</strong> Reuse objects instead of creating new ones repeatedly</li>
+                        <li><strong>Struct vs Class:</strong> Use value types for small, immutable data</li>
+                        <li><strong>Span&lt;T&gt; and Memory&lt;T&gt;:</strong> Reduce allocations when working with arrays</li>
+                        <li><strong>StringBuilder:</strong> Efficient string concatenation for multiple operations</li>
+                    </ul>
+
+                    <h2>Async/Await Best Practices</h2>
+                    <p>Asynchronous programming is essential for modern C# applications. Here are some advanced patterns for optimal async performance:</p>
+
+                    <pre><code>// Efficient async pattern
+public async Task&lt;string&gt; GetDataAsync()
+{
+    using var httpClient = new HttpClient();
+    var response = await httpClient.GetAsync("https://api.example.com/data");
+    return await response.Content.ReadAsStringAsync();
+}
+
+// Avoid blocking async calls
+public async Task ProcessDataAsync()
+{
+    var data = await GetDataAsync(); // Good
+    // var data = GetDataAsync().Result; // Bad - can cause deadlocks
+}</code></pre>
+
+                    <h3>Common Async Pitfalls to Avoid</h3>
+                    <ol>
+                        <li>Using <code>.Result</code> or <code>.Wait()</code> on async methods</li>
+                        <li>Not configuring <code>ConfigureAwait(false)</code> in library code</li>
+                        <li>Creating unnecessary async state machines</li>
+                        <li>Not properly handling exceptions in async methods</li>
+                    </ol>
+
+                    <h2>LINQ Performance Optimization</h2>
+                    <p>LINQ provides powerful query capabilities, but improper usage can lead to performance issues. Here are key optimization techniques:</p>
+
+                    <pre><code>// Efficient LINQ usage
+var results = data
+    .Where(x => x.IsActive)
+    .Select(x => new { x.Id, x.Name })
+    .ToList();
+
+// Avoid multiple enumerations
+var activeItems = data.Where(x => x.IsActive).ToList();
+var count = activeItems.Count;
+var firstItem = activeItems.FirstOrDefault();</code></pre>
+
+                    <h2>Conclusion</h2>
+                    <p>Performance optimization in C# requires a deep understanding of the language, runtime behavior, and careful measurement. By applying these techniques strategically and always measuring the impact, you can build applications that perform exceptionally well under load.</p>
+
+                    <p>Remember to profile your applications regularly and focus optimization efforts on the parts of your code that have the most significant impact on performance. The key is to balance code maintainability with performance improvements.</p>
+                </div>
+
+                <div class="blog-detail-actions">
+                    <a href="#" class="blog-detail-back-btn">
+                        <i class="fas fa-arrow-left"></i>
+                        Back to Blog
+                    </a>
+                </div>
+            </article>
+
+            <!-- Sidebar -->
+            <aside class="blog-detail-sidebar">
+                <!-- Table of Contents -->
+                <div class="blog-detail-widget blog-detail-toc">
+                    <h3><i class="fas fa-list"></i> Table of Contents</h3>
+                    <ul>
+                        <li><a href="#understanding-memory">Understanding Memory Management</a></li>
+                        <li><a href="#async-await">Async/Await Best Practices</a></li>
+                        <li><a href="#linq-performance">LINQ Performance Optimization</a></li>
+                        <li><a href="#conclusion">Conclusion</a></li>
+                    </ul>
+                </div>
+
+                <!-- Tags -->
+                <div class="blog-detail-widget">
+                    <h3><i class="fas fa-tags"></i> Tags</h3>
+                    <div class="blog-detail-tags">
+                        <a href="#" class="blog-detail-tag">Memory Management</a>
+                        <a href="#" class="blog-detail-tag">Async/Await</a>
+                        <a href="#" class="blog-detail-tag">LINQ</a>
+                        <a href="#" class="blog-detail-tag">Performance</a>
+                        <a href="#" class="blog-detail-tag">C#</a>
+                    </div>
+                </div>
+
+                <!-- Share -->
+                <div class="blog-detail-widget">
+                    <h3><i class="fas fa-share-alt"></i> Share</h3>
+                    <div class="blog-detail-share">
+                        <a href="#" class="blog-detail-share-btn twitter">
+                            <i class="fab fa-twitter"></i>
+                            Share on Twitter
+                        </a>
+                        <a href="#" class="blog-detail-share-btn linkedin">
+                            <i class="fab fa-linkedin"></i>
+                            Share on LinkedIn
+                        </a>
+                        <a href="#" class="blog-detail-share-btn facebook">
+                            <i class="fab fa-facebook"></i>
+                            Share on Facebook
+                        </a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        <!-- Related Articles -->
+        <div class="blog-detail-related">
+            <h3><i class="fas fa-newspaper"></i> Related Articles</h3>
+            <div class="blog-detail-related-grid">
+                <a href="#" class="blog-detail-related-card">
+                    <div class="blog-detail-related-image">
+                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=80" alt="Entity Framework Performance">
+                    </div>
+                    <div class="blog-detail-related-content">
+                        <h4>Entity Framework Performance Tuning Guide</h4>
+                        <div class="blog-detail-related-meta">May 28, 2025 • 6 min read</div>
+                    </div>
+                </a>
+                <a href="#" class="blog-detail-related-card">
+                    <div class="blog-detail-related-image">
+                        <img src="https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=80" alt="Microservices Architecture">
+                    </div>
+                    <div class="blog-detail-related-content">
+                        <h4>Building Microservices with .NET 8 and Docker</h4>
+                        <div class="blog-detail-related-meta">June 5, 2025 • 10 min read</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Reading Progress Bar
+        window.addEventListener('scroll', function() {
+            const article = document.querySelector('.blog-detail-article');
+            const progressBar = document.getElementById('progressBar');
+            
+            if (article) {
+                const articleTop = article.offsetTop;
+                const articleHeight = article.offsetHeight;
+                const windowHeight = window.innerHeight;
+                const scrollTop = window.pageYOffset;
+                
+                const articleBottom = articleTop + articleHeight;
+                const windowBottom = scrollTop + windowHeight;
+                
+                let progress = 0;
+                if (scrollTop >= articleTop) {
+                    progress = Math.min(100, ((scrollTop - articleTop) / (articleHeight - windowHeight)) * 100);
+                }
+                
+                progressBar.style.width = progress + '%';
+            }
+        });
+
+        // Smooth scrolling for table of contents
+        document.querySelectorAll('.blog-detail-toc a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);    
+                
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Share functionality
+        document.querySelectorAll('.blog-detail-share-btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                const platform = this.classList.contains('twitter') ? 'twitter' : 
+                               this.classList.contains('linkedin') ? 'linkedin' : 'facebook';
+                
+                const url = encodeURIComponent(window.location.href);
+                const title = encodeURIComponent(document.title);
+                
+                let shareUrl = '';
+                switch(platform) {
+                    case 'twitter':
+                        shareUrl = `https://twitter.com/intent/tweet?url=${url}&text=${title}`;
+                        break;
+                    case 'linkedin':
+                        shareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${url}`;
+                        break;
+                    case 'facebook':
+                        shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
+                        break;
+                }
+                
+                if (shareUrl) {
+                    window.open(shareUrl, '_blank', 'width=600,height=400');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
