@@ -1,221 +1,428 @@
-﻿
-
-
-    <?php
-$Title = "Tech Insights & IT Trends | MetaCore Solution Blog";
-$MetaDescription = "Explore the MetaCore blog for the latest insights, industry news, and expert articles on technology, SEO, app development, and more.";
-$MetaKeywords = "MetaCore blog, IT news, technology insights, SEO tips, software trends, web development articles";
+<?php
+$Title = "About MetaCore Solution | Innovating the Future of IT Services";
+$MetaDescription = "Learn about MetaCore Solution's mission, vision, and team dedicated to providing innovative IT and digital transformation services.";
+$MetaKeywords = "About MetaCore Solution, our story, IT company profile, team, vision, mission, software experts";
 
 ?>
 
 <?php
 include __DIR__ . '/A_Layout/Header/header.php';
 ?>
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+
+    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/about-us.jpg">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Blog Post</h1>
+                <h1 class="breadcumb-title">About Us</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="home">Home</a></li>
-                    <li>Blog Post</li>
+                    <li>About Us</li>
                 </ul>
             </div>
         </div>
     </div>
-    <section class="th-blog-wrapper space-top space-extra-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-xxl-8 col-lg-7">
-                    <div class="th-blog blog-single has-post-thumbnail">
-                        <div class="blog-img"><a href="blog-details"><img src="assets/img/blog/blog-s-1-1.jpg"
-                                    alt="Blog Image"></a></div>
-                        <div class="blog-content">
-                            <div class="blog-meta"><a class="author" href="blog"><img
-                                        src="assets/img/blog/author-1-1.png" alt="avater"> By Themeholy</a> <a
-                                    href="blog"><i class="fa-light fa-calendar-days"></i>21 June, 2025</a> <a
-                                    href="blog-details"><i class="fa-regular fa-comments"></i>Comments (3)</a>
+    <div class="wrapper">
+        <main>
+    
+            <div class="container">
+                <!-- Featured Post -->
+                <section class="featured-post mt-5">
+                    <div class="row g-0">
+                        <div class="col-lg-6">
+                            <img src="./assets/img/blog/personal-digital-security_74855-4560.avif" alt="Featured Blog Post" class="featured-post-img w-100">
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="featured-content">
+                                <span class="featured-tag">FEATURED</span>
+                                <h3>How to Build a Successful Remote Team</h3>
+                                <p>Discover the secrets to building and managing high-performing remote teams in today's digital workplace. Learn the best practices, tools, and strategies that top companies are using to maintain productivity and team cohesion.</p>
+                                <div class="blog-footer">
+                          
+                                    <div class="blog-stats">
+                                        <i class="far fa-user"></i> Brijesh Dhorajiya
+                                    </div>
+                                    <div class="blog-stats">
+                                        <i class="far fa-eye"></i> 2.3K
+                                    </div>
+                                </div>
                             </div>
-                            <h2 class="blog-title"><a href="blog-details">Unsatiable entreaties may collecting
-                                    Power.</a></h2>
-                            <p class="blog-text">Progressively plagiarize quality metrics for impactful data.
-                                Assertively. Holisticly leverage existing magnetic functionalities. Assertively
-                                orchestrate high-quality customer service vis-a-vis intuitive interfaces. Conveniently
-                                enhance highly efficient infomediaries.</p><a href="blog-details"
-                                class="line-btn">Read More</a>
                         </div>
                     </div>
-                    <div class="th-blog blog-single has-post-thumbnail">
-                        <div class="blog-img th-carousel" data-arrows="true" data-slide-show="1" data-fade="true"><a
-                                href="blog-details"><img src="assets/img/blog/blog-s-1-2.jpg"
-                                    alt="Blog Image"></a><a href="blog-details"><img
-                                    src="assets/img/blog/blog-s-1-4.jpg" alt="Blog Image"></a></div>
-                        <div class="blog-content">
-                            <div class="blog-meta"><a class="author" href="blog"><img
-                                        src="assets/img/blog/author-1-1.png" alt="avater"> By Themeholy</a> <a
-                                    href="blog"><i class="fa-light fa-calendar-days"></i>22 June, 2025</a> <a
-                                    href="blog-details"><i class="fa-regular fa-comments"></i>Comments (3)</a>
-                            </div>
-                            <h2 class="blog-title"><a href="blog-details">Regional Manager limited time
-                                    management.</a></h2>
-                            <p class="blog-text">Progressively plagiarize quality metrics for impactful data.
-                                Assertively. Holisticly leverage existing magnetic functionalities. Assertively
-                                orchestrate high-quality customer service vis-a-vis intuitive interfaces. Conveniently
-                                enhance highly efficient infomediaries.</p><a href="blog-details"
-                                class="line-btn">Read More</a>
-                        </div>
+                </section>
+                
+                <!-- Blog Filters -->
+                <div class="blog-filters" id="blog-badges">
+                    <span class="filter-badge active" data-category="all">All</span>
+                    <span class="filter-badge" data-category="react">React</span>
+                    <span class="filter-badge" data-category="angular">Angular</span>
+                    <span class="filter-badge" data-category="frontend">Frontend Development</span>
+                    <span class="filter-badge" data-category="js-frameworks">JavaScript Frameworks</span>
+                    <span class="filter-badge" data-category="web-dev">Web Development</span>
+                </div>
+                
+                <!-- Blog Grid -->
+                <div class="blog-grid" id="blog-list">
+                    <!-- Blog Card 1 -->
+                    <div class="blog-card blog-item ai-development machine-learning innovation" id="blog-1">
+                    <div class="blog-card-img">
+                        <span class="category-badge">AI & ML</span>
+                        <img src="./assets/img/blog/ai-ml-blog.avif" alt="AI Blog Image">
                     </div>
-                    <div class="th-blog blog-single">
-                        <div class="blog-content">
-                            <div class="blog-meta"><a class="author" href="blog"><img
-                                        src="assets/img/blog/author-1-1.png" alt="avater"> By Themeholy</a> <a
-                                    href="blog"><i class="fa-light fa-calendar-days"></i>24 June, 2025</a> <a
-                                    href="blog-details"><i class="fa-regular fa-comments"></i>Comments (3)</a>
+                    <div class="blog-card-content">
+                        <div class="blog-date">July 15, 2025</div>
+                        <h5 class="blog-title">How AI & Machine Learning Are Redefining Business Operations</h5>
+                        <p class="blog-excerpt">Discover how AI is revolutionizing industries by automating tasks, improving decision-making, and unlocking new insights.</p>
+                        <div class="final-blog-blog-tags">
+                              <span class="blog-tag">Components</span>
+                              <span class="blog-tag">TypeScript</span>
+                        </div>
+                        <div class="blog-footer">
+                          
+                            <div class="blog-stats">
+                                <i class="far fa-user"></i> Brijesh Dhorajiya
                             </div>
-                            <h2 class="blog-title"><a href="blog-details">What’s the Holding Back It Solution
-                                    Industry?</a></h2>
-                            <p class="blog-text">Progressively plagiarize quality metrics for impactful data.
-                                Assertively. Holisticly leverage existing magnetic functionalities. Assertively
-                                orchestrate high-quality customer service vis-a-vis intuitive interfaces. Conveniently
-                                enhance highly efficient infomediaries.</p><a href="blog-details"
-                                class="line-btn">Read More</a>
-                        </div>
-                    </div>
-                    <div class="th-blog blog-single has-post-thumbnail">
-                        <div class="blog-img"><a href="blog-details"><img src="assets/img/blog/blog-s-1-3.jpg"
-                                    alt="Blog Image"></a><a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
-                                class="play-btn popup-video"><i class="fas fa-play"></i></a></div>
-                        <div class="blog-content">
-                            <div class="blog-meta"><a class="author" href="blog"><img
-                                        src="assets/img/blog/author-1-1.png" alt="avater"> By Themeholy</a> <a
-                                    href="blog"><i class="fa-light fa-calendar-days"></i>24 June, 2025</a> <a
-                                    href="blog-details"><i class="fa-regular fa-comments"></i>Comments (3)</a>
+                            <div class="blog-stats">
+                                <i class="far fa-eye"></i> 2.3K
                             </div>
-                            <h2 class="blog-title"><a href="blog-details">Latin derived from Cicero's 1st-century
-                                    BC</a></h2>
-                            <p class="blog-text">Progressively plagiarize quality metrics for impactful data.
-                                Assertively. Holisticly leverage existing magnetic functionalities. Assertively
-                                orchestrate high-quality customer service vis-a-vis intuitive interfaces. Conveniently
-                                enhance highly efficient infomediaries.</p><a href="blog-details"
-                                class="line-btn">Read More</a>
                         </div>
-                    </div>
-                    <div class="th-blog blog-single has-post-thumbnail">
-                        <div class="blog-audio"><iframe title="Tell Me U Luv Me (with Trippie Redd) by Juice WRLD"
-                                src="https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F830279092&show_artwork=true&maxwidth=751&maxheight=1000&dnt=1"></iframe>
+                        <div class="final-blog-blog-actions">
+                            <a href="blog-details" class="final-blog-btn-read">
+                                <i class="fa fa-book"></i>
+                                Read Blog
+                            </a>
                         </div>
-                        <div class="blog-content">
-                            <div class="blog-meta"><a class="author" href="blog"><img
-                                        src="assets/img/blog/author-1-1.png" alt="avater"> By Themeholy</a> <a
-                                    href="blog"><i class="fa-light fa-calendar-days"></i>25 June, 2025</a> <a
-                                    href="blog-details"><i class="fa-regular fa-comments"></i>Comments (3)</a>
-                            </div>
-                            <h2 class="blog-title"><a href="blog-details">Regional Manager limited time
-                                    management.</a></h2>
-                            <p class="blog-text">Progressively plagiarize quality metrics for impactful data.
-                                Assertively. Holisticly leverage existing magnetic functionalities. Assertively
-                                orchestrate high-quality customer service vis-a-vis intuitive interfaces. Conveniently
-                                enhance highly efficient infomediaries.</p><a href="blog-details"
-                                class="line-btn">Read More</a>
-                        </div>
-                    </div>
-                    <div class="th-pagination text-center">
-                        <ul>
-                            <li><a href="blog">1</a></li>
-                            <li><a href="blog">2</a></li>
-                            <li><a href="blog">3</a></li>
-                            <li><a href="blog"><i class="far fa-arrow-right"></i></a></li>
-                        </ul>
                     </div>
                 </div>
-                <div class="col-xxl-4 col-lg-5">
-                    <aside class="sidebar-area">
-                        <div class="widget widget_search">
-                            <form class="search-form"><input type="text" placeholder="Enter Keyword"> <button
-                                    type="submit"><i class="far fa-search"></i></button></form>
+
+                    
+                    <!-- Blog Card 2 -->
+                    <div class="blog-card blog-item angular frontend js-frameworks web-dev" id="blog-2">
+                        <div class="blog-card-img">
+                            <span class="category-badge">FINANCE</span>
+                            <img src="./assets/img/blog/Investment-StrategiesEconomic-Uncertainty-blog.avif" alt="Blog Image">
                         </div>
-                        <div class="widget widget_categories">
-                            <h3 class="widget_title">Categories</h3>
-                            <ul>
-                                <li><a href="blog">IT Solution</a></li>
-                                <li><a href="blog">SEO Marketing</a></li>
-                                <li><a href="blog">Web Development</a></li>
-                                <li><a href="blog">Cloud Solution</a></li>
-                                <li><a href="blog">Network Marketing</a></li>
-                                <li><a href="blog">UI/UX Design</a></li>
-                            </ul>
+                        <div class="blog-card-content">
+                            <div class="blog-date">May 10, 2025</div>
+                            <h5 class="blog-title">Investment Strategies for Economic Uncertainty</h5>
+                            <p class="blog-excerpt">Learn proven investment approaches that can help protect and grow your wealth during volatile times.</p>
+                            <div class="final-blog-blog-tags">
+                              <span class="blog-tag">Components</span>
+                              <span class="blog-tag">TypeScript</span>
                         </div>
-                        <div class="widget">
-                            <h3 class="widget_title">Recent Posts</h3>
-                            <div class="recent-post-wrap">
-                                <div class="recent-post">
-                                    <div class="media-img"><a href="blog-details"><img
-                                                src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image"></a></div>
-                                    <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit"
-                                                href="blog-details">Unsatiable entreaties may collecting Power.</a>
-                                        </h4>
-                                        <div class="recent-post-meta"><a href="blog"><i
-                                                    class="fal fa-calendar-days"></i>21 June, 2025</a></div>
-                                    </div>
-                                </div>
-                                <div class="recent-post">
-                                    <div class="media-img"><a href="blog-details"><img
-                                                src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image"></a></div>
-                                    <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details">Regional
-                                                Manager limited time management.</a></h4>
-                                        <div class="recent-post-meta"><a href="blog"><i
-                                                    class="fal fa-calendar-days"></i>22 June, 2025</a></div>
-                                    </div>
-                                </div>
-                                <div class="recent-post">
-                                    <div class="media-img"><a href="blog-details"><img
-                                                src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image"></a></div>
-                                    <div class="media-body">
-                                        <h4 class="post-title"><a class="text-inherit" href="blog-details">What’s
-                                                the Holding Back It Solution Industry?</a></h4>
-                                        <div class="recent-post-meta"><a href="blog"><i
-                                                    class="fal fa-calendar-days"></i>23 June, 2025</a></div>
-                                    </div>
+                            <div class="blog-footer">
+                                <div class="blog-stats">
+                                <i class="far fa-user"></i> Brijesh Dhorajiya
+                            </div>
+                                <div class="blog-stats">
+                                    <i class="far fa-eye"></i> 1.5K
                                 </div>
                             </div>
+                            <div class="final-blog-blog-actions">
+                            <a href="blog-details" class="final-blog-btn-read">
+                                <i class="fa fa-book"></i>
+                                Read Blog
+                            </a>
                         </div>
-                        <div class="widget">
-                            <h3 class="widget_title">Gallery Post</h3>
-                            <div class="sidebar-gallery">
-                                <div class="gallery-thumb"><img src="assets/img/widget/gallery_1_1.jpg"
-                                        alt="Gallery Image"> <a href="assets/img/widget/gallery_1_1.jpg"
-                                        class="gallery-btn popup-image"><i class="fab fa-instagram"></i></a></div>
-                                <div class="gallery-thumb"><img src="assets/img/widget/gallery_1_2.jpg"
-                                        alt="Gallery Image"> <a href="assets/img/widget/gallery_1_2.jpg"
-                                        class="gallery-btn popup-image"><i class="fab fa-instagram"></i></a></div>
-                                <div class="gallery-thumb"><img src="assets/img/widget/gallery_1_3.jpg"
-                                        alt="Gallery Image"> <a href="assets/img/widget/gallery_1_3.jpg"
-                                        class="gallery-btn popup-image"><i class="fab fa-instagram"></i></a></div>
-                                <div class="gallery-thumb"><img src="assets/img/widget/gallery_1_4.jpg"
-                                        alt="Gallery Image"> <a href="assets/img/widget/gallery_1_4.jpg"
-                                        class="gallery-btn popup-image"><i class="fab fa-instagram"></i></a></div>
-                                <div class="gallery-thumb"><img src="assets/img/widget/gallery_1_5.jpg"
-                                        alt="Gallery Image"> <a href="assets/img/widget/gallery_1_5.jpg"
-                                        class="gallery-btn popup-image"><i class="fab fa-instagram"></i></a></div>
-                                <div class="gallery-thumb"><img src="assets/img/widget/gallery_1_6.jpg"
-                                        alt="Gallery Image"> <a href="assets/img/widget/gallery_1_6.jpg"
-                                        class="gallery-btn popup-image"><i class="fab fa-instagram"></i></a></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Blog Card 3 -->
+                    <div class="blog-card blog-item frontend web-dev" id="blog-3">
+                        <div class="blog-card-img">
+                            <span class="category-badge">HEALTH</span>
+                            <img src="./assets/img/blog/Science-Behind-EffectiveMindfulness-blog.jpg" alt="Blog Image">
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-date">May 8, 2025</div>
+                            <h5 class="blog-title">The Science Behind Effective Mindfulness</h5>
+                            <p class="blog-excerpt">Discover the research-backed benefits of mindfulness practices and how to implement them in your daily routine.</p>
+                            <div class="final-blog-blog-tags">
+                              <span class="blog-tag">Components</span>
+                              <span class="blog-tag">TypeScript</span>
+                        </div>
+                            <div class="blog-footer">
+                               <div class="blog-stats">
+                                <i class="far fa-user"></i> Brijesh Dhorajiya
                             </div>
+                                <div class="blog-stats">
+                                    <i class="far fa-eye"></i> 920
+                                </div>
+                            </div>
+                             <div class="final-blog-blog-actions">
+                            <a href="blog-details" class="final-blog-btn-read">
+                                <i class="fa fa-book"></i>
+                                Read Blog
+                            </a>
                         </div>
-                        <div class="widget widget_tag_cloud">
-                            <h3 class="widget_title">Popular Tags</h3>
-                            <div class="tagcloud"><a href="blog">Technology</a> <a href="blog">Advice</a> <a
-                                    href="blog">Solution</a> <a href="blog">Consultion</a> <a
-                                    href="blog">Business</a> <a href="blog">Services</a> <a
-                                    href="blog">Start Up</a> <a href="blog">Agency</a> <a
-                                    href="blog">Software</a></div>
                         </div>
-                    </aside>
+                    </div>
+                    
+                    <!-- Blog Card 4 -->
+                    <div class="blog-card blog-item js-frameworks web-dev" id="blog-4">
+                        <div class="blog-card-img">
+                            <span class="category-badge">MARKETING</span>
+                            <img src="./assets/img/blog/ContentMarketingStrategiesConvert-blog.avif" alt="Blog Image">
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-date">May 5, 2025</div>
+                            <h5 class="blog-title">Content Marketing Strategies That Convert</h5>
+                            <p class="blog-excerpt">Learn how to create content that not only engages your audience but also drives measurable conversions.</p>
+                            <div class="final-blog-blog-tags">
+                              <span class="blog-tag">Components</span>
+                              <span class="blog-tag">TypeScript</span>
+                        </div>
+                            <div class="blog-footer">
+                                <div class="blog-stats">
+                                <i class="far fa-user"></i> Brijesh Dhorajiya
+                            </div>
+                                <div class="blog-stats">
+                                    <i class="far fa-eye"></i> 1.3K
+                                </div>
+                            </div>
+                             <div class="final-blog-blog-actions">
+                            <a href="blog-details" class="final-blog-btn-read">
+                                <i class="fa fa-book"></i>
+                                Read Blog
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Blog Card 5 -->
+                    <div class="blog-card blog-item js-frameworks web-dev" id="blog-5">
+                        <div class="blog-card-img">
+                            <span class="category-badge">LEADERSHIP</span>
+                            <img src="./assets/img/blog/LeadershipPrinciplesModernWorkplace-blog.jpg" alt="Blog Image">
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-date">May 3, 2025</div>
+                            <h5 class="blog-title">Leadership Principles for the Modern Workplace</h5>
+                            <p class="blog-excerpt">Explore the evolving nature of leadership and the principles that drive success in today's business environment.</p>
+                            <div class="final-blog-blog-tags">
+                              <span class="blog-tag">Components</span>
+                              <span class="blog-tag">TypeScript</span>
+                        </div>
+                            <div class="blog-footer">
+                                <div class="blog-stats">
+                                <i class="far fa-user"></i> Brijesh Dhorajiya
+                            </div>
+                                <div class="blog-stats">
+                                    <i class="far fa-eye"></i> 780
+                                </div>
+                            </div>
+                             <div class="final-blog-blog-actions">
+                            <a href="blog-details" class="final-blog-btn-read">
+                                <i class="fa fa-book"></i>
+                                Read Blog
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Blog Card 6 -->
+                    <div class="blog-card blog-item react js-frameworks" id="blog-6">
+                        <div class="blog-card-img">
+                            <span class="category-badge">TECHNOLOGY</span>
+                            <img src="./assets/img/blog/advanced-robot-arm-system-digital-industry-factory-robotic-technology_31965-12226.jpg" alt="Blog Image">
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-date">May 1, 2025</div>
+                            <h5 class="blog-title">The Future of AI in Business Operations</h5>
+                            <p class="blog-excerpt">Explore how artificial intelligence is transforming business operations and creating new opportunities for growth.</p>
+                            <div class="final-blog-blog-tags">
+                              <span class="blog-tag">Components</span>
+                              <span class="blog-tag">TypeScript</span>
+                        </div>
+                            <div class="blog-footer">
+                                <div class="blog-stats">
+                                <i class="far fa-user"></i> Brijesh Dhorajiya
+                            </div>
+                                <div class="blog-stats">
+                                    <i class="far fa-eye"></i> 1.7K
+                                </div>
+                            </div>
+                             <div class="final-blog-blog-actions">
+                            <a href="blog-details" class="final-blog-btn-read">
+                                <i class="fa fa-book"></i>
+                                Read Blog
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-card blog-item mobile-app ios android development" id="blog-2">
+                        <div class="blog-card-img">
+                            <span class="category-badge">Mobile Development</span>
+                            <img src="./assets/img/blog/application-interface-ui-smartphone-3d-rendering_110893-148.jpg" alt="Mobile App Trends">
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-date">July 5, 2025</div>
+                            <h5 class="blog-title">Top Mobile App Trends That Will Dominate in 2025</h5>
+                            <p class="blog-excerpt">Stay ahead in mobile innovation with insights into trending technologies like AR, AI, and cross-platform development.</p>
+                            <div class="final-blog-blog-tags">
+                              <span class="blog-tag">Components</span>
+                              <span class="blog-tag">TypeScript</span>
+                        </div>
+                            <div class="blog-footer">
+                               <div class="blog-stats">
+                                <i class="far fa-user"></i> Brijesh Dhorajiya
+                            </div>
+                                <div class="blog-stats">
+                                    <i class="far fa-eye"></i> 1.9K
+                                </div>
+                            </div>
+                             <div class="final-blog-blog-actions">
+                            <a href="blog-details" class="final-blog-btn-read">
+                                <i class="fa fa-book"></i>
+                                Read Blog
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="blog-card blog-item mobile-app ios android development" id="blog-2">
+                        <div class="blog-card-img">
+                            <span class="category-badge">Mobile Development</span>
+                            <img src="./assets/img/blog/representations-user-experience-interface-design_23-2150104516.avif" alt="Mobile App Trends">
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-date">July 24, 2025</div>
+                            <h5 class="blog-title">Top UI/UX Design Practices to Elevate User Engagement</h5>
+                            <p class="blog-excerpt">Explore the key principles behind intuitive and visually appealing digital experiences that drive conversions and satisfaction.</p>
+                            <div class="final-blog-blog-tags">
+                              <span class="blog-tag">Components</span>
+                              <span class="blog-tag">TypeScript</span>
+                        </div>
+                            <div class="blog-footer">
+                               <div class="blog-stats">
+                                <i class="far fa-user"></i> Brijesh Dhorajiya
+                            </div>
+                                <div class="blog-stats">
+                                    <i class="far fa-eye"></i> 1.9K
+                                </div>
+                            </div>
+                             <div class="final-blog-blog-actions">
+                            <a href="blog-details" class="final-blog-btn-read">
+                                <i class="fa fa-book"></i>
+                                Read Blog
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="blog-card blog-item web-development security backend frontend" id="blog-4">
+                        <div class="blog-card-img">
+                            <span class="category-badge">Web Development</span>
+                            <img src="./assets/img/blog/web-development-programming-code-app-development-web-design-computer-seo-3d-background_125322-450.jpg" alt="Secure Web Dev">
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-date">June 18, 2025</div>
+                            <h5 class="blog-title">Best Practices for Secure and Scalable Web Development</h5>
+                            <p class="blog-excerpt">Learn how to build web applications that scale efficiently while ensuring data privacy, performance, and reliability.</p>
+                            <div class="final-blog-blog-tags">
+                              <span class="blog-tag">Components</span>
+                              <span class="blog-tag">TypeScript</span>
+                        </div>
+                            <div class="blog-footer">
+                               <div class="blog-stats">
+                                <i class="far fa-user"></i> Brijesh Dhorajiya
+                            </div>
+                                <div class="blog-stats">
+                                    <i class="far fa-eye"></i> 3.1K
+                                </div>
+                            </div>
+                             <div class="final-blog-blog-actions">
+                            <a href="blog-details" class="final-blog-btn-read">
+                                <i class="fa fa-book"></i>
+                                Read Blog
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                    
+                    <div class="blog-card blog-item startup product-launch mvp" id="blog-5">
+                        <div class="blog-card-img">
+                            <span class="category-badge">Startup</span>
+                            <img src="./assets/img/blog/advanced-robot-arm-system-digital-industry-factory-robotic-technology_31965-12226.jpg" alt="MVP Launch">
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-date">June 10, 2025</div>
+                            <h5 class="blog-title">From Idea to MVP: A Startup's Guide to Product Launch</h5>
+                            <p class="blog-excerpt">Turn your startup vision into reality with our step-by-step guide to launching a Minimum Viable Product (MVP).</p>
+                            <div class="final-blog-blog-tags">
+                              <span class="blog-tag">Components</span>
+                              <span class="blog-tag">TypeScript</span>
+                        </div>
+                            <div class="blog-footer">
+                                <div class="blog-stats">
+                                <i class="far fa-user"></i> Brijesh Dhorajiya
+                            </div>
+                                <div class="blog-stats">
+                                    <i class="far fa-eye"></i> 1.2K
+                                </div>
+                            </div>
+                             <div class="final-blog-blog-actions">
+                            <a href="blog-details" class="final-blog-btn-read">
+                                <i class="fa fa-book"></i>
+                                Read Blog
+                            </a>
+                        </div>
+                        </div>
+                    </div>
                 </div>
+                
+                <!-- Pagination -->
+                <nav aria-label="Blog pagination" class="blog-pagination">
+                    <ul class="pagination">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <i class="fas fa-chevron-left"></i>
+                            </a>
+                        </li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <!-- CTA Section -->
+                <section class="blog-cta mb-5">
+                    <h4>Need Help or Have Questions?</h4>
+                    <p>Get in touch with our team for any inquiries or assistance. We're here to help you find the perfect solution for your needs.</p>
+                    <a href="/contact" class="btn btn-cta">Contact Us</a>
+                </section>
             </div>
-        </div>
-    </section>
+        </main>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const badges = document.querySelectorAll('#blog-badges .filter-badge');
+        const blogItems = document.querySelectorAll('#blog-list .blog-item');
+
+        badges.forEach(badge => {
+          badge.addEventListener('click', function () {
+            const category = this.getAttribute('data-category');
+
+            // Highlight active badge
+            badges.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+
+            // Show/Hide blogs based on category
+            blogItems.forEach(item => {
+              if (category === 'all' || item.classList.contains(category)) {
+                item.style.display = 'block';
+              } else {
+                item.style.display = 'none';
+              }
+            });
+          });
+        });
+      });
+    </script>
   <?php
 include __DIR__ . '/A_Layout/Footer/footer.php';
 ?>
