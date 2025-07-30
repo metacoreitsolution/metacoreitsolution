@@ -4225,8 +4225,8 @@ class PHPMailer
      * Automatically inlines images and creates a plain-text version by converting the HTML,
      * overwriting any existing values in Body and AltBody.
      * Do not source $message content from user input!
-     * $basedir is prepended when handling relative URLs, e.g. <img src="/images/a.avif"> and must not be empty
-     * will look for an image file in $basedir/images/a.avif and convert it to inline.
+     * $basedir is prepended when handling relative URLs, e.g. <img src="/images/a.png"> and must not be empty
+     * will look for an image file in $basedir/images/a.png and convert it to inline.
      * If you don't provide a $basedir, relative paths will be left untouched (and thus probably break in email)
      * Converts data-uri images into embedded attachments.
      * If you don't want to apply these transformations to your HTML, just set Body and AltBody directly.
@@ -4253,7 +4253,7 @@ class PHPMailer
                 //Convert data URIs into embedded images
                 //e.g. "data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                 $match = [];
-                if (preg_match('#^data:(image/(?:jpe?g|gif|avif));?(base64)?,(.+)#', $url, $match)) {
+                if (preg_match('#^data:(image/(?:jpe?g|gif|png));?(base64)?,(.+)#', $url, $match)) {
                     if (count($match) === 4 && static::ENCODING_BASE64 === $match[2]) {
                         $data = base64_decode($match[3]);
                     } elseif ('' === $match[2]) {
@@ -4441,7 +4441,7 @@ class PHPMailer
             'midi' => 'audio/midi',
             'mp2' => 'audio/mpeg',
             'mp3' => 'audio/mpeg',
-            'm4a' => 'audio/mp4',
+            // 'm4a' => 'audio/mp4',
             'mpga' => 'audio/mpeg',
             'aif' => 'audio/x-aiff',
             'aifc' => 'audio/x-aiff',
@@ -4457,7 +4457,7 @@ class PHPMailer
             'jpeg' => 'image/jpeg',
             'jpe' => 'image/jpeg',
             'jpg' => 'image/jpeg',
-            'avif' => 'image/avif',
+            'png' => 'image/png',
             'tiff' => 'image/tiff',
             'tif' => 'image/tiff',
             'webp' => 'image/webp',
@@ -4486,8 +4486,8 @@ class PHPMailer
             'mpeg' => 'video/mpeg',
             'mpe' => 'video/mpeg',
             'mpg' => 'video/mpeg',
-            'mp4' => 'video/mp4',
-            'm4v' => 'video/mp4',
+            // 'mp4' => 'video/mp4',
+            // 'm4v' => 'video/mp4',
             'mov' => 'video/quicktime',
             'qt' => 'video/quicktime',
             'rv' => 'video/vnd.rn-realvideo',

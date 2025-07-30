@@ -5,38 +5,34 @@ class SendMail
 {
     public $SenderEmail = "hitixa.bhuva@uniqueconsumerservices.com";
     public $SenderEmailPassword = "1f1UOc{3U*64";
-    public $ReciverEmail = "info@aaryantradelink.com";
-    public $Subject = "Get In Touch";
+    public $ReciverEmail = "patelhitixa4439@gmail.com";
+    public $Subject = "";
     public $Body = "hello";
 
     public function sendMail()
     {
         $inputData = json_decode(file_get_contents('php://input'), true);
-        // $subject = isset($inputData['Subject']) ? $inputData['Subject'] : '';
-        $body = isset($inputData['Body']) ? $inputData['Body'] : 'nothing';
+        $subject = isset($inputData['Subject']) ? $inputData['Subject'] : '';
+        $body = isset($inputData['Body']) ? $inputData['Body'] : '';
 
 
         $mail = new PHPMailer();
-
-
-        $mail->SMTPDebug  = 3;
-        $mail->IsSMTP(); 
-        $mail->SMTPAuth = true; 
-        $mail->SMTPSecure = 'tls'; 
+        $mail->SMTPDebug = 2; // Change to 3 for detailed debug output
+        $mail->isSMTP();
+        $mail->SMTPAuth = true;
+        $mail->SMTPSecure = '';
         $mail->Host = "216.10.241.228";
-        $mail->Port = 587; 
-        $mail->IsHTML(true);
+        $mail->Port = 587;
+        $mail->isHTML(true);
         $mail->CharSet = 'UTF-8';
-   
         $mail->Username = $this->SenderEmail;
         $mail->Password = $this->SenderEmailPassword;
-        $mail->setFrom($this->SenderEmail, 'Your Name or
-         Company'); // Add a name for better identification
-        $mail->Subject = $this->Subject;
+        $mail->setFrom($this->SenderEmail, 'Your Name or Company'); // Add a name for better identification
+        $mail->Subject = $subject;
         $mail->Body = $body;
         $mail->addAddress($this->ReciverEmail);
-        
-        
+
+
         // Optional: Configure SSL options
         $mail->SMTPOptions = [
             'ssl' => [
@@ -45,28 +41,27 @@ class SendMail
                 'allow_self_signed' => true,
             ],
         ];
-        
-        die($mail->send());
+
         try {
             if (!$mail->send()) {
                 // Handle failure
                 echo json_encode([
                     'status' => false,
-                    'message' => 'Message could not be sent......',
-                    'error' => '$mail->ErrorInfo . $body'.$body,
+                    'message' => 'Message could not be sent.',
+                    'error' => $mail->ErrorInfo,
                 ]);
             } else {
                 // Handle success
                 echo json_encode([
                     'status' => true,
-                    'message' => 'Message sent successfully 111111',
+                    'message' => 'Message sent successfully.',
                 ]);
             }
         } catch (Exception $e) {
             echo json_encode([
                 'status' => false,
                 'message' => 'Message could not be sent. Mailer Error.',
-                'error' => $e,
+                'error' => $e->getMessage(),
             ]);
         }
     }
@@ -74,5 +69,5 @@ class SendMail
 
 // Instantiate the class and call the method
 $mailer = new SendMail();
-$mailer->sendMail();
+// $mailer->sendMail();
 ?>
