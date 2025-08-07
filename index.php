@@ -421,7 +421,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                     <div class="swiper-wrapper">
                         <div class="swiper-slide h-100">
                             <div class="project-card4">
-                                <div class="project-img"><img src="assets/img/project/project_12_1.jpg"
+                                <div class="project-img"><img src="./assets/img/projects/EmailGrammer.png"
                                         alt="project image"></div>
                                 <div class="project-content-wrap">
                                     <div class="project-content"><span>Web Design</span> <span>Web Design</span>
@@ -434,7 +434,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         </div>
                         <div class="swiper-slide h-100">
                             <div class="project-card4">
-                                <div class="project-img"><img src="assets/img/project/project_12_2.jpg"
+                                <div class="project-img"><img src="assets/img/projects/EmailReplay.png"
                                         alt="project image"></div>
                                 <div class="project-content-wrap">
                                     <div class="project-content"><span>Web Design</span> <span>Web Design</span>
@@ -447,7 +447,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         </div>
                         <div class="swiper-slide h-100">
                             <div class="project-card4">
-                                <div class="project-img"><img src="assets/img/project/project_12_1.jpg"
+                                <div class="project-img"><img src="./assets/img/projects/EmailTemplate.png"
                                         alt="project image"></div>
                                 <div class="project-content-wrap">
                                     <div class="project-content"><span>Web Design</span> <span>Web Design</span>
@@ -460,7 +460,111 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         </div>
                         <div class="swiper-slide h-100">
                             <div class="project-card4">
-                                <div class="project-img"><img src="assets/img/project/project_12_2.jpg"
+                                <div class="project-img"><img src="assets/img/projects/EmailWrite.png"
+                                        alt="project image"></div>
+                                <div class="project-content-wrap">
+                                    <div class="project-content"><span>Web Design</span> <span>Web Design</span>
+                                        <span>Landing Page</span>
+                                        <h3 class="box-title"><a href="project-details.html">Nexacard - Digital Bank
+                                                Card Responsive Page Website</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide h-100">
+                            <div class="project-card4">
+                                <div class="project-img"><img src="assets/img/projects/KeepPassForm.png"
+                                        alt="project image"></div>
+                                <div class="project-content-wrap">
+                                    <div class="project-content"><span>Web Design</span> <span>Web Design</span>
+                                        <span>Landing Page</span>
+                                        <h3 class="box-title"><a href="project-details.html">Nexacard - Digital Bank
+                                                Card Responsive Page Website</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide h-100">
+                            <div class="project-card4">
+                                <div class="project-img"><img src="assets/img/projects/KeepPassHome.png"
+                                        alt="project image"></div>
+                                <div class="project-content-wrap">
+                                    <div class="project-content"><span>Web Design</span> <span>Web Design</span>
+                                        <span>Landing Page</span>
+                                        <h3 class="box-title"><a href="project-details.html">Nexacard - Digital Bank
+                                                Card Responsive Page Website</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide h-100">
+                            <div class="project-card4">
+                                <div class="project-img"><img src="assets/img/projects/KeepPassPassword.png"
+                                        alt="project image"></div>
+                                <div class="project-content-wrap">
+                                    <div class="project-content"><span>Web Design</span> <span>Web Design</span>
+                                        <span>Landing Page</span>
+                                        <h3 class="box-title"><a href="project-details.html">Nexacard - Digital Bank
+                                                Card Responsive Page Website</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide h-100">
+                            <div class="project-card4">
+                                <div class="project-img"><img src="assets/img/projects/KeepPassTemplate.png"
+                                        alt="project image"></div>
+                                <div class="project-content-wrap">
+                                    <div class="project-content"><span>Web Design</span> <span>Web Design</span>
+                                        <span>Landing Page</span>
+                                        <h3 class="box-title"><a href="project-details.html">Nexacard - Digital Bank
+                                                Card Responsive Page Website</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide h-100">
+                            <div class="project-card4">
+                                <div class="project-img"><img src="assets/img/projects/PDFCompress.png"
+                                        alt="project image"></div>
+                                <div class="project-content-wrap">
+                                    <div class="project-content"><span>Web Design</span> <span>Web Design</span>
+                                        <span>Landing Page</span>
+                                        <h3 class="box-title"><a href="project-details.html">Nexacard - Digital Bank
+                                                Card Responsive Page Website</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide h-100">
+                            <div class="project-card4">
+                                <div class="project-img"><img src="assets/img/projects/PDFFiles.png"
+                                        alt="project image"></div>
+                                <div class="project-content-wrap">
+                                    <div class="project-content"><span>Web Design</span> <span>Web Design</span>
+                                        <span>Landing Page</span>
+                                        <h3 class="box-title"><a href="project-details.html">Nexacard - Digital Bank
+                                                Card Responsive Page Website</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide h-100">
+                            <div class="project-card4">
+                                <div class="project-img"><img src="assets/img/projects/PDFHome.png"
+                                        alt="project image"></div>
+                                <div class="project-content-wrap">
+                                    <div class="project-content"><span>Web Design</span> <span>Web Design</span>
+                                        <span>Landing Page</span>
+                                        <h3 class="box-title"><a href="project-details.html">Nexacard - Digital Bank
+                                                Card Responsive Page Website</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide h-100">
+                            <div class="project-card4">
+                                <div class="project-img"><img src="assets/img/projects/PDFPreview.png"
                                         alt="project image"></div>
                                 <div class="project-content-wrap">
                                     <div class="project-content"><span>Web Design</span> <span>Web Design</span>
