@@ -52,7 +52,6 @@ echo
                         </a>
                         <ul class="sub-menu">
                             <li><a href="health-care-solution">HealthCare Solution</a></li>
-                            <li><a href="hospitalitymanagement">Hospitality Management</a></li>
                             <li><a href="hotel-management">Hotel Management</a></li>
                             <li><a href="billing-accounting-software">Billing & Accounting Software</a></li>
                             <li><a href="education-technology-solution">Education Technology Solution</a></li>
@@ -104,6 +103,9 @@ echo
                                             <li><a href="ai-machine-learning-development">AI & ML Development</a></li>
                                         </ul>
                                     </li>
+                                    <li><a href="project"class=" ' ?><?php if ($page == "project.php") {
+                                    echo 'active';
+                                } ?><?php echo '">Projects</a></li>
                                     <li class="menu-item-has-children-custom">
                                         <a href="solution"
                                             class="solution-link d-flex justify-content-between align-items-center ' ?><?php if ($page == "solution.php") {
@@ -114,7 +116,6 @@ echo
                                         </a>
                                         <ul class="sub-menu">
                                             <li><a href="health-care-solution">HealthCare Solution</a></li>
-                                            <li><a href="hospitalitymanagement">Hospitality Management</a></li>
                                             <li><a href="hotel-management">Hotel Management</a></li>
                                             <li><a href="billing-accounting-software">Billing & Accounting
                                                     Software</a></li>

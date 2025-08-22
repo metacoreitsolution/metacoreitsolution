@@ -56,15 +56,13 @@ echo
                 <div class="row justify-content-between">
                     <div class="col-md-6 col-xxl-3 col-xl-3">
                         <div class="widget footer-widget">
-                            <h3 class="widget_title style2 text-white">About Company</h3>
+                            <h3 class="widget_title style2 text-white">Meta Core IT Solution</h3>
                             <div class="th-widget-about style2">
                                 <p class="about-text">MetaCore IT Solution delivers innovative software and mobile app
                                     solutions tailored to modern business needs.</p>
-                                <div class="th-social"><a href="https://www.facebook.com/"><i
-                                            class="fab fa-facebook-f"></i></a> <a href="https://www.twitter.com/"><i
-                                            class="fab fa-twitter"></i></a> <a href="https://www.linkedin.com/"><i
+                                <div class="th-social"><a href="https://www.linkedin.com/"><i
                                             class="fab fa-linkedin-in"></i></a> <a href="https://www.youtube.com/"><i
-                                            class="fab fa-youtube"></i></a></div>
+                                            class="fab fa-instagram"></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -90,7 +88,6 @@ echo
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
                                     <li><a href="health-care-solution">HealthCare Solution</a></li>
-                                    <li><a href="hospitalitymanagement">Hospitality Management</a></li>
                                     <li><a href="hotel-management">Hotel Management</a></li>
                                     <li><a href="billing-accounting-software">Billing & Accounting Software</a></li>
                                     <li><a href="education-technology-solution">Education Technology Solution</a>

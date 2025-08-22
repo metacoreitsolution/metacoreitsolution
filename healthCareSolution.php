@@ -14,10 +14,10 @@ include __DIR__ . '/A_Layout/Header/header.php';
     <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Health Care Solution </h1>
+                <h1 class="breadcumb-title">Solution </h1>
                 <ul class="breadcumb-menu">
                     <li><a href="home">Home</a></li>
-                    <li>Health Care Solution </li>
+                    <li>Solution </li>
                 </ul>
             </div>
         </div>

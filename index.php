@@ -1111,7 +1111,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
             </div>
         </div>
     </section>
-    <section class="overflow-hidden space" id="blog-sec">
+    <!-- <section class="overflow-hidden space" id="blog-sec">
         <div class="container th-container4">
             <div class="row justify-content-lg-between justify-content-center align-items-center">
                 <div class="col-lg-6 col-sm-9 pe-xl-5">
@@ -1217,7 +1217,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                     class="slider-arrow slider-next"><i class="far fa-arrow-right"></i></button>
             </div>
         </div>
-    </section>
+    </section> -->
     <div class="space position-relative overflow-hidden background-image" id="contact-sec"
         style="background-image: url(&quot;assets/img/bg/contact_bg_9.jpg&quot;);">
         <div class="container th-container4">

@@ -428,9 +428,9 @@
                         <div class="solution-card" data-solution="Healthcare Solution">
                             <h3>🏥 Healthcare Solution</h3>
                         </div>
-                        <div class="solution-card" data-solution="Hospitality Management">
+                        <!-- <div class="solution-card" data-solution="Hospitality Management">
                             <h3>🏨 Hospitality Management</h3>
-                        </div>
+                        </div> -->
                         <div class="solution-card" data-solution="Hotel Management">
                             <h3>🛎️ Hotel Management</h3>
                         </div>

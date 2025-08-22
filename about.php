@@ -60,9 +60,9 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="btn-group"><a href="about" class="th-btn">DISCOVER MORE<i
+                        <!-- <div class="btn-group"><a href="about" class="th-btn">DISCOVER MORE<i
                                     class="fa-regular fa-arrow-right ms-2"></i></a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -312,8 +312,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 </div>
                                 <div class="service-grid_content">
                                     <h3 class="box-title"><a href="home">Our Vision</a></h3>
-                                    <p class="service-grid_text">Building a smarter, more connected digital future through innovation and empathy.</p><a href="home"
-                                        class="th-btn">Read More<i class="fas fa-arrow-right ms-2"></i></a>
+                                    <p class="service-grid_text">Building a smarter, more connected digital future through innovation and empathy.</p>  
                                     <div class="bg-shape"><img src="assets/img/bg/service_grid_bg.png" alt="bg"></div>
                                 </div>
                             </div>
@@ -324,8 +323,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 </div>
                                 <div class="service-grid_content">
                                     <h3 class="box-title"><a href="home"> Our Mission</a></h3>
-                                    <p class="service-grid_text">Delivering transformative digital solutions that help businesses lead and grow.</p><a href="home"
-                                        class="th-btn">Read More<i class="fas fa-arrow-right ms-2"></i></a>
+                                    <p class="service-grid_text">Delivering transformative digital solutions that help businesses lead and grow.</p>
                                     <div class="bg-shape"><img src="assets/img/bg/service_grid_bg.png" alt="bg"></div>
                                 </div>
                             </div>
@@ -336,8 +334,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 </div>
                                 <div class="service-grid_content">
                                     <h3 class="box-title"><a href="home">Our Goal</a></h3>
-                                    <p class="service-grid_text">To be the trusted global tech partner empowering sustainable digital success.</p><a href="home"
-                                        class="th-btn">Read More<i class="fas fa-arrow-right ms-2"></i></a>
+                                    <p class="service-grid_text">To be the trusted global tech partner empowering sustainable digital success.</p>
                                     <div class="bg-shape"><img src="assets/img/bg/service_grid_bg.png" alt="bg"></div>
                                 </div>
                             </div>
@@ -348,8 +345,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 </div>
                                 <div class="service-grid_content">
                                     <h3 class="box-title"><a href="home"> Our Values</a></h3>
-                                    <p class="service-grid_text">Collaboration, openness, and innovation drive everything we create.</p><a href="home"
-                                        class="th-btn">Read More<i class="fas fa-arrow-right ms-2"></i></a>
+                                    <p class="service-grid_text">Collaboration, openness, and innovation drive everything we create.</p>
                                     <div class="bg-shape"><img src="assets/img/bg/service_grid_bg.png" alt="bg"></div>
                                 </div>
                             </div>

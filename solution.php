@@ -36,7 +36,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
                     </div>
                 </div>
-                <div class="col-md-6 col-xl-4">
+                <!-- <div class="col-md-6 col-xl-4">
                     <div class="service-card h-100">
                         <div class="service-card_number">02</div>
                         <div class="shape-icon"><img src="assets/img/icon/service_card_2.svg" alt="Icon"> <span
@@ -47,7 +47,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
                         <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-md-6 col-xl-4">
                     <div class="service-card h-100">
                         <div class="service-card_number">03</div>
