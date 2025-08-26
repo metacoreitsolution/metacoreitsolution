@@ -23,9 +23,9 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 </span>
                                 <h1 class="hero-title">Seamless IT Solutions for <span class="text-theme">business
                                         growth</span></h1>
-                                <div class="btn-group"><a href="service"
+                                <!-- <div class="btn-group"><a href="service"
                                         class="th-btn style-radius text-capitalize">View Our Services</a>
-                                </div>
+                                </div> -->
                                 <div class="hero-counter_wrapp">
                                     <div class="hero-counter">
                                         <h2 class="counter-title mb-0"><span class="counter-number">8</span>+</h2><span
@@ -245,7 +245,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 href="iOS&androidAppDevelopment" class="icon-btn"><img
                                     src="assets/img/icon/arrow-right.svg" alt=""></a></div>
                     </div>
-                    <div class="service-item3">
+                    <!-- <div class="service-item3">
                         <div class="service-wrapp">
                             <div class="box-number">5.</div>
                             <div class="box-content">
@@ -259,7 +259,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 class="th-btn btn-gradient2 style-radius">See Details</a> <a
                                 href="custom-software-development" class="icon-btn"><img
                                     src="assets/img/icon/arrow-right.svg" alt=""></a></div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -345,8 +345,9 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         software — we craft smart, scalable, and secure digital experiences that align with your
                         business goals. Our client-centric approach, combined with technical expertise, ensures you get
                         solutions that make an impact. From startups to enterprises, we're committed to driving digital
-                        success with passion.</p><a href="contact"
-                        class="th-btn style11 text-capitalize style-radius text-white">Explore Integration</a>
+                        success with passion.</p>
+                        <!-- <a href="contact"
+                        class="th-btn style11 text-capitalize style-radius text-white">Explore Integration</a> -->
                 </div>
                 <div class="col-xl-6">
                     <div class="img-box26">
