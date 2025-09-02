@@ -131,9 +131,7 @@ echo
                                     <li><a href="blog"class=" ' ?><?php if ($page == "blog.php") {
                                     echo 'active';
                                 } ?><?php echo '">Blog</a></li>
-                                <li><a href="projects"class=" ' ?><?php if ($page == "projects.php") {
-                                    echo 'active';
-                                } ?><?php echo '">Projects</a></li>
+                
                                 </ul>
                             </nav>
                         </div>

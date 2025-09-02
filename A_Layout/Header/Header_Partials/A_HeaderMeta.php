@@ -15,32 +15,32 @@ echo
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 
 <title>'.$Title.'</title>
-<link rel="canonical" href="https://www.aaryantradelink.com/" />
+<link rel="canonical" href="#" />
 <link href="images/logo/favicon-logo.png" rel="shortcut icon">
 
 
 <meta property="og:title" content="'.$Title.'" />
 <meta property="og:description" content="'.$MetaDescription.'" />
-<meta property="og:image" content="https://www.aaryantradelink.com/images/home/image.png" />
-<meta property="og:url" content="https://www.aaryantradelink.com/" />
+<meta property="og:image" content="#images/home/image.png" />
+<meta property="og:url" content="#" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="aaryantradelink Team" />
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="'.$Title.'" />
 <meta name="twitter:description" content="'.$MetaDescription.'" />
-<meta name="twitter:image" content="https://www.aaryantradelink.com/images/home/image.png" />
+<meta name="twitter:image" content="#images/home/image.png" />
 <meta name="twitter:site" content="@yourtwitterhandle" />
 
 <meta property="whatsapp:title" content="'.$Title.'" />
 <meta property="whatsapp:description" content="'.$MetaDescription.'" />
-<meta property="whatsapp:image" content="https://www.aaryantradelink.com/images/home/image.png" />
-<meta property="whatsapp:url" content="https://www.aaryantradelink.com/" />
+<meta property="whatsapp:image" content="#images/home/image.png" />
+<meta property="whatsapp:url" content="#" />
 
 <meta name="instagram:card" content="summary_large_image" />
 <meta name="instagram:title" content="'.$Title.'" />
 <meta name="instagram:description" content="'.$MetaDescription.'" />
-<meta name="instagram:image" content="https://www.aaryantradelink.com/images/home/image.png" />
+<meta name="instagram:image" content="#images/home/image.png" />
 
 '
     ?>

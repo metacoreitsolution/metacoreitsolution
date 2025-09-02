@@ -129,7 +129,7 @@ echo
                 <div class="row justify-content-between align-items-center">
                     <div class="col-lg-6">
                         <p class="copyright-text">Copyright: <i class="fal fa-copyright"></i> © 2025 . All Rights
-                            Reserved by <a href="https://themeforest.net/user/themeholy">MetaCore IT Solution </a></p>
+                            Reserved by <a href="https://metacoreitsolution.com/">MetaCore IT Solution </a></p>
                     </div>
                     <div class="col-lg-6 text-center text-md-end">
                         <ul class="footer-menu">

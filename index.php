@@ -245,21 +245,36 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 href="iOS&androidAppDevelopment" class="icon-btn"><img
                                     src="assets/img/icon/arrow-right.svg" alt=""></a></div>
                     </div>
-                    <!-- <div class="service-item3">
+                     <div class="service-item3">
                         <div class="service-wrapp">
                             <div class="box-number">5.</div>
                             <div class="box-content">
-                                <h3 class="box-title">Digital Marketing</h3>
+                                <h3 class="box-title">Cross Platform App Development</h3>
                                 <div class="box-list"><span>React Js Development</span> <span>Laravel Development</span>
                                     <span>Anglular Js Development</span> <span>Vue Js Development</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="service-button"><a href="custom-software-development"
+                        <div class="service-button"><a href="cross-platform-app-development"
                                 class="th-btn btn-gradient2 style-radius">See Details</a> <a
-                                href="custom-software-development" class="icon-btn"><img
+                                href="cross-platform-app-development" class="icon-btn"><img
                                     src="assets/img/icon/arrow-right.svg" alt=""></a></div>
-                    </div> -->
+                    </div> 
+                    <div class="service-item3">
+                        <div class="service-wrapp">
+                            <div class="box-number">6.</div>
+                            <div class="box-content">
+                                <h3 class="box-title">Web Development</h3>
+                                <div class="box-list"><span>React Js Development</span> <span>Laravel Development</span>
+                                    <span>Anglular Js Development</span> <span>Vue Js Development</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-button"><a href="web-development"
+                                class="th-btn btn-gradient2 style-radius">See Details</a> <a
+                                href="web-development" class="icon-btn"><img
+                                    src="assets/img/icon/arrow-right.svg" alt=""></a></div>
+                    </div> 
                 </div>
             </div>
         </div>
@@ -400,7 +415,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
             </div>
         </div>
     </div>
-    <section class="position-relative overflow-hidden project-area11 space-top" id="project-sec">
+    <!-- <section class="position-relative overflow-hidden project-area11 space-top" id="project-sec">
         <div class="container th-container4">
             <div class="row justify-content-lg-between justify-content-center align-items-center">
                 <div class="col-lg-6 col-sm-9 pe-xl-5">
@@ -581,7 +596,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- <section class="testi-area11 position-relative overflow-hidden space">
         <div class="container th-container4">
             <div class="title-area text-center mb-10"><span class="sub-title sub-title8">Testimonials</span>
@@ -1219,7 +1234,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
             </div>
         </div>
     </section> -->
-    <div class="space position-relative overflow-hidden background-image" id="contact-sec"
+    <!-- <div class="space position-relative overflow-hidden background-image" id="contact-sec"
         style="background-image: url(&quot;assets/img/bg/contact_bg_9.jpg&quot;);">
         <div class="container th-container4">
             <div class="row align-items-end">
@@ -1298,7 +1313,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     
 <?php
 include __DIR__ . '/A_Layout/Footer/footer.php';

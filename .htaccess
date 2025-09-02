@@ -16,6 +16,7 @@ RewriteRule ^blog-details$ blog-details.php [L,NC]
 RewriteRule ^service$ service.php [L,NC]
 RewriteRule ^solution$ solution.php [L,NC]
 RewriteRule ^siteMap$ sitemap.php [L,NC]
+RewriteRule ^project$ projects.php [L,NC]
 
 RewriteRule ^ai-machine-learning-development$ ai-ml-development.php [L,NC]
 RewriteRule ^billing-accounting-software$ billingaccountingSoftware.php [L,NC]
