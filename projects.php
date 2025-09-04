@@ -24,8 +24,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6 mb-30 mb-xl-0">
-                    <div class="img-box1">
-                        <div class="img1"><img src="assets/img/normal/about_1_1.png" alt="About"></div>
+                    <div class="img-box1 d-flex justify-content-center align-items-center">
+                        <div class="img1"><img src="assets/img/projects/1.png" alt="About" style="max-width: 450px !important;"></div>
                     </div>
                 </div>
                 <div class="col-xl-6">
@@ -114,8 +114,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                     </div>
                 </div>
                 <div class="col-xl-6 mb-30 mb-xl-0">
-                    <div class="img-box1">
-                        <div class="img1"><img src="assets/img/normal/about_1_1.png" alt="About"></div>
+                    <div class="img-box1 d-flex justify-content-center align-items-center">
+                        <div class="img1"><img src="assets/img/projects/3.png" alt="About" style="max-width: 450px !important;"></div>
                     </div>
                 </div>
             </div>
@@ -125,8 +125,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6 mb-30 mb-xl-0">
-                    <div class="img-box1">
-                        <div class="img1"><img src="assets/img/normal/about_1_1.png" alt="About"></div>
+                    <div class="img-box1 d-flex justify-content-center align-items-center">
+                        <div class="img1"><img src="assets/img/projects/2.png" alt="About" style="max-width: 450px !important;"></div>
                     </div>
                 </div>
                 <div class="col-xl-6">
@@ -210,8 +210,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                     </div>
                 </div>
                 <div class="col-xl-6 mb-30 mb-xl-0">
-                    <div class="img-box1">
-                        <div class="img1"><img src="assets/img/normal/about_1_1.png" alt="About"></div>
+                    <div class="img-box1 d-flex justify-content-center align-items-center">
+                        <div class="img1"><img src="assets/img/projects/online-booking.png" alt="About" style="max-width: 650px !important;"></div>
                     </div>
                 </div>
             </div>

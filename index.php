@@ -191,8 +191,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <div class="box-number">1.</div>
                             <div class="box-content">
                                 <h3 class="box-title"> AI & Machine Learning Solutions</h3>
-                                <div class="box-list"><span>Python</span> <span>Computer Vision</span>
-                                    <span>AI Chatbots</span> <span>Deep Learning Models</span>
+                                <div class="box-list"><span>Python</span> <span>GitLab</span>
+                                    <span>Postman</span> 
                                 </div>
                             </div>
                         </div>
@@ -221,8 +221,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <div class="box-number">3.</div>
                             <div class="box-content">
                                 <h3 class="box-title">UX/UI Design</h3>
-                                <div class="box-list"><span>React Js Development</span> <span>Laravel Development</span>
-                                    <span>Anglular Js Development</span> <span>Vue Js Development</span>
+                                <div class="box-list"><span>React Js Development</span> <span>AngularJS</span>
+                                    <span>Bootstrap</span> <span>NextJS</span>
                                 </div>
                             </div>
                         </div>
@@ -235,8 +235,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <div class="box-number">4.</div>
                             <div class="box-content">
                                 <h3 class="box-title">Android App Development</h3>
-                                <div class="box-list"><span>React Js Development</span> <span>Laravel Development</span>
-                                    <span>Anglular Js Development</span> <span>Vue Js Development</span>
+                                <div class="box-list"><span>Kotlin & Java-Based</span> <span>Google APIs Integration</span>
+                                    <span>Android Jetpack</span> <span>Device Fragmentation Handling</span>
                                 </div>
                             </div>
                         </div>
