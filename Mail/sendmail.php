@@ -3,9 +3,9 @@ require 'smtp/PHPMailerAutoload.php';
 
 class SendMail
 {
-    public $SenderEmail = "hitixa.bhuva@uniqueconsumerservices.com";
-    public $SenderEmailPassword = "1f1UOc{3U*64";
-    public $ReciverEmail = "patelhitixa4439@gmail.com";
+    public $SenderEmail = "metacoreitsolution@gmail.com";
+    public $SenderEmailPassword = "jdtt tltd rpkv kuga";
+    public $ReciverEmail = "info@metacoreitsolution.com";
     public $Subject = "";
     public $Body = "hello";
 
@@ -27,7 +27,7 @@ class SendMail
         $mail->CharSet = 'UTF-8';
         $mail->Username = $this->SenderEmail;
         $mail->Password = $this->SenderEmailPassword;
-        $mail->setFrom($this->SenderEmail, 'Your Name or Company'); // Add a name for better identification
+        $mail->setFrom($this->SenderEmail, 'MetaCore IT Solution'); // Add a name for better identification
         $mail->Subject = $subject;
         $mail->Body = $body;
         $mail->addAddress($this->ReciverEmail);

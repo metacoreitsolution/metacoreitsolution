@@ -32,7 +32,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                             class="hero-counter_text">Happily active client’s</span>
                                     </div>
                                     <div class="hero-counter">
-                                        <h2 class="counter-title mb-0"><span class="counter-number">5</span>+</h2><span
+                                        <h2 class="counter-title mb-0"><span class="counter-number">3</span>+</h2><span
                                             class="hero-counter_text">Years of experience in startup building</span>
                                     </div>
                                 </div>
@@ -191,8 +191,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <div class="box-number">1.</div>
                             <div class="box-content">
                                 <h3 class="box-title"> AI & Machine Learning Solutions</h3>
-                                <div class="box-list"><span>Python</span> <span>GitLab</span>
-                                    <span>Postman</span> 
+                                <div class="box-list"><span>Python</span> <span>TensorFlow</span>
+                                    <span>PyTorch</span> <span>Computer Vision</span> 
                                 </div>
                             </div>
                         </div>
@@ -206,8 +206,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <div class="box-number">2.</div>
                             <div class="box-content">
                                 <h3 class="box-title">Custom Software Development</h3>
-                                <div class="box-list"><span>React Js Development</span> <span>Laravel Development</span>
-                                    <span>Anglular Js Development</span> <span>Vue Js Development</span>
+                                <div class="box-list"><span>React Js Development</span> <span>DotNet Development</span>
+                                    <span>PHP Development</span> <span>JavaScript Development</span>
                                 </div>
                             </div>
                         </div>
@@ -221,8 +221,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <div class="box-number">3.</div>
                             <div class="box-content">
                                 <h3 class="box-title">UX/UI Design</h3>
-                                <div class="box-list"><span>React Js Development</span> <span>AngularJS</span>
-                                    <span>Bootstrap</span> <span>NextJS</span>
+                                <div class="box-list"><span>Figma</span> <span>WireFraming</span>
+                                    <span>Adobe Illustrator</span> <span>Adobe XD</span>
                                 </div>
                             </div>
                         </div>
@@ -234,9 +234,9 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <div class="service-wrapp">
                             <div class="box-number">4.</div>
                             <div class="box-content">
-                                <h3 class="box-title">Android App Development</h3>
-                                <div class="box-list"><span>Kotlin & Java-Based</span> <span>Google APIs Integration</span>
-                                    <span>Android Jetpack</span> <span>Device Fragmentation Handling</span>
+                                <h3 class="box-title">IOS & Android App Development</h3>
+                                <div class="box-list"><span>Swift & StoryBoard</span> <span>SwiftUI</span>
+                                    <span>Kotlin</span> <span>Jetpack Compose</span>
                                 </div>
                             </div>
                         </div>
@@ -250,8 +250,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <div class="box-number">5.</div>
                             <div class="box-content">
                                 <h3 class="box-title">Cross Platform App Development</h3>
-                                <div class="box-list"><span>React Js Development</span> <span>Laravel Development</span>
-                                    <span>Anglular Js Development</span> <span>Vue Js Development</span>
+                                <div class="box-list"><span>Flutter</span> <span>React Native</span>
+                                    <span>Xamarin</span> <span>Dart</span>
                                 </div>
                             </div>
                         </div>
@@ -266,7 +266,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <div class="box-content">
                                 <h3 class="box-title">Web Development</h3>
                                 <div class="box-list"><span>React Js Development</span> <span>Laravel Development</span>
-                                    <span>Anglular Js Development</span> <span>Vue Js Development</span>
+                                    <span>Anglular Js Development</span> <span>Node Js & DotNet</span>
                                 </div>
                             </div>
                         </div>

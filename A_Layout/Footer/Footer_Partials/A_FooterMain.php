@@ -60,8 +60,8 @@ echo
                             <div class="th-widget-about style2">
                                 <p class="about-text">MetaCore IT Solution delivers innovative software and mobile app
                                     solutions tailored to modern business needs.</p>
-                                <div class="th-social"><a href="https://www.linkedin.com/"><i
-                                            class="fab fa-linkedin-in"></i></a> <a href="https://www.youtube.com/"><i
+                                <div class="th-social"><a href="https://www.linkedin.com/in/metacore-it-solution-3aab23382/"><i
+                                            class="fab fa-linkedin-in"></i></a> <a href="https://www.instagram.com/metacoreitsolution?igsh=MW1qcXBwOThwem11ZA=="><i
                                             class="fab fa-instagram"></i></a></div>
                             </div>
                         </div>
@@ -107,17 +107,16 @@ echo
                                 <ul class="list-unstyled text-white">
                                     <li class="mb-2">
                                         <i class="fas fa-phone-alt me-2"></i>
-                                        <a href="tel:+911234567890" class="text-white text-decoration-none">+91 12345
-                                            67890</a>
+                                        <a href="tel:+919265738337" class="text-white text-decoration-none">+91 92657 38337</a>
                                     </li>
                                     <li class="mb-2">
                                         <i class="fas fa-envelope me-2"></i>
-                                        <a href="mailto:info@example.com"
-                                            class="text-white text-decoration-none">info@example.com</a>
+                                        <a href="mailto:metacoreitsolution@gmail.com"
+                                            class="text-white text-decoration-none">metacoreitsolution@gmail.com</a>
                                     </li>
                                     <li>
                                         <i class="fas fa-map-marker-alt me-2"></i>
-                                        <span>123, Unique Street, Ahmedabad, Gujarat, India</span>
+                                        <span>Ahmedabad, Gujarat, India</span>
                                     </li>
                                 </ul>
                             </div>
