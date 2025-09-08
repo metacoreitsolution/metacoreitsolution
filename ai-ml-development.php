@@ -56,13 +56,12 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                     class="th-btn style-radius text-capitalize">Get Started</a>
                             </div>
                         </div>
-                        <div class="about-img"><img src="assets/img/normal/about_15_2.jpg" alt=""></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-     <div class="overflow-hidden space">
+     <div class="overflow-hidden ">
         <div class="container th-container4">
             <div class="row gy-4">
                 <div class="col-xl-6">
@@ -102,17 +101,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                     <div class="feature-wrap style2">
                         <div class="btn-wrap"><a href="about" class="th-btn style-border style-radius">view
                                 details</a></div>
-                        <div class="about-client-box style2 mb-sm-0 mb-3">
-                            <div class="cilent-box">
-                                <div class="about_review"><i class="fa-sharp fa-solid fa-star"></i><i
-                                        class="fa-sharp fa-solid fa-star"></i><i
-                                        class="fa-sharp fa-solid fa-star"></i><i
-                                        class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
-                                </div>
-                                <h4 class="cilent-box_counter"><span class="counter-number">2960</span>+ Client Reviews
-                                </h4>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
                 <div class="col-xl-6">

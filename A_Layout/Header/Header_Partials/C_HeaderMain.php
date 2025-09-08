@@ -23,8 +23,8 @@ echo
 
     <div class="th-menu-wrapper">
         <div class="th-menu-area text-center"><button class="th-menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo"><a class="icon-masking" href="home"><span data-mask-src="assets/img/logo.svg"
-                        class="mask-icon"></span><img src="assets/img/logo.svg" alt="Webteck"></a></div>
+            <div class="mobile-logo"><a class="icon-masking" href="home"><span data-mask-src="https://metacoreitsolution.com/assets/img/logo/MetaCore-It-Solutions-Logo.svg"
+                        class="mask-icon"></span><img src="https://metacoreitsolution.com/assets/img/logo/MetaCore-It-Solutions-Logo.svg" alt="Webteck"></a></div>
             <div class="th-mobile-menu">
                 <ul>
                     <li><a href="home" class=" ' ?><?php if ($page == "index.php") {
@@ -128,10 +128,6 @@ echo
                                             <li><a href="logistic-management">Logistic Management</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="blog"class=" ' ?><?php if ($page == "blog.php") {
-                                    echo 'active';
-                                } ?><?php echo '">Blog</a></li>
-                
                                 </ul>
                             </nav>
                         </div>

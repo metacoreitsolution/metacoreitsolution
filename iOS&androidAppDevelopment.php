@@ -1,7 +1,4 @@
-
-
-
-    <?php
+<?php
 $Title = "iOS & Android App Development | MetaCore Mobile Solutions";
 $MetaDescription = "MetaCore develops feature-rich iOS and Android apps tailored for performance, design, and cross-platform compatibility.";
 $MetaKeywords = "iOS app development, Android developer, mobile app solutions, native apps, mobile development company, MetaCore apps";
@@ -71,7 +68,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 </div>
                 <div class="col-xl-6">
                     <div class="title-area mb-35">
-                        <div class="shadow-title color3">What is</div><span class="sub-title">
+                        <div class="shadow-title color2 color3">What is</div><span class="sub-title">
                             <div class="icon-masking me-2"><span class="mask-icon"
                                     data-mask-src="assets/img/theme-img/title_shape_2.svg"></span> <img
                                             src="assets/img/theme-img/title_shape_2.svg" alt="shape"></div>iOS & Android App Development?

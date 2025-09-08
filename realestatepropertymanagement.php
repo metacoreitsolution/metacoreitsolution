@@ -104,8 +104,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 </div>
                 <div class="col-xl-6 mt-40 mt-xl-0">
                     <div class="video-box1"><img class="tilt-active" src="assets/img/normal/video_shape_1.png"
-                            alt="Video"> <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
-                            class="play-btn popup-video"><i class="fas fa-play"></i></a></div>
+                            alt="Video"> </div>
                 </div>
             </div>
         </div>

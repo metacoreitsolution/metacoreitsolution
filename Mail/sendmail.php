@@ -3,9 +3,9 @@ require 'smtp/PHPMailerAutoload.php';
 
 class SendMail
 {
-    public $SenderEmail = "metacoreitsolution@gmail.com";
-    public $SenderEmailPassword = "jdtt tltd rpkv kuga";
-    public $ReciverEmail = "info@metacoreitsolution.com";
+    public $SenderEmail = "hitixa.bhuva@uniqueconsumerservices.com";
+    public $SenderEmailPassword = "1f1UOc{3U*64";
+    public $ReciverEmail = "vogow93417@gmail.com";
     public $Subject = "";
     public $Body = "hello";
 

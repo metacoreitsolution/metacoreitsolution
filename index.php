@@ -32,7 +32,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                             class="hero-counter_text">Happily active client’s</span>
                                     </div>
                                     <div class="hero-counter">
-                                        <h2 class="counter-title mb-0"><span class="counter-number">3</span>+</h2><span
+                                        <h2 class="counter-title mb-0"><span class="counter-number">5</span>+</h2><span
                                             class="hero-counter_text">Years of experience in startup building</span>
                                     </div>
                                 </div>
@@ -119,7 +119,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
         </div> -->
     </div>
 
-    <section class="process-area8 space" id="process-sec" data-bg-src="assets/img/bg/process_bg_5.png">
+    <section class="process-area8 space pt-0" id="process-sec" data-bg-src="assets/img/bg/process_bg_5.png">
         <div class="container th-container4">
             <div class="row justify-content-center">
                 <div class="col-lg-7">
@@ -172,7 +172,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
         <div class="shape-mockup spin d-none d-xl-block" data-bottom="16%" data-right="6%"><img
                 src="assets/img/shape/shape_15.png" alt="shape"></div>
     </section>
-    <section class="service-sec15 overflow-hidden space" id="service-sec">
+    <section class="service-sec15 overflow-hidden space pt-0" id="service-sec">
         <div class="container th-container4">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
@@ -191,8 +191,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <div class="box-number">1.</div>
                             <div class="box-content">
                                 <h3 class="box-title"> AI & Machine Learning Solutions</h3>
-                                <div class="box-list"><span>Python</span> <span>TensorFlow</span>
-                                    <span>PyTorch</span> <span>Computer Vision</span> 
+                                <div class="box-list"><span>Python</span> <span>GitLab</span>
+                                    <span>Postman</span> 
                                 </div>
                             </div>
                         </div>
@@ -206,8 +206,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <div class="box-number">2.</div>
                             <div class="box-content">
                                 <h3 class="box-title">Custom Software Development</h3>
-                                <div class="box-list"><span>React Js Development</span> <span>DotNet Development</span>
-                                    <span>PHP Development</span> <span>JavaScript Development</span>
+                                <div class="box-list"><span>React Js Development</span> <span>Laravel Development</span>
+                                    <span>Anglular Js Development</span> <span>Vue Js Development</span>
                                 </div>
                             </div>
                         </div>
@@ -221,8 +221,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <div class="box-number">3.</div>
                             <div class="box-content">
                                 <h3 class="box-title">UX/UI Design</h3>
-                                <div class="box-list"><span>Figma</span> <span>WireFraming</span>
-                                    <span>Adobe Illustrator</span> <span>Adobe XD</span>
+                                <div class="box-list"><span>React Js Development</span> <span>AngularJS</span>
+                                    <span>Bootstrap</span> <span>NextJS</span>
                                 </div>
                             </div>
                         </div>
@@ -234,9 +234,9 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <div class="service-wrapp">
                             <div class="box-number">4.</div>
                             <div class="box-content">
-                                <h3 class="box-title">IOS & Android App Development</h3>
-                                <div class="box-list"><span>Swift & StoryBoard</span> <span>SwiftUI</span>
-                                    <span>Kotlin</span> <span>Jetpack Compose</span>
+                                <h3 class="box-title">Android App Development</h3>
+                                <div class="box-list"><span>Kotlin & Java-Based</span> <span>Google APIs Integration</span>
+                                    <span>Android Jetpack</span> <span>Device Fragmentation Handling</span>
                                 </div>
                             </div>
                         </div>
@@ -250,8 +250,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <div class="box-number">5.</div>
                             <div class="box-content">
                                 <h3 class="box-title">Cross Platform App Development</h3>
-                                <div class="box-list"><span>Flutter</span> <span>React Native</span>
-                                    <span>Xamarin</span> <span>Dart</span>
+                                <div class="box-list"><span>React Js Development</span> <span>Laravel Development</span>
+                                    <span>Anglular Js Development</span> <span>Vue Js Development</span>
                                 </div>
                             </div>
                         </div>
@@ -266,7 +266,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <div class="box-content">
                                 <h3 class="box-title">Web Development</h3>
                                 <div class="box-list"><span>React Js Development</span> <span>Laravel Development</span>
-                                    <span>Anglular Js Development</span> <span>Node Js & DotNet</span>
+                                    <span>Anglular Js Development</span> <span>Vue Js Development</span>
                                 </div>
                             </div>
                         </div>
@@ -899,12 +899,12 @@ include __DIR__ . '/A_Layout/Header/header.php';
     <section class="bg-top-center " data-bg-src="assets/img/bg/testi_bg_3.jpg">
         <div class="container">
             <div class="title-area text-center">
-                <div class="shadow-title color2">TESTIMONIALS</div><span class="sub-title">
+                <div class="shadow-title color2 color2">TESTIMONIALS</div><span class="sub-title">
                     <div class="icon-masking me-2"><span class="mask-icon"
                             data-mask-src="assets/img/theme-img/title_shape_2.svg"></span> <img
                             src="assets/img/theme-img/title_shape_2.svg" alt="shape"></div>CUSTOMER FEEDBACK
                 </span>
-                <h2 class="sec-title text-white">What Happy Clients Says<br><span class="text-theme">About Us?</span>
+                <h2 class="sec-title text-white"><span class="text-theme">What Happy Clients Says</span>
                 </h2>
             </div>
             <div class="slider-area">
@@ -1073,7 +1073,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
     <section class="bg-smoke" id="process-sec" data-bg-src="assets/img/bg/process_bg_1.png">
         <div class="container space">
             <div class="title-area text-center">
-                <div class="shadow-title">PROCESS</div><span class="sub-title">
+                <div class="shadow-title color2">PROCESS</div><span class="sub-title">
                     <div class="icon-masking me-2"><span class="mask-icon"
                             data-mask-src="assets/img/theme-img/title_shape_2.svg"></span> <img
                             src="assets/img/theme-img/title_shape_2.svg" alt="shape"></div>WORK PROCESS

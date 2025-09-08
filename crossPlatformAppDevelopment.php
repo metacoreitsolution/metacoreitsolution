@@ -30,14 +30,12 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <div class="img-shape icon-masking"><span class="mask-icon"
                                 data-mask-src="assets/img/normal/about_3_1-shape.png"></span> <img
                                 src="assets/img/normal/about_3_1-shape.png" alt="img"></div><img
-                            src="assets/img/normal/about_3_1.png" alt="About"> <a
-                            href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i
-                                class="fas fa-play"></i></a>
+                            src="assets/img/normal/about_3_1.png" alt="About"> 
                     </div>
                 </div>
                 <div class="col-xl-6">
                     <div class="title-area mb-35 text-center text-xl-start">
-                        <div class="shadow-title">ABOUT US</div><span class="sub-title">
+                        <div class="shadow-title color2">ABOUT US</div><span class="sub-title">
                             <div class="icon-masking me-2"><span class="mask-icon"
                                     data-mask-src="assets/img/theme-img/title_shape_2.svg"></span> <img
                                     src="assets/img/theme-img/title_shape_2.svg" alt="shape"></div>Build Once. Run Anywhere
@@ -83,15 +81,12 @@ Our solutions save time and cost while ensuring a consistent, high-quality user 
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-xl-6 mb-30 mb-xl-0">
                     <div class="img-box5"><img class="tilt-active" src="assets/img/normal/why_2_1.png" alt="Why">
-                        <div class="year-counter">
-                            <h3 class="year-counter_number"><span class="counter-number">8</span>+</h3>
-                            <p class="year-counter_text">Clients Active</p>
-                        </div>
+                        
                     </div>
                 </div>
                 <div class="col-xl-6">
                     <div class="title-area mb-35">
-                        <div class="shadow-title color3">What is </div><span class="sub-title">
+                        <div class="shadow-title color2 color3">What is </div><span class="sub-title">
                             <div class="icon-masking me-2"><span class="mask-icon"
                                     data-mask-src="assets/img/theme-img/title_shape_2.svg"></span> <img
                                     src="assets/img/theme-img/title_shape_2.svg" alt="shape"></div>Cross-Platform Code?
@@ -224,48 +219,7 @@ Our solutions save time and cost while ensuring a consistent, high-quality user 
                 alt="shape"></div>
     </div>
 
-    <div class="bg-theme space-extra" data-bg-src="assets/img/bg/counter_bg_1.png">
-        <div class="container py-2">
-            <div class="row gy-40 justify-content-between">
-                <div class="col-6 col-lg-auto">
-                    <div class="counter-card">
-                        <div class="counter-card_icon"><img src="assets/img/icon/counter_1_1.svg" alt="Icon"></div>
-                        <div class="media-body">
-                            <h2 class="counter-card_number"><span class="counter-number">15</span>+</h2>
-                            <p class="counter-card_text">Finished Project</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-lg-auto">
-                    <div class="counter-card">
-                        <div class="counter-card_icon"><img src="assets/img/icon/counter_1_2.svg" alt="Icon"></div>
-                        <div class="media-body">
-                            <h2 class="counter-card_number"><span class="counter-number">8</span>+</h2>
-                            <p class="counter-card_text">Happy Clients</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-lg-auto">
-                    <div class="counter-card">
-                        <div class="counter-card_icon"><img src="assets/img/icon/counter_1_3.svg" alt="Icon"></div>
-                        <div class="media-body">
-                            <h2 class="counter-card_number"><span class="counter-number">3</span>+</h2>
-                            <p class="counter-card_text">Year Of Experience</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-lg-auto">
-                    <div class="counter-card">
-                        <div class="counter-card_icon"><img src="assets/img/icon/counter_1_4.svg" alt="Icon"></div>
-                        <div class="media-body">
-                            <h2 class="counter-card_number"><span class="counter-number">10</span>+</h2>
-                            <p class="counter-card_text">Teams</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
 <!--     
     <section class="" id="team-sec">
         <div class="brand-sec1" data-pos-for="#process-sec" data-sec-pos="top-half">
@@ -331,7 +285,7 @@ Our solutions save time and cost while ensuring a consistent, high-quality user 
         </div>
         <div class="container space">
             <div class="title-area text-center">
-                <div class="shadow-title">Team</div><span class="sub-title">
+                <div class="shadow-title color2">Team</div><span class="sub-title">
                     <div class="icon-masking me-2"><span class="mask-icon"
                             data-mask-src="assets/img/theme-img/title_shape_2.svg"></span> <img
                             src="assets/img/theme-img/title_shape_2.svg" alt="shape"></div>GREAT TEAM
@@ -501,7 +455,7 @@ Our solutions save time and cost while ensuring a consistent, high-quality user 
                         <div class="cta-box_content">
                             <div class="cta-box_icon"><img src="assets/img/icon/call_1.svg" alt="Icon"></div>
                             <div class="title-area mb-35">
-                                <div class="shadow-title">CONSULTATION</div><span class="sub-title">
+                                <div class="shadow-title color2">CONSULTATION</div><span class="sub-title">
                                     <div class="icon-masking me-2"><span class="mask-icon"
                                             data-mask-src="assets/img/theme-img/title_shape_2.svg"></span> <img
                                             src="assets/img/theme-img/title_shape_2.svg" alt="shape"></div>LET’S

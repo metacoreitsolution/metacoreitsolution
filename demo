@@ -1,0 +1,4 @@
+ <li><a href="blog"class=" ' ?><?php if ($page == "blog.php") {
+     echo 'active';
+ } ?><?php echo '">Blog</a>
+ </li>

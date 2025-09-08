@@ -42,9 +42,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <div class="row">
                                 <div class="col-md-6 mb-30">
                                     <div class="th-video"><img class="w-100"
-                                            src="assets/img/service/service_inner_1.jpg" alt="service"> <a
-                                            href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
-                                            class="play-btn popup-video"><i class="fas fa-play"></i></a></div>
+                                            src="assets/img/service/service_inner_1.jpg" alt="service"></div>
                                 </div>
                                 <div class="col-md-6 mb-30">
                                     <h3 class="h4 mb-20">We Serve The Best Work</h3>

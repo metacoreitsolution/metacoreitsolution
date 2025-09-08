@@ -12,10 +12,10 @@ include __DIR__ . '/A_Layout/Header/header.php';
     <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/about-us.jpg">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">About Us</h1>
+                <h1 class="breadcumb-title">Blog</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="home">Home</a></li>
-                    <li>About Us</li>
+                    <li>Blog</li>
                 </ul>
             </div>
         </div>
@@ -369,7 +369,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 </div>
                 
                 <!-- Pagination -->
-                <nav aria-label="Blog pagination" class="blog-pagination">
+                <!-- <nav aria-label="Blog pagination" class="blog-pagination">
                     <ul class="pagination">
                         <li class="page-item disabled">
                             <a class="page-link" href="#" aria-label="Previous">
@@ -385,7 +385,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             </a>
                         </li>
                     </ul>
-                </nav>
+                </nav> -->
                 
                 <!-- CTA Section -->
                 <section class="blog-cta mb-5">

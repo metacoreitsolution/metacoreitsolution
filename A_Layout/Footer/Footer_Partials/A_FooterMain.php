@@ -60,8 +60,8 @@ echo
                             <div class="th-widget-about style2">
                                 <p class="about-text">MetaCore IT Solution delivers innovative software and mobile app
                                     solutions tailored to modern business needs.</p>
-                                <div class="th-social"><a href="https://www.linkedin.com/in/metacore-it-solution-3aab23382/"><i
-                                            class="fab fa-linkedin-in"></i></a> <a href="https://www.instagram.com/metacoreitsolution?igsh=MW1qcXBwOThwem11ZA=="><i
+                                <div class="th-social"><a href="https://www.linkedin.com/"><i
+                                            class="fab fa-linkedin-in"></i></a> <a href="https://www.youtube.com/"><i
                                             class="fab fa-instagram"></i></a></div>
                             </div>
                         </div>
@@ -111,8 +111,8 @@ echo
                                     </li>
                                     <li class="mb-2">
                                         <i class="fas fa-envelope me-2"></i>
-                                        <a href="mailto:metacoreitsolution@gmail.com"
-                                            class="text-white text-decoration-none">metacoreitsolution@gmail.com</a>
+                                        <a href="mailto:info@metacoreitsolution.com"
+                                            class="text-white text-decoration-none">info@metacoreitsolution.com</a>
                                     </li>
                                     <li>
                                         <i class="fas fa-map-marker-alt me-2"></i>
@@ -127,7 +127,7 @@ echo
             <div class="copyright-wrap">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-lg-6">
-                        <p class="copyright-text">Copyright: <i class="fal fa-copyright"></i> © 2025 . All Rights
+                        <p class="copyright-text">Copyright: <i class="fal fa-copyright"></i> 2025 . All Rights
                             Reserved by <a href="https://metacoreitsolution.com/">MetaCore IT Solution </a></p>
                     </div>
                     <div class="col-lg-6 text-center text-md-end">

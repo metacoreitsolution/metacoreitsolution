@@ -93,10 +93,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                     <div class="img-box1">
                         <div class="img1"><img src="assets/img/normal/about_1_1.png" alt="About"></div>
                         <div class="shape1"><img src="assets/img/normal/about_shape_1.png" alt="shape"></div>
-                        <div class="year-counter">
-                            <h3 class="year-counter_number"><span class="counter-number">5</span>+</h3>
-                            <p class="year-counter_text">Years Experience</p>
-                        </div>
+                       
                     </div>
                 </div>
             </div>

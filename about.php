@@ -28,7 +28,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <div class="img1"><img src="assets/img/normal/about_1_1.png" alt="About"></div>
                         <div class="shape1"><img src="assets/img/normal/about_shape_1.png" alt="shape"></div>
                         <div class="year-counter">
-                            <h3 class="year-counter_number"><span class="counter-number">5</span>+</h3>
+                            <h3 class="year-counter_number"><span class="counter-number">3</span>+</h3>
                             <p class="year-counter_text">Years Experience</p>
                         </div>
                     </div>
@@ -289,7 +289,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
             <div class="row justify-content-lg-between justify-content-center align-items-center">
                 <div class="col-lg-6 col-sm-9 pe-xl-5">
                     <div class="title-area text-center text-lg-start">
-                        <div class="shadow-title color2">Who We Are</div><span class="sub-title">
+                        <div class="shadow-title color2 color2">Who We Are</div><span class="sub-title">
                             <div class="icon-masking me-2"><span class="mask-icon"
                                     data-mask-src="assets/img/theme-img/title_shape_2.svg"></span> <img
                                     src="assets/img/theme-img/title_shape_2.svg" alt="shape"></div>Our Mission & Vision
@@ -357,8 +357,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 <div class="service-grid_content">
                                     <h3 class="box-title"><a href="web-development">Software Services</a></h3>
                                     <p class="service-grid_text">Continually engage customized infomediarie and quality
-                                        growth strategies. Appropriately.</p><a href="web-development"
-                                        class="th-btn">Read More<i class="fas fa-arrow-right ms-2"></i></a>
+                                        growth strategies. Appropriately.</p>
                                     <div class="bg-shape"><img src="assets/img/bg/service_grid_bg.png" alt="bg"></div>
                                 </div>
                             </div>

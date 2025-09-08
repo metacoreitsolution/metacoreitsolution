@@ -20,7 +20,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
             </div>
         </div>
     </div>
-    <div class="overflow-hidden space" id="about-sec">
+    <div class="overflow-hidden space pb-4 " id="about-sec">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6 mb-30 mb-xl-0">
@@ -36,8 +36,17 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                         src="assets/img/theme-img/title_shape_1.svg" alt="shape"></div>Image Conversion </span>
                             <h2 class="sec-title">Image to PDF Converter  <span class="text-theme">App+</span></h2>
                         </div>
-                        <p class="mt-n2 mb-25">Image to PDF Converter App+ is a user-friendly tool designed to streamline your document workflow. Whether you’re handling scanned documents, screenshots, or camera images, this app converts them into professional-grade PDFs within seconds.</p>
-                        <div class="about-feature-wrap" style="display: flow;">
+                        <p class="mt-n2 mb-25">Image to PDF Converter App+ makes managing documents simple and efficient. With just a few taps, you can turn scanned papers, camera images, or screenshots into professional-grade PDFs. Supporting multiple formats like JPEG, PNG, and HEIC, the app ensures your documents are digitized quickly and in high quality, making it perfect for both personal and professional use.</p>
+                        <p class="mt-n2 mb-25">Beyond simple conversion, the app offers powerful features like customizable paper size, orientation, and margins to give your PDFs a polished look. You can also compress files to reduce size without losing clarity, making them easy to share via email, cloud storage, or messaging apps. With its seamless export options and intuitive interface, Image to PDF Converter App+ is the all-in-one solution for efficient document handling.</p>
+                        <!-- <div class="btn-group"><a href="about" class="th-btn">DISCOVER MORE<i
+                                    class="fa-regular fa-arrow-right ms-2"></i></a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            <div class="col-md-6">
+                <div class="about-feature-wrap" style="display: flow;">
                             <div class="about-feature">
                                 <div class="media-body">
                                     <h3 class="about-feature_title">Image Conversion:</h3>
@@ -51,7 +60,10 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                     <p class="about-feature_text">Create clean, professional PDFs instantly with customizable paper size, orientation, and margins.</p>
                                 </div>
                             </div>
-                            <div class="about-feature">
+                        </div>
+            </div>
+            <div class="col-md-6">
+                <div class="about-feature">
                                 
                                 <div class="media-body">
                                     <h3 class="about-feature_title">File Compression:</h3>
@@ -64,16 +76,11 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                     <p class="about-feature_text">Export documents in multiple formats and share directly to email, cloud storage, or messaging apps.</p>
                                 </div>
                             </div>
-                        </div>
-                        <!-- <div class="btn-group"><a href="about" class="th-btn">DISCOVER MORE<i
-                                    class="fa-regular fa-arrow-right ms-2"></i></a>
-                        </div> -->
-                    </div>
-                </div>
+            </div>
             </div>
         </div>
     </div>
-    <div class="overflow-hidden space" id="about-sec">
+    <div class="overflow-hidden" id="about-sec">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6">
@@ -84,33 +91,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                         src="assets/img/theme-img/title_shape_1.svg" alt="shape"></div>Grammar Checker</span>
                             <h2 class="sec-title">AI Email Writer -   <span class="text-theme">AI Generator</span></h2>
                         </div>
-                        <p class="mt-n2 mb-25">AI Email Writer helps users generate professional and context-aware emails quickly, reducing writing time by up to 80%.</p>
-                        <div class="about-feature-wrap" style="display: flow;">
-                            <div class="about-feature">
-                                <div class="media-body">
-                                    <h3 class="about-feature_title">AI Email Writing: </h3>
-                                    <p class="about-feature_text">Automatically generate emails based on prompts and user intent.</p>
-                                </div>
-                            </div>
-                            <div class="about-feature">
-                                <div class="media-body">
-                                    <h3 class="about-feature_title">Grammar Checker: </h3>
-                                    <p class="about-feature_text">Advanced grammar and spell-check ensures polished, error-free emails.</p>
-                                </div>
-                            </div>
-                            <div class="about-feature">
-                                <div class="media-body">
-                                    <h3 class="about-feature_title">Smart Templates: </h3>
-                                    <p class="about-feature_text">Library of templates for follow-ups, job inquiries, sales, customer support, and more.</p>
-                                </div>
-                            </div>
-                            <div class="about-feature">
-                                <div class="media-body">
-                                    <h3 class="about-feature_title">Writing Assistant: </h3>
-                                    <p class="about-feature_text">Provides intelligent suggestions for tone, structure, and content to enhance readability and engagement.</p>
-                                </div>
-                            </div>
-                        </div>
+                        <p class="mt-n2 mb-25">AI Email Writer – AI Generator is designed to simplify communication by helping users create professional, context-aware emails in seconds. Powered by advanced AI, it can generate emails from simple prompts while maintaining the right tone and intent. With built-in grammar and spell-check, your messages are always polished, error-free, and ready to send, saving you up to 80% of your writing time.</p>
+                        <p class="mt-n2 mb-25">The app also comes with a library of smart templates for various needs like follow-ups, job inquiries, sales pitches, and customer support. Its intelligent writing assistant enhances readability by suggesting improvements in tone, structure, and content, ensuring your emails are both engaging and effective. Whether for business or personal use, AI Email Writer makes drafting emails faster, smarter, and more impactful.</p>
                     </div>
                 </div>
                 <div class="col-xl-6 mb-30 mb-xl-0">
@@ -119,9 +101,41 @@ include __DIR__ . '/A_Layout/Header/header.php';
                     </div>
                 </div>
             </div>
+            <div class="row">
+                        <div class="col-md-6">
+                            <div class="about-feature-wrap" style="display: flow;">
+                            <div class="about-feature">
+                                <div class="media-body">
+                                    <h3 class="about-feature_title">AI Email Writing: </h3>
+                                    <p class="about-feature_text">Automatically generate emails based on prompts and user intent.</p>
+                                </div>
+                            </div>
+                             <div class="about-feature">
+                                <div class="media-body">
+                                    <h3 class="about-feature_title">Writing Assistant: </h3>
+                                    <p class="about-feature_text">Provides intelligent suggestions for tone, structure, and content to enhance readability and engagement.</p>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-md-6">
+                             <div class="about-feature">
+                                <div class="media-body">
+                                    <h3 class="about-feature_title">Smart Templates: </h3>
+                                    <p class="about-feature_text">Library of templates for follow-ups, job inquiries, sales, customer support, and more.</p>
+                                </div>
+                            </div>
+                           <div class="about-feature">
+                                <div class="media-body">
+                                    <h3 class="about-feature_title">Grammar Checker: </h3>
+                                    <p class="about-feature_text">Advanced grammar and spell-check ensures polished, error-free emails.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
         </div>
     </div>
-    <div class="overflow-hidden space" id="about-sec">
+    <div class="overflow-hidden pt-4 pb-0" id="about-sec">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6 mb-30 mb-xl-0">
@@ -137,8 +151,15 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                         src="assets/img/theme-img/title_shape_1.svg" alt="shape"></div>Secure Storage</span>
                             <h2 class="sec-title">Password Manager by  <span class="text-theme">KeepPass</span></h2>
                         </div>
-                        <p class="mt-n2 mb-25">A secure password and credential management application that stores sensitive information safely while remaining user-friendly. Combines strong encryption with intuitive organization and multi-layer authentication.</p>
-                        <div class="about-feature-wrap" style="display: flow;">
+                        <p class="mt-n2 mb-25">Password Manager by KeepPass offers a secure and user-friendly way to manage sensitive information, combining advanced encryption with simple organization. All your credentials are stored in an encrypted database protected by a master password and two-factor authentication, ensuring maximum security without compromising convenience.</p>
+                        <p class="mt-n2 mb-25">With powerful features like AES-256 encryption, autofill, and strong password generation, KeepPass makes managing digital identities effortless. Credentials can be neatly organized by categories, tags, or usage, giving you quick access whenever you need it—across all your devices. KeepPass is the all-in-one solution for secure storage, password management, and peace of mind.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-feature-wrap" style="display: flow;">
                             <div class="about-feature">
                                 <div class="media-body">
                                     <h3 class="about-feature_title">Secure Storage: </h3>
@@ -151,7 +172,11 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                     <p class="about-feature_text">Organize credentials by category, usage, and tags for easy access.</p>
                                 </div>
                             </div>
-                            <div class="about-feature">
+                          
+                        </div>
+                </div>
+                <div class="col-md-6">
+                      <div class="about-feature">
                                 <div class="media-body">
                                     <h3 class="about-feature_title">Encryption Tools: </h3>
                                     <p class="about-feature_text">AES-256 bit encryption ensures maximum data protection.</p>
@@ -163,13 +188,11 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                     <p class="about-feature_text"> Generate, save, autofill, and update strong passwords across devices.</p>
                                 </div>
                             </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="overflow-hidden space" id="about-sec">
+    <div class="overflow-hidden space pt-4" id="about-sec">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6">
@@ -180,8 +203,20 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                         src="assets/img/theme-img/title_shape_1.svg" alt="shape"></div>Online Scheduling</span>
                             <h2 class="sec-title">Appointment Booking SaaS  <span class="text-theme">Software</span></h2>
                         </div>
-                        <p class="mt-n2 mb-25">A comprehensive appointment booking system that allows clients to book appointments anytime and ensures seamless calendar management.</p>
-                        <div class="about-feature-wrap" style="display: flow;">
+                        <p class="mt-n2 mb-25">Appointment Booking SaaS Software simplifies online scheduling by giving clients the flexibility to book appointments anytime, anywhere. With personalized booking links or website widgets, customers can easily view real-time availability and secure a slot that fits their schedule. The system supports customizable options such as service selection, staff assignment, and time zone adjustments, making it ideal for businesses of all sizes.</p>
+                        <p class="mt-n2 mb-25">To ensure smooth operations, the platform integrates seamlessly with Google Calendar, Outlook, and iCal for automatic syncing and updates. Automated email reminders help reduce no-shows, while the intuitive interface streamlines both client booking and calendar management. With its powerful features and 24/7 accessibility, this software delivers a professional, reliable, and hassle-free appointment scheduling experience.</p>
+                        
+                    </div>
+                </div>
+                <div class="col-xl-6 mb-30 mb-xl-0">
+                    <div class="img-box1 d-flex justify-content-center align-items-center">
+                        <div class="img1"><img src="assets/img/projects/online-booking.png" alt="About" style="max-width: 650px !important;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-feature-wrap" style="display: flow;">
                             <div class="about-feature">
                                 <div class="media-body">
                                     <h3 class="about-feature_title">Online Scheduling: </h3>
@@ -191,10 +226,14 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <div class="about-feature">
                                 <div class="media-body">
                                     <h3 class="about-feature_title">Client Booking: </h3>
-                                    <p class="about-feature_text">Customizable options including service selection, staff assignment, and time zones.</p>
+                                    <p class="about-feature_text">Customizable options including service selection and time zones.</p>
                                 </div>
                             </div>
-                            <div class="about-feature">
+                            
+                        </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="about-feature">
                                 <div class="media-body">
                                     <h3 class="about-feature_title">Calendar Sync: </h3>
                                     <p class="about-feature_text">Integrates with Google Calendar, Outlook, and iCal for real-time updates.</p>
@@ -206,13 +245,6 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                     <p class="about-feature_text"> Automated email reminders to reduce no-shows and improve attendance.</p>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6 mb-30 mb-xl-0">
-                    <div class="img-box1 d-flex justify-content-center align-items-center">
-                        <div class="img1"><img src="assets/img/projects/online-booking.png" alt="About" style="max-width: 650px !important;"></div>
-                    </div>
                 </div>
             </div>
         </div>

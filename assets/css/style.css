@@ -6988,7 +6988,7 @@ a.text-theme:hover,
 
 .main-menu ul.sub-menu li a {
     position      : relative;
-    padding-left  : 23px;
+    /* padding-left  : 23px; */
     text-transform: capitalize
 }
 
@@ -22199,14 +22199,15 @@ span.select2-selection.select2-selection--single:focus {
     display          : -webkit-flex;
     display          : -ms-flexbox;
     display          : flex;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap    : wrap;
-    flex-wrap        : wrap;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap    : nowrap;
+    flex-wrap        : nowrap;
     gap              : 25px;
     box-shadow       : 0px 4px 30px rgba(8, 14, 28, 0.08);
     border-radius    : 5px;
     background-color : var(--white-color);
-    padding          : 40px
+    padding          : 40px;
+    height           : 100%;
 }
 
 .contact-info .box-title {
@@ -23323,7 +23324,11 @@ span.select2-selection.select2-selection--single:focus {
     -webkit-box-align  : center;
     -webkit-align-items: center;
     -ms-flex-align     : center;
-    align-items        : center
+    align-items        : center;
+    background-color: #fff;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
 }
 
 .about-feature-wrap {
@@ -23331,7 +23336,7 @@ span.select2-selection.select2-selection--single:focus {
     grid-template-columns: auto auto;
     gap                  : 20px;
     padding-bottom       : 35px;
-    border-bottom        : 1px solid var(--th-border-color);
+    /* border-bottom        : 1px solid var(--th-border-color); */
     margin-bottom        : 40px
 }
 
@@ -24934,7 +24939,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .about-feature-wrap.style5 {
-    gap          : 76px;
+    gap          : 26px;
     margin-bottom: 0;
     padding      : 0;
     border       : none
@@ -24948,8 +24953,8 @@ span.select2-selection.select2-selection--single:focus {
 
 .about-feature-wrap.style5 .btn-group {
     border-top : 1px solid #DBDBDB;
-    margin-top : 30px;
-    padding-top: 50px
+    margin-top : 10px;
+    padding-top: 20px
 }
 
 .about-feature.style5 {
@@ -50062,4 +50067,15 @@ span.select2-selection.select2-selection--single:focus {
 ;
     align-items: center;
     gap: 0.5rem;
+}
+.sub-menu {
+    display: none;
+    list-style: none;
+    padding-left: 15px;
+}
+.sub-menu.open {
+    display: block;
+}
+.toggle-icon {
+    cursor: pointer;
 }

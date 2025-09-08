@@ -170,7 +170,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 </div>
                 <div class="col-xl-6">
                     <div class="choose-image global-image">
-                        <div class="img1 th-anim"><img src="assets/img/normal/choose_1.png" alt="Choose"></div>
+                        <div class="img1 th-anim"><img src="https://metacoreitsolution.com/assets/img/normal/choose_1.png" alt="Choose"></div>
                     </div>
                 </div>
             </div>
