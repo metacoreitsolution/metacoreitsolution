@@ -31,7 +31,7 @@ echo
                                     echo 'active';
                                 } ?><?php echo '">Home</a></li>
                     <li><a href="about" class="active">About Us</a></li>
-                    <li class="menu-item-has-children-custom">
+                    <li class="menu-item-has-children-custom first-menu-in-desktop">
                         <a href="service" class="solution-link d-flex justify-content-between align-items-center">
                             Service
                             <span class="toggle-icon ms-2"></span>
@@ -45,7 +45,22 @@ echo
                             <li><a href="ai-machine-learning-development">AI & ML Development</a></li>
                         </ul>
                     </li>
-                    <li class="menu-item-has-children-custom">
+                    <li class="menu-item-has-children-custom th-item-has-children">
+    <div class="d-flex justify-content-between align-items-center">
+        <a href="service" class="solution-link">Service</a>
+        <span class="toggle-icon ms-2 th-mean-expand"></span>
+    </div>
+    <ul class="sub-menu th-submenu" style="display: none;">
+        <li><a href="iOS&androidAppDevelopment">IOS & Android App Development</a></li>
+        <li><a href="cross-platform-app-development">Cross Platform App Development</a></li>
+        <li><a href="web-development">Web Development</a></li>
+        <li><a href="custom-software-development">Custom Software Development</a></li>
+        <li><a href="ux-design">UI/UX Design</a></li>
+        <li><a href="ai-machine-learning-development">AI & ML Development</a></li>
+    </ul>
+</li>
+
+                    <li class="menu-item-has-children-custom first-menu-in-desktop">
                         <a href="solution" class="solution-link d-flex justify-content-between align-items-center">
                             Solution
                             <span class="toggle-icon ms-2"></span>
@@ -60,6 +75,21 @@ echo
                             <li><a href="logistic-management">Logistic Management</a></li>
                         </ul>
                     </li>
+                       <li class="menu-item-has-children-custom th-item-has-children">
+    <div class="d-flex justify-content-between align-items-center">
+        <a href="solution" class="solution-link">Solution</a>
+        <span class="toggle-icon ms-2 th-mean-expand"></span>
+    </div>
+    <ul class="sub-menu th-submenu" style="display: none;">
+        <li><a href="health-care-solution">HealthCare Solution</a></li>
+                            <li><a href="hotel-management">Hotel Management</a></li>
+                            <li><a href="billing-accounting-software">Billing & Accounting Software</a></li>
+                            <li><a href="education-technology-solution">Education Technology Solution</a></li>
+                            <li><a href="RetailE-Commercesolution">Retail and E-Commerce Solution</a></li>
+                            <li><a href="realestate-property-management">Real Estate & Property Management</a></li>
+                            <li><a href="logistic-management">Logistic Management</a></li>
+    </ul>
+</li>
                     <li class="menu-item-has-children"><a href="blog">Blog</a></li>
                 </ul>
             </div>

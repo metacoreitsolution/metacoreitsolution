@@ -2715,8 +2715,6 @@ textarea.is-invalid {
     text-transform    : capitalize;
     padding           : 18px 20px;
     background-color  : var(--theme-color);
-    background-image  : -webkit-linear-gradient(left, var(--theme-color), var(--theme-color2), var(--theme-color), var(--theme-color2));
-    background-image  : linear-gradient(to right, var(--theme-color), var(--theme-color2), var(--theme-color), var(--theme-color2));
     background-size   : 300% 100%;
     -webkit-transition: all .4s ease-in-out;
     transition        : all .4s ease-in-out
@@ -49168,6 +49166,7 @@ span.select2-selection.select2-selection--single:focus {
   display: inline-block;
 }
 
+
 /* On hover, change to minus */
 .menu-item-has-children-custom:hover .toggle-icon::before {
   content: "-";
@@ -50068,7 +50067,12 @@ span.select2-selection.select2-selection--single:focus {
     align-items: center;
     gap: 0.5rem;
 }
-.sub-menu {
+@media (max-width: 500px) {
+    .first-menu-in-desktop{
+        display: none;
+    }
+    
+    .sub-menu {
     display: none;
     list-style: none;
     padding-left: 15px;
@@ -50079,3 +50083,14 @@ span.select2-selection.select2-selection--single:focus {
 .toggle-icon {
     cursor: pointer;
 }
+.sub-menu {
+    display: none;
+}
+.sub-menu.open {
+    display: block;
+}
+.toggle-icon {
+    cursor: pointer;
+    user-select: none;
+}
+}   
