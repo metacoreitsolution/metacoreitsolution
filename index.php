@@ -28,11 +28,11 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 </div> -->
                                 <div class="hero-counter_wrapp">
                                     <div class="hero-counter">
-                                        <h2 class="counter-title mb-0"><span class="counter-number">8</span>+</h2><span
+                                        <h2 class="counter-title mb-0"><span class="counter-number">5</span>+</h2><span
                                             class="hero-counter_text">Happily active client’s</span>
                                     </div>
                                     <div class="hero-counter">
-                                        <h2 class="counter-title mb-0"><span class="counter-number">5</span>+</h2><span
+                                        <h2 class="counter-title mb-0"><span class="counter-number">3</span>+</h2><span
                                             class="hero-counter_text">Years of experience in startup building</span>
                                     </div>
                                 </div>
@@ -191,8 +191,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <div class="box-number">1.</div>
                             <div class="box-content">
                                 <h3 class="box-title"> AI & Machine Learning Solutions</h3>
-                                <div class="box-list"><span>Python</span> <span>GitLab</span>
-                                    <span>Postman</span> 
+                                <div class="box-list"><span>Python</span> <span>TensorFlow</span>
+                                    <span>AWS SageMaker</span> <span>Pytorch</span>
                                 </div>
                             </div>
                         </div>
@@ -206,8 +206,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <div class="box-number">2.</div>
                             <div class="box-content">
                                 <h3 class="box-title">Custom Software Development</h3>
-                                <div class="box-list"><span>React Js Development</span> <span>Laravel Development</span>
-                                    <span>Anglular Js Development</span> <span>Vue Js Development</span>
+                                <div class="box-list"><span>Software Architecture</span> <span>.NET Development</span>
+                                    <span>AI-Powered Software</span> <span>Python Development</span>
                                 </div>
                             </div>
                         </div>
@@ -221,8 +221,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <div class="box-number">3.</div>
                             <div class="box-content">
                                 <h3 class="box-title">UX/UI Design</h3>
-                                <div class="box-list"><span>React Js Development</span> <span>AngularJS</span>
-                                    <span>Bootstrap</span> <span>NextJS</span>
+                                <div class="box-list"><span>UI Design</span> <span>UX Design</span>
+                                    <span>User-Centered Design (UCD)</span> <span>Wireframing & Prototyping</span>
                                 </div>
                             </div>
                         </div>
@@ -235,8 +235,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <div class="box-number">4.</div>
                             <div class="box-content">
                                 <h3 class="box-title">Android App Development</h3>
-                                <div class="box-list"><span>Kotlin & Java-Based</span> <span>Google APIs Integration</span>
-                                    <span>Android Jetpack</span> <span>Device Fragmentation Handling</span>
+                                <div class="box-list"><span>Kotlin Development</span> <span>Android Studio</span>
+                                    <span>API Integration</span> <span>IoT Android Apps</span>
                                 </div>
                             </div>
                         </div>
@@ -250,8 +250,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <div class="box-number">5.</div>
                             <div class="box-content">
                                 <h3 class="box-title">Cross Platform App Development</h3>
-                                <div class="box-list"><span>React Js Development</span> <span>Laravel Development</span>
-                                    <span>Anglular Js Development</span> <span>Vue Js Development</span>
+                                <div class="box-list"><span>Flutter</span> <span>API Integration</span>
+                                    <span>AR/VR Apps</span> <span>React Native</span>
                                 </div>
                             </div>
                         </div>
@@ -265,8 +265,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <div class="box-number">6.</div>
                             <div class="box-content">
                                 <h3 class="box-title">Web Development</h3>
-                                <div class="box-list"><span>React Js Development</span> <span>Laravel Development</span>
-                                    <span>Anglular Js Development</span> <span>Vue Js Development</span>
+                                <div class="box-list"><span>Full-Stack Development</span> <span>React.js / Angular / Vue.js</span>
+                                    <span>WordPress Development</span> <span>Progressive Web Apps (PWA)</span>
                                 </div>
                             </div>
                         </div>
@@ -922,11 +922,11 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                         class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i
                                         class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>
                                 <div class="testi-grid_content">
-                                    <p class="testi-grid_text">Objectively visualize error-free technology for B2B
-                                        alignment. Monotonectally harness an expanded array of models via effective
-                                        collaboration. Globally synergize resource sucking value via cutting-edge.</p>
-                                    <h3 class="box-title">David Farnandes</h3>
-                                    <p class="testi-grid_desig">CEO at Anaton</p>
+                                    <p class="testi-grid_text">The service provided by the team was exceptional. 
+                                        Every discussion we had was clear and productive, 
+                                        and I felt fully supported throughout the process. 
+                                        Their guidance helped us achieve our goals efficiently.</p>
+                                    <h3 class="box-title">Rohit Mehta</h3>
                                 </div>
                             </div>
                         </div>
@@ -941,11 +941,10 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                         class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i
                                         class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>
                                 <div class="testi-grid_content">
-                                    <p class="testi-grid_text">Objectively visualize error-free technology for B2B
-                                        alignment. Monotonectally harness an expanded array of models via effective
-                                        collaboration. Globally synergize resource sucking value via cutting-edge.</p>
-                                    <h3 class="box-title">Jackline Techie</h3>
-                                    <p class="testi-grid_desig">CEO at Kormola</p>
+                                    <p class="testi-grid_text">The team is highly skilled and approachable. 
+                                        They provided excellent guidance and were always ready to help whenever we had questions. 
+                                        The service quality exceeded my expectations, and the company truly cares about its clients.</p>
+                                    <h3 class="box-title">Kavya Patel</h3>
                                 </div>
                             </div>
                         </div>
@@ -960,11 +959,10 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                         class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i
                                         class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>
                                 <div class="testi-grid_content">
-                                    <p class="testi-grid_text">Objectively visualize error-free technology for B2B
-                                        alignment. Monotonectally harness an expanded array of models via effective
-                                        collaboration. Globally synergize resource sucking value via cutting-edge.</p>
-                                    <h3 class="box-title">Abraham Khalil</h3>
-                                    <p class="testi-grid_desig">CEO at Anatora</p>
+                                    <p class="testi-grid_text"> I am extremely satisfied with the professionalism of the team. 
+                                        The company’s approach to problem-solving and their helpful nature made the entire experience seamless. 
+                                        Their insights and guidance were invaluable.</p>
+                                    <h3 class="box-title">Karan Patel</h3>
                                 </div>
                             </div>
                         </div>
@@ -979,15 +977,14 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                         class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i><i
                                         class="fa-solid fa-star-sharp"></i><i class="fa-solid fa-star-sharp"></i></div>
                                 <div class="testi-grid_content">
-                                    <p class="testi-grid_text">Objectively visualize error-free technology for B2B
-                                        alignment. Monotonectally harness an expanded array of models via effective
-                                        collaboration. Globally synergize resource sucking value via cutting-edge.</p>
-                                    <h3 class="box-title">Md Sumon Mia</h3>
-                                    <p class="testi-grid_desig">CEO at Rimasu</p>
+                                    <p class="testi-grid_text">Working with this company was a pleasure. 
+                                        The discussions were productive, and the team offered clear, practical guidance at every step. 
+                                        Their support and dedication to helping clients really stand out.</p>
+                                    <h3 class="box-title">Laura Wilson</h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
+                        <!-- <div class="swiper-slide">
                             <div class="testi-grid">
                                 <div class="testi-grid_img"><img src="assets/img/testimonial/testi_3_1.jpg"
                                         alt="Avater">
@@ -1062,7 +1059,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                     <p class="testi-grid_desig">CEO at Rimasu</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div><button data-slider-prev="#testiSlider3" class="slider-arrow style3 slider-prev"><i
                         class="far fa-arrow-left"></i></button> <button data-slider-next="#testiSlider3"
