@@ -54,7 +54,7 @@ echo
         <li><a href="iOS&androidAppDevelopment">IOS & Android App Development</a></li>
         <li><a href="cross-platform-app-development">Cross Platform App Development</a></li>
         <li><a href="web-development">Web Development</a></li>
-        <li><a href="custom-software-development">Custom Software Development</a></li>
+        <li><a href="custom-software-development">Custom SIOS & Android App Developmentoftware Development</a></li>
         <li><a href="ux-design">UI/UX Design</a></li>
         <li><a href="ai-machine-learning-development">AI & ML Development</a></li>
     </ul>
