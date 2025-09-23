@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Tech Stack</title>
+    <!-- Bootstrap CSS v5.0.0 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .our-tech-section {
+            padding: 60px 0;
+            background-color: #f8f9fa;
+        }
+
+        .our-tech-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        .our-tech-subtitle {
+            font-size: 1.1rem;
+            color: #6c757d;
+            line-height: 1.6;
+            margin-bottom: 3rem;
+        }
+
+        .our-tech-nav-container {
+            position: relative;
+            margin-bottom: 3rem;
+        }
+
+        .our-tech-nav {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 0;
+            background-color: #f1f3f4;
+            border-radius: 50px;
+            padding: 4px;
+            overflow-x: auto;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+
+        .our-tech-nav::-webkit-scrollbar {
+            display: none;
+        }
+
+        .our-tech-nav-item {
+            white-space: nowrap;
+            padding: 12px 24px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 500;
+            font-size: 0.95rem;
+            border: none;
+            background: transparent;
+            color: #6c757d;
+        }
+
+        .our-tech-nav-item:hover {
+            background-color: rgba(255, 133, 27, 0.1);
+            color: #ff851b;
+        }
+
+        .our-tech-nav-item.active {
+            background-color: #ff851b;
+            color: white;
+            box-shadow: 0 2px 10px rgba(255, 133, 27, 0.3);
+        }
+
+        .our-tech-arrows {
+            position: absolute;
+            right: -6%;
+            top: -46%;
+            transform: translateY(-50%);
+            display: flex;
+            gap: 8px;
+        }
+
+        .our-tech-arrow {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #ff851b;
+            color: white;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .our-tech-arrow:hover {
+            background-color: #e67300;
+            transform: scale(1.05);
+        }
+
+        .our-tech-content {
+            margin-top: 2rem;
+        }
+
+        .our-tech-category {
+            display: none;
+            animation: fadeIn 0.5s ease;
+        }
+
+        .our-tech-category.active {
+            display: block;
+        }
+
+        .our-tech-category-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #6c757d;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1.5rem;
+        }
+
+        .our-tech-icons-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .our-tech-icon {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .our-tech-icon:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .our-tech-icon img {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .our-tech-title {
+                font-size: 2rem;
+            }
+            
+            .our-tech-arrows {
+                position: static;
+                transform: none;
+                justify-content: center;
+                margin-top: 1rem;
+            }
+            
+            .our-tech-nav-container {
+                margin-bottom: 2rem;
+            }
+            
+            .our-tech-icons-grid {
+                justify-content: center;
+            }
+            
+            .our-tech-icon {
+                width: 50px;
+                height: 50px;
+            }
+            
+            .our-tech-icon img {
+                width: 32px;
+                height: 32px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .our-tech-nav {
+                flex-wrap: wrap;
+                gap: 8px;
+                padding: 8px;
+            }
+            
+            .our-tech-nav-item {
+                padding: 8px 16px;
+                font-size: 0.85rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="our-tech-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="text-center">
+                        <h2 class="our-tech-title">Our Tech Stack</h2>
+                        <p class="our-tech-subtitle">
+                            Our expertise spans over 100+ innovative technologies and platforms, enabling us to deliver customized business solutions.
+                        </p>
+                    </div>
+
+                    <div class="our-tech-nav-container">
+                        <div class="our-tech-nav" id="ourTechNav">
+                            <button class="our-tech-nav-item active" data-category="web">Web</button>
+                            <button class="our-tech-nav-item" data-category="mobile">Mobile</button>
+                            <button class="our-tech-nav-item" data-category="devops">DevOps</button>
+                            <button class="our-tech-nav-item" data-category="cloud">Cloud</button>
+                            <button class="our-tech-nav-item" data-category="platforms">Platforms</button>
+                            <button class="our-tech-nav-item" data-category="database">Relational Databases</button>
+                            <button class="our-tech-nav-item" data-category="bigdata">Big Data</button>
+                            <button class="our-tech-nav-item" data-category="ml">Machine Learning</button>
+                            <button class="our-tech-nav-item" data-category="automation">Automation Testing</button>
+                        </div>
+                        
+                        <div class="our-tech-arrows d-none d-lg-flex">
+                            <button class="our-tech-arrow" id="ourTechPrev">‹</button>
+                            <button class="our-tech-arrow" id="ourTechNext">›</button>
+                        </div>
+                    </div>
+
+                    <div class="our-tech-content">
+                        <!-- Backend Technologies -->
+                        <div class="our-tech-category" id="backend">
+                            <div class="our-tech-category-title">BACK END</div>
+                            <div class="our-tech-icons-grid">
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" alt="Swift">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" alt=".NET">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" alt="Go">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" alt="Ruby">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Web Technologies -->
+                        <div class="our-tech-category active" id="web">
+                            <div class="our-tech-category-title">FRONT END</div>
+                            <div class="our-tech-icons-grid">
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Angular">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue.js">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/ember/ember.png" alt="Ember">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="Sass">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Mobile Technologies -->
+                        <div class="our-tech-category" id="mobile">
+                            <div class="our-tech-category-title">MOBILE</div>
+                            <div class="our-tech-icons-grid">
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Native">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" alt="iOS">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" alt="Android">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- DevOps Technologies -->
+                        <div class="our-tech-category" id="devops">
+                            <div class="our-tech-category-title">DEVOPS</div>
+                            <div class="our-tech-icons-grid">
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" alt="Terraform">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Cloud Technologies -->
+                        <div class="our-tech-category" id="cloud">
+                            <div class="our-tech-category-title">CLOUD</div>
+                            <div class="our-tech-icons-grid">
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" alt="AWS">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="Google Cloud">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original.svg" alt="DigitalOcean">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Database Technologies -->
+                        <div class="our-tech-category" id="database">
+                            <div class="our-tech-category-title">DATABASES</div>
+                            <div class="our-tech-icons-grid">
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        class OurTechStack {
+            constructor() {
+                this.navItems = document.querySelectorAll('.our-tech-nav-item');
+                this.categories = document.querySelectorAll('.our-tech-category');
+                this.navContainer = document.getElementById('ourTechNav');
+                this.prevBtn = document.getElementById('ourTechPrev');
+                this.nextBtn = document.getElementById('ourTechNext');
+                this.currentIndex = 0;
+                
+                this.init();
+            }
+
+            init() {
+                // Navigation item click handlers
+                this.navItems.forEach((item, index) => {
+                    item.addEventListener('click', () => {
+                        this.switchCategory(item.dataset.category, index);
+                    });
+                });
+
+                // Arrow navigation
+                this.prevBtn?.addEventListener('click', () => this.navigateNav(-1));
+                this.nextBtn?.addEventListener('click', () => this.navigateNav(1));
+
+                // Initialize with Web category
+                this.switchCategory('web', 0);
+            }
+
+            switchCategory(category, index) {
+                // Update navigation active state
+                this.navItems.forEach(item => item.classList.remove('active'));
+                this.navItems[index].classList.add('active');
+                
+                // Update category display
+                this.categories.forEach(cat => {
+                    cat.classList.remove('active');
+                    if (cat.id === category) {
+                        cat.classList.add('active');
+                    }
+                });
+
+                this.currentIndex = index;
+                this.scrollToActiveNav();
+            }
+
+            navigateNav(direction) {
+                const newIndex = Math.max(0, Math.min(this.navItems.length - 1, this.currentIndex + direction));
+                const targetItem = this.navItems[newIndex];
+                
+                if (targetItem) {
+                    this.switchCategory(targetItem.dataset.category, newIndex);
+                }
+            }
+
+            scrollToActiveNav() {
+                const activeItem = this.navItems[this.currentIndex];
+                const container = this.navContainer;
+                const itemOffset = activeItem.offsetLeft;
+                const containerWidth = container.clientWidth;
+                const itemWidth = activeItem.clientWidth;
+                
+                const scrollPosition = itemOffset - (containerWidth / 2) + (itemWidth / 2);
+                container.scrollTo({
+                    left: Math.max(0, scrollPosition),
+                    behavior: 'smooth'
+                });
+            }
+        }
+
+        // Initialize when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            new OurTechStack();
+        });
+
+        // Add smooth scroll animation on category switch
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add intersection observer for animation on scroll
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            });
+
+            document.querySelectorAll('.our-tech-icon').forEach(icon => {
+                icon.style.opacity = '0';
+                icon.style.transform = 'translateY(20px)';
+                icon.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                observer.observe(icon);
+            });
+        });
+    </script>
+</body>
+</html>

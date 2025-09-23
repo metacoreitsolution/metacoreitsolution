@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Tech Services</title>
+    <!-- Bootstrap CSS v5.0.0 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .our-tech-services-section {
+            padding: 80px 0;
+            background-color: #fafbfc;
+        }
+
+        .our-tech-services-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .our-tech-services-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 1.5rem;
+        }
+
+        .our-tech-services-title {
+            font-size: 2.75rem;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+
+        .our-tech-services-subtitle {
+            font-size: 1.1rem;
+            color: #64748b;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .our-tech-services-subtitle a {
+            color: #3b82f6;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .our-tech-services-subtitle a:hover {
+            text-decoration: underline;
+        }
+
+        .our-tech-services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+
+        .our-tech-service-card {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transition: all 0.3s ease;
+            border: 1px solid #e2e8f0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .our-tech-service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        .our-tech-service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .our-tech-service-card:hover::before {
+            opacity: 1;
+        }
+
+        .our-tech-service-header {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin-bottom: 1.5rem;
+        }
+
+        .our-tech-service-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #1a202c;
+            line-height: 1.3;
+            margin-bottom: 0;
+        }
+
+        .our-tech-service-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-left: 1rem;
+            flex-shrink: 0;
+        }
+
+        /* Service-specific icon colors */
+        .our-tech-service-card:nth-child(1) .our-tech-service-icon {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .our-tech-service-card:nth-child(2) .our-tech-service-icon {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+        }
+
+        .our-tech-service-card:nth-child(3) .our-tech-service-icon {
+            background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+            color: white;
+        }
+
+        .our-tech-service-card:nth-child(4) .our-tech-service-icon {
+            background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+            color: white;
+        }
+
+        .our-tech-service-card:nth-child(5) .our-tech-service-icon {
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+            color: #4a5568;
+        }
+
+        .our-tech-service-card:nth-child(6) .our-tech-service-icon {
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            color: #4a5568;
+        }
+
+        .our-tech-service-card:nth-child(7) .our-tech-service-icon {
+            background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+            color: white;
+        }
+
+        .our-tech-service-card:nth-child(8) .our-tech-service-icon {
+            background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+            color: #4a5568;
+        }
+
+        .our-tech-service-description {
+            color: #64748b;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+        }
+
+        .our-tech-service-link {
+            color: #3b82f6;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            display: inline-flex;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+
+        .our-tech-service-link:hover {
+            color: #1d4ed8;
+            transform: translateX(4px);
+        }
+
+        .our-tech-service-link i {
+            margin-left: 0.5rem;
+            font-size: 0.8rem;
+            transition: transform 0.3s ease;
+        }
+
+        .our-tech-service-link:hover i {
+            transform: translateX(3px);
+        }
+
+        /* Animation for cards on scroll */
+        @keyframes our-tech-fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .our-tech-service-card {
+            animation: our-tech-fadeInUp 0.6s ease forwards;
+        }
+
+        /* Stagger animation delays */
+        .our-tech-service-card:nth-child(1) { animation-delay: 0.1s; }
+        .our-tech-service-card:nth-child(2) { animation-delay: 0.2s; }
+        .our-tech-service-card:nth-child(3) { animation-delay: 0.3s; }
+        .our-tech-service-card:nth-child(4) { animation-delay: 0.4s; }
+        .our-tech-service-card:nth-child(5) { animation-delay: 0.5s; }
+        .our-tech-service-card:nth-child(6) { animation-delay: 0.6s; }
+        .our-tech-service-card:nth-child(7) { animation-delay: 0.7s; }
+        .our-tech-service-card:nth-child(8) { animation-delay: 0.8s; }
+
+        /* Responsive Design */
+        @media (max-width: 1200px) {
+            .our-tech-services-grid {
+                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                gap: 1.5rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .our-tech-services-section {
+                padding: 60px 0;
+            }
+
+            .our-tech-services-title {
+                font-size: 2.25rem;
+            }
+
+            .our-tech-services-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+                margin-top: 3rem;
+            }
+
+            .our-tech-service-card {
+                padding: 1.5rem;
+            }
+
+            .our-tech-service-header {
+                flex-direction: column-reverse;
+                align-items: flex-start;
+            }
+
+            .our-tech-service-icon {
+                margin-left: 0;
+                margin-bottom: 1rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .our-tech-services-title {
+                font-size: 1.875rem;
+            }
+
+            .our-tech-service-card {
+                padding: 1.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="our-tech-services-section">
+        <div class="container">
+            <!-- Header Section -->
+            <div class="our-tech-services-header">
+                <div class="our-tech-services-badge">
+                    Tailored With Transparency
+                </div>
+                <h2 class="our-tech-services-title">Our Services</h2>
+                <p class="our-tech-services-subtitle">
+                    Are you looking to scale your business with innovative technologies? Partner with us! We will 
+                    empower you to achieve your goal with our custom <a href="#">AI, Game, Metaverse & Blockchain</a> 
+                    development services.
+                </p>
+            </div>
+
+            <!-- Services Grid -->
+            <div class="our-tech-services-grid">
+                <!-- AR/VR Development -->
+                <div class="our-tech-service-card">
+                    <div class="our-tech-service-header">
+                        <div>
+                            <h3 class="our-tech-service-title">AR/VR<br>Development</h3>
+                        </div>
+                        <div class="our-tech-service-icon">
+                            <i class="fas fa-vr-cardboard"></i>
+                        </div>
+                    </div>
+                    <p class="our-tech-service-description">
+                        Give your business an innovative edge with our new-age AR/VR development services that bring immersive experiences to life.
+                    </p>
+                    <a href="#" class="our-tech-service-link">
+                        Discover more <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Game Development -->
+                <div class="our-tech-service-card">
+                    <div class="our-tech-service-header">
+                        <div>
+                            <h3 class="our-tech-service-title">Game development</h3>
+                        </div>
+                        <div class="our-tech-service-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                    </div>
+                    <p class="our-tech-service-description">
+                        Unleash the power of fun and engagement through our cutting-edge game development expertise.
+                    </p>
+                    <a href="#" class="our-tech-service-link">
+                        Discover more <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Blockchain Development -->
+                <div class="our-tech-service-card">
+                    <div class="our-tech-service-header">
+                        <div>
+                            <h3 class="our-tech-service-title">Blockchain<br>Development</h3>
+                        </div>
+                        <div class="our-tech-service-icon">
+                            <i class="fas fa-link"></i>
+                        </div>
+                    </div>
+                    <p class="our-tech-service-description">
+                        Transparent and decentralized ecosystems for your business with our blockchain expertise.
+                    </p>
+                    <a href="#" class="our-tech-service-link">
+                        Discover more <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- AI/ML Development -->
+                <div class="our-tech-service-card">
+                    <div class="our-tech-service-header">
+                        <div>
+                            <h3 class="our-tech-service-title">AI/ML<br>Development</h3>
+                        </div>
+                        <div class="our-tech-service-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                    </div>
+                    <p class="our-tech-service-description">
+                        AI/ML-driven models that help your business scale and grow faster with intelligent solutions.
+                    </p>
+                    <a href="#" class="our-tech-service-link">
+                        Discover more <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Website Development -->
+                <div class="our-tech-service-card">
+                    <div class="our-tech-service-header">
+                        <div>
+                            <h3 class="our-tech-service-title">Website<br>Development</h3>
+                        </div>
+                        <div class="our-tech-service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                    <p class="our-tech-service-description">
+                        Help your business expand with our comprehensive web development services that simplify everything & cater to your needs.
+                    </p>
+                    <a href="#" class="our-tech-service-link">
+                        Discover more <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- UI/UX Design -->
+                <div class="our-tech-service-card">
+                    <div class="our-tech-service-header">
+                        <div>
+                            <h3 class="our-tech-service-title">UI/UX Design</h3>
+                        </div>
+                        <div class="our-tech-service-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                    </div>
+                    <p class="our-tech-service-description">
+                        Experience captivating interfaces, seamless navigation, and intuitive user experiences and guide them.
+                    </p>
+                    <a href="#" class="our-tech-service-link">
+                        Discover more <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Mobile App Development -->
+                <div class="our-tech-service-card">
+                    <div class="our-tech-service-header">
+                        <div>
+                            <h3 class="our-tech-service-title">Mobile App<br>Development</h3>
+                        </div>
+                        <div class="our-tech-service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                    <p class="our-tech-service-description">
+                        Dominate the mobile-first world with our innovative mobile app and unique modern solutions.
+                    </p>
+                    <a href="#" class="our-tech-service-link">
+                        Discover more <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Build AI Agent -->
+                <div class="our-tech-service-card">
+                    <div class="our-tech-service-header">
+                        <div>
+                            <h3 class="our-tech-service-title">Build AI Agent</h3>
+                        </div>
+                        <div class="our-tech-service-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                    </div>
+                    <p class="our-tech-service-description">
+                        Specialists in building intelligent, autonomous AI agents that drive smarter, data-driven decisions.
+                    </p>
+                    <a href="#" class="our-tech-service-link">
+                        Discover more <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        class OurTechServices {
+            constructor() {
+                this.cards = document.querySelectorAll('.our-tech-service-card');
+                this.init();
+            }
+
+            init() {
+                this.setupScrollAnimations();
+                this.setupHoverEffects();
+            }
+
+            setupScrollAnimations() {
+                // Intersection Observer for scroll animations
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('animate');
+                        }
+                    });
+                }, {
+                    threshold: 0.1,
+                    rootMargin: '0px 0px -50px 0px'
+                });
+
+                this.cards.forEach(card => {
+                    observer.observe(card);
+                });
+            }
+
+            setupHoverEffects() {
+                this.cards.forEach(card => {
+                    const icon = card.querySelector('.our-tech-service-icon');
+                    const link = card.querySelector('.our-tech-service-link');
+
+                    card.addEventListener('mouseenter', () => {
+                        icon.style.transform = 'scale(1.1) rotate(5deg)';
+                        link.style.color = '#1d4ed8';
+                    });
+
+                    card.addEventListener('mouseleave', () => {
+                        icon.style.transform = 'scale(1) rotate(0deg)';
+                        link.style.color = '#3b82f6';
+                    });
+                });
+            }
+        }
+
+        // Initialize when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            new OurTechServices();
+        });
+
+        // Add smooth scroll behavior for discover more links
+        document.querySelectorAll('.our-tech-service-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                
+                // Add click animation
+                const card = link.closest('.our-tech-service-card');
+                card.style.transform = 'translateY(-12px) scale(1.02)';
+                
+                setTimeout(() => {
+                    card.style.transform = '';
+                }, 200);
+
+                // You can add navigation logic here
+                console.log('Navigating to:', link.textContent.trim());
+            });
+        });
+    </script>
+</body>
+</html>

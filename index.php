@@ -926,7 +926,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                         alignment. Monotonectally harness an expanded array of models via effective
                                         collaboration. Globally synergize resource sucking value via cutting-edge.</p>
                                     <h3 class="box-title">David Farnandes</h3>
-                                    <p class="testi-grid_desig">CEO at Anaton</p>
+                                    <!-- <p class="testi-grid_desig">CEO at Anaton</p> -->
                                 </div>
                             </div>
                         </div>
@@ -945,7 +945,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                         alignment. Monotonectally harness an expanded array of models via effective
                                         collaboration. Globally synergize resource sucking value via cutting-edge.</p>
                                     <h3 class="box-title">Jackline Techie</h3>
-                                    <p class="testi-grid_desig">CEO at Kormola</p>
+                                    <!-- <p class="testi-grid_desig">CEO at Kormola</p> -->
                                 </div>
                             </div>
                         </div>
@@ -964,7 +964,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                         alignment. Monotonectally harness an expanded array of models via effective
                                         collaboration. Globally synergize resource sucking value via cutting-edge.</p>
                                     <h3 class="box-title">Abraham Khalil</h3>
-                                    <p class="testi-grid_desig">CEO at Anatora</p>
+                                    <!-- <p class="testi-grid_desig">CEO at Anatora</p> -->
                                 </div>
                             </div>
                         </div>
@@ -983,7 +983,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                         alignment. Monotonectally harness an expanded array of models via effective
                                         collaboration. Globally synergize resource sucking value via cutting-edge.</p>
                                     <h3 class="box-title">Md Sumon Mia</h3>
-                                    <p class="testi-grid_desig">CEO at Rimasu</p>
+                                    <!-- <p class="testi-grid_desig">CEO at Rimasu</p> -->
                                 </div>
                             </div>
                         </div>
@@ -1002,7 +1002,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                         alignment. Monotonectally harness an expanded array of models via effective
                                         collaboration. Globally synergize resource sucking value via cutting-edge.</p>
                                     <h3 class="box-title">David Farnandes</h3>
-                                    <p class="testi-grid_desig">CEO at Anaton</p>
+                                    <!-- <p class="testi-grid_desig">CEO at Anaton</p> -->
                                 </div>
                             </div>
                         </div>
@@ -1021,7 +1021,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                         alignment. Monotonectally harness an expanded array of models via effective
                                         collaboration. Globally synergize resource sucking value via cutting-edge.</p>
                                     <h3 class="box-title">Jackline Techie</h3>
-                                    <p class="testi-grid_desig">CEO at Kormola</p>
+                                    <!-- <p class="testi-grid_desig">CEO at Kormola</p> -->
                                 </div>
                             </div>
                         </div>
@@ -1040,7 +1040,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                         alignment. Monotonectally harness an expanded array of models via effective
                                         collaboration. Globally synergize resource sucking value via cutting-edge.</p>
                                     <h3 class="box-title">Abraham Khalil</h3>
-                                    <p class="testi-grid_desig">CEO at Anatora</p>
+                                    <!-- <p class="testi-grid_desig">CEO at Anatora</p> -->
                                 </div>
                             </div>
                         </div>
@@ -1059,7 +1059,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                         alignment. Monotonectally harness an expanded array of models via effective
                                         collaboration. Globally synergize resource sucking value via cutting-edge.</p>
                                     <h3 class="box-title">Md Sumon Mia</h3>
-                                    <p class="testi-grid_desig">CEO at Rimasu</p>
+                                    <!-- <p class="testi-grid_desig">CEO at Rimasu</p> -->
                                 </div>
                             </div>
                         </div>
