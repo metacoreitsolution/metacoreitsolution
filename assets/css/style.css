@@ -346,6 +346,9 @@ h6 {
 }
 
 @media (max-width: 767px) {
+    .th-mobile-menu ul li a:before{
+        display: none !important;
+    }
 
     .h1,
     h1 {

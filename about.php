@@ -226,7 +226,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                     <div class="counter-card">
                         <div class="counter-card_icon"><img src="assets/img/icon/counter_1_1.svg" alt="Icon"></div>
                         <div class="media-body">
-                            <h2 class="counter-card_number"><span class="counter-number">15</span>+</h2>
+                            <h2 class="counter-card_number"><span class="counter-number">8</span>+</h2>
                             <p class="counter-card_text">Finished Project</p>
                         </div>
                     </div>
@@ -235,7 +235,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                     <div class="counter-card">
                         <div class="counter-card_icon"><img src="assets/img/icon/counter_1_2.svg" alt="Icon"></div>
                         <div class="media-body">
-                            <h2 class="counter-card_number"><span class="counter-number">8</span>+</h2>
+                            <h2 class="counter-card_number"><span class="counter-number">5</span>+</h2>
                             <p class="counter-card_text">Happy Clients</p>
                         </div>
                     </div>
@@ -253,7 +253,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                     <div class="counter-card">
                         <div class="counter-card_icon"><img src="assets/img/icon/counter_1_4.svg" alt="Icon"></div>
                         <div class="media-body">
-                            <h2 class="counter-card_number"><span class="counter-number">10</span>+</h2>
+                            <h2 class="counter-card_number"><span class="counter-number">8</span>+</h2>
                             <p class="counter-card_text">Teams</p>
                         </div>
                     </div>
