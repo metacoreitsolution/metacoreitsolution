@@ -26,7 +26,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 <div class="contact-info">
                     <div class="contact-info_icon"><i class="fas fa-location-dot"></i></div>
                     <div class="media-body">
-                        <h4 class="box-title">Our Office Address</h4><span class="contact-info_text">Ahmedabad, Gujarat, India </span>
+                        <h4 class="box-title">Office Address</h4><span class="contact-info_text">Ahmedabad, Gujarat, India </span>
                     </div>
                 </div>
             </div>
@@ -35,7 +35,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                     <div class="contact-info_icon"><i class="fas fa-phone"></i></div>
                     <div class="media-body"> 
                         <h4 class="box-title">Call Us Anytime</h4><span class="contact-info_text"><a
-                                href="tel:+919265738337">+91 92657 38337</a> </span>
+                                href="tel:+919265738337">+91 9104902707</a> </span>
                     </div>
                 </div>
             </div>

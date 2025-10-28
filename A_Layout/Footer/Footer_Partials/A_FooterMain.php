@@ -60,8 +60,8 @@ echo
                             <div class="th-widget-about style2">
                                 <p class="about-text">MetaCore IT Solution delivers innovative software and mobile app
                                     solutions tailored to modern business needs.</p>
-                                <div class="th-social"><a href="https://www.linkedin.com/"><i
-                                            class="fab fa-linkedin-in"></i></a> <a href="https://www.youtube.com/"><i
+                                <div class="th-social"><a href="https://www.linkedin.com/in/metacore-it-solution-3aab23382/"><i
+                                            class="fab fa-linkedin-in"></i></a> <a href="https://www.instagram.com/metacoreitsolution?igsh=MW1qcXBwOThwem11ZA=="><i
                                             class="fab fa-instagram"></i></a></div>
                             </div>
                         </div>
@@ -107,7 +107,7 @@ echo
                                 <ul class="list-unstyled text-white">
                                     <li class="mb-2">
                                         <i class="fas fa-phone-alt me-2"></i>
-                                        <a href="tel:+919265738337" class="text-white text-decoration-none">+91 92657 38337</a>
+                                        <a href="tel:+919265738337" class="text-white text-decoration-none">+91 9104902707</a>
                                     </li>
                                     <li class="mb-2">
                                         <i class="fas fa-envelope me-2"></i>
