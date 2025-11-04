@@ -87,7 +87,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 </div>
                 <div class="col-xl-6 d-flex justify-content-center align-items-center">
                     <div class="img-box14 mt-50 mt-xl-0">
-                        <div class="img1"><img src="assets/img/normal/about_10_1.jpg" alt="About"></div>
+                        <div class="img1"><img src="assets/img/vector/custom-software-development.png" alt="About"></div>
                     </div>
                 </div>
             </div>
@@ -153,7 +153,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
     <div class="choose-area m-2 mt-0 th-radius2 overflow-hidden space">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-6">
+                <div class="col-xl-12">
                     <div class="title-area mb-20"><span class="sub-title sub-title3 style1">Your Trusted Custom Software Partner</span>
                         <h2 class="sec-title">Crafting scalable, secure, and intelligent software—built for your unique business journey.</h2>
                     </div>
@@ -166,11 +166,6 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <li><i class="fa-light fa-square-check"></i>Cloud-Native Expertise</li>
                             <li><i class="fa-light fa-square-check"></i>Agile & Transparent Process</li>    
                         </ul>
-                    </div>
-                </div>
-                <div class="col-xl-6">
-                    <div class="choose-image global-image">
-                        <div class="img1 th-anim"><img src="https://metacoreitsolution.com/assets/img/normal/choose_1.png" alt="Choose"></div>
                     </div>
                 </div>
             </div>

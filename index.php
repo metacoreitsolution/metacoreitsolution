@@ -157,7 +157,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 </div>
                 <div class="col-xl-6 d-flex justify-content-center align-items-center">
                     <div class="process-image2 d-flex justify-content-center"><img
-                            src="assets/img/normal/process-image.jpg" alt="" class="w-80"></div>
+                            src="assets/img/vector/home-1.png" alt="" class="w-80"></div>
                 </div>
             </div>
         </div>
@@ -300,7 +300,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
             <div class="row">
                 <div class="col-xl-7 mb-30 mb-xl-0 ps-xl-5 d-flex justify-content-center align-items-center">
                     <div class="img-box25 me-xl-5">
-                        <div class="img1"><img src="assets/img/normal/about_23_1.jpg" alt="About"></div>
+                        <div class="img1"><img src="assets/img/vector/home-2.png" alt="About"></div>
                         <div class="th-experience2">
                             <h2 class="experience-year"><span class="counter-number">5</span>+</h2>
                             <p class="experience-text">Years <span>of experience</span></p>
@@ -387,7 +387,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
             <div class="row align-items-center">
                 <div class="col-xl-7 mb-30 mb-xl-0">
                     <div class="img-box25">
-                        <div class="img1"><img src="assets/img/normal/about_25_1.png" alt="About"></div>
+                        <div class="img1"><img src="assets/img/vector/home-3.png" alt="About"></div>
+                        
                     </div>
                 </div>
                 <div class="col-xl-5">

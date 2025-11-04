@@ -166,7 +166,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <div class="img-shape icon-masking"><span class="mask-icon"
                                 data-mask-src="assets/img/normal/about_3_1-shape.png"></span> <img
                                 src="assets/img/normal/about_3_1-shape.png" alt="img"></div><img
-                            src="assets/img/normal/faq_1_1.png" alt="Faq">
+                            src="assets/img/vector/faq.png" alt="Faq">
                     </div>
                 </div>
             </div>

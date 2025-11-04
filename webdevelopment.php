@@ -41,8 +41,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 infrastructures.</p>
                             <div class="row">
                                 <div class="col-md-6 mb-30">
-                                    <div class="th-video"><img class="w-100"
-                                            src="assets/img/service/service_inner_1.jpg" alt="service"></div>
+                                    <div class="th-video d-flex justify-content-center"><img class="w-50"
+                                            src="assets/img/vector/web-development.png" alt="service"></div>
                                 </div>
                                 <div class="col-md-6 mb-30">
                                     <h3 class="h4 mb-20">We Serve The Best Work</h3>

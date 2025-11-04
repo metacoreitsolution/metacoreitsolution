@@ -25,12 +25,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
             <div class="row align-items-center">
                 <div class="col-xl-6 mb-30 mb-xl-0">
                     <div class="img-box1">
-                        <div class="img1"><img src="assets/img/normal/about_1_1.png" alt="About"></div>
+                        <div class="img1"><img src="assets/img/vector/about-1.png" alt="About"></div>
                         <div class="shape1"><img src="assets/img/normal/about_shape_1.png" alt="shape"></div>
-                        <div class="year-counter">
-                            <h3 class="year-counter_number"><span class="counter-number">3</span>+</h3>
-                            <p class="year-counter_text">Years Experience</p>
-                        </div>
                     </div>
                 </div>
                 <div class="col-xl-6">
@@ -266,7 +262,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-xxl-7 col-xl-6 mb-30 mb-xl-0">
                     <div class="img-box2">
-                        <div class="img1"><img src="assets/img/normal/why_1_1.jpg" alt="Why"></div>
+                        <div class="img1"><img src="assets/img/vector/RetailE-Commercesolution-1.png" alt="Why"></div>
                     </div>
                 </div>
                 <div class="col-xxl-5 col-xl-6">

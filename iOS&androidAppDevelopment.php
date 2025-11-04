@@ -25,9 +25,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
             <div class="row align-items-center">
                 <div class="col-xl-6 mb-30 mb-xl-0">
                     <div class="img-box3">
-                        <div class="img1"><img src="assets/img/normal/about_2_1.jpg" alt="About"></div>
-                        <div class="img2"><img src="assets/img/normal/about_2_2.jpg" alt="About"></div>
-                        <div class="img3"><img src="assets/img/normal/about_2_3.jpg" alt="About"></div>
+                        <div class="img1"><img src="assets/img/vector/iOS&androidAppDevelopment-1.png" alt="About"></div>
                         <div class="shape1"><img src="assets/img/normal/about_2_shape.png" alt="About"></div>
                     </div>
                 </div>
@@ -59,11 +57,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
         <div class="container space">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-xl-6 mb-30 mb-xl-0">
-                    <div class="img-box5"><img class="tilt-active" src="assets/img/normal/why_2_1.png" alt="Why">
-                        <div class="year-counter">
-                            <h3 class="year-counter_number"><span class="counter-number">8</span>+</h3>
-                            <p class="year-counter_text">Clients Active</p>
-                        </div>
+                    <div class="img-box5"><img class="tilt-active" src="assets/img/vector/iOS&androidAppDevelopment-2.png" alt="Why">
                     </div>
                 </div>
                 <div class="col-xl-6">
@@ -119,9 +113,9 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <p class="mb-30">Our expert developers then design a tailored software solution that aligns with your unique business needs. We follow an agile, stage-wise development approach—building, testing, and refining each module with your feedback. This iterative process ensures flexibility, transparency, and a high-quality outcome.</p>
                             <div class="row">
                                 <div class="col-md-6 mb-30">
-                                    <div class="th-video"><img class="w-100"
-                                            src="assets/img/service/service_inner_1.jpg" alt="service"> <a
-                                            class=""></a></div>
+                                    <div class="th-video d-flex justify-content-center"><img class="" style="width: 70%;"
+                                            src="assets/img/vector/iOS&androidAppDevelopment-3.png" alt="service"> <a
+                                            class="" ></a></div>
                                 </div>
                                 <div class="col-md-6 mb-30">
                                     <h3 class="h4 mb-20">Key Features / Service Points</h3>
@@ -215,7 +209,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <div class="img-shape icon-masking"><span class="mask-icon"
                                 data-mask-src="assets/img/normal/about_3_1-shape.png"></span> <img
                                 src="assets/img/normal/about_3_1-shape.png" alt="img"></div><img
-                            src="assets/img/normal/faq_1_1.png" alt="Faq">
+                            src="assets/img/vector/canva/26.png" alt="Faq">
                     </div>
                 </div>
             </div>
