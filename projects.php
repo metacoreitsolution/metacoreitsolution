@@ -25,7 +25,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
             <div class="row align-items-center">
                 <div class="col-xl-6 mb-30 mb-xl-0">
                     <div class="img-box1 d-flex justify-content-center align-items-center">
-                        <div class="img1"><img src="assets/img/projects/1.png" alt="About" style="max-width: 450px !important;"></div>
+                        <div class="img1"><img src="assets/img/projects/3.png" alt="About" style="max-width: 450px !important;"></div>
                     </div>
                 </div>
                 <div class="col-xl-6">
@@ -97,7 +97,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 </div>
                 <div class="col-xl-6 mb-30 mb-xl-0">
                     <div class="img-box1 d-flex justify-content-center align-items-center">
-                        <div class="img1"><img src="assets/img/projects/3.png" alt="About" style="max-width: 450px !important;"></div>
+                        <div class="img1"><img src="assets/img/projects/2.png" alt="About" style="max-width: 450px !important;"></div>
                     </div>
                 </div>
             </div>
@@ -140,7 +140,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
             <div class="row align-items-center">
                 <div class="col-xl-6 mb-30 mb-xl-0">
                     <div class="img-box1 d-flex justify-content-center align-items-center">
-                        <div class="img1"><img src="assets/img/projects/2.png" alt="About" style="max-width: 450px !important;"></div>
+                        <div class="img1"><img src="assets/img/projects/1.png" alt="About" style="max-width: 450px !important;"></div>
                     </div>
                 </div>
                 <div class="col-xl-6">

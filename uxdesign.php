@@ -34,8 +34,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <p class="mb-30">From wireframing and prototyping to final design handoff, we ensure a user-first strategy backed by real feedback and testing. Whether it’s a mobile app or a web platform, our responsive, scalable, and brand-consistent designs help you stand out and deliver meaningful user journeys that drive business success.</p>
                             <div class="row">
                                 <div class="col-md-6 mb-30">
-                                    <div class="th-video"><img class="w-100"
-                                            src="assets/img/service/service_inner_1.jpg" alt="service"> <a
+                                    <div class="th-video d-flex justify-content-center"><img  width="60%"
+                                            src="assets/img/mockup/ui-ix.png" alt="service"> <a
                                             class=""></a></div>
                                 </div>
                                 <div class="col-md-6 mb-30">
@@ -71,7 +71,9 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 </div>
                             </div>
                             <h3 class="h4 mt-35 mb-4">Questions About Service</h3>
-                            <div class="accordion-area accordion" id="faqAccordion">
+                            <div class="row">
+                                <div class="col-md-7">
+                                <div class="accordion-area accordion" id="faqAccordion">
                                 <div class="accordion-card style2 active">
                                     <div class="accordion-header" id="collapse-item-1"><button class="accordion-button"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1"
@@ -83,6 +85,36 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                         </div>
                                     </div>
                                 </div>
+                                <div class="accordion-card style2">
+    <div class="accordion-header" id="collapse-item-4">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
+            What tools do you use for UI/UX design projects?
+        </button>
+    </div>
+    <div id="collapse-4" class="accordion-collapse collapse"
+        aria-labelledby="collapse-item-4" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+            <p class="faq-text">We use tools like Figma, Adobe XD, and Sketch for design, and conduct prototyping and user testing for accuracy.</p>
+        </div>
+    </div>
+</div>
+
+<div class="accordion-card style2">
+    <div class="accordion-header" id="collapse-item-5">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
+            How long does a typical UI/UX project take to complete?
+        </button>
+    </div>
+    <div id="collapse-5" class="accordion-collapse collapse"
+        aria-labelledby="collapse-item-5" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+            <p class="faq-text">Project duration varies based on scope, but most UI/UX projects take 2–6 weeks from research to final prototype.</p>
+        </div>
+    </div>
+</div>
+
                                 <div class="accordion-card style2">
                                     <div class="accordion-header" id="collapse-item-2"><button
                                             class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -110,6 +142,17 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                     </div>
                                 </div>
                             </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="img-box6">
+                        <div class="img1"><img src="assets/img/normal/about_4_1.png" alt="About"></div>
+                        <div class="shape1"><img src="assets/img/normal/about_4_2.png" alt="About"></div>
+                        <div class="shape2"><img src="assets/img/normal/about_4_3.png" alt="About"></div>
+                        <div class="color-animate"></div>
+                    </div>
+                            </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>

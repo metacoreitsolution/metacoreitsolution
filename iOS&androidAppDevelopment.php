@@ -25,8 +25,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
             <div class="row align-items-center">
                 <div class="col-xl-6 mb-30 mb-xl-0">
                     <div class="img-box3">
-                        <div class="img1"><img src="assets/img/vector/iOS&androidAppDevelopment-1.png" alt="About"></div>
-                        <div class="shape1"><img src="assets/img/normal/about_2_shape.png" alt="About"></div>
+                        <div class="img1"><img src="assets/img/mockup/ios.png" alt="About"></div>
+                        <!-- <div class="shape1"><img src="assets/img/normal/about_2_shape.png" alt="About"></div> -->
                     </div>
                 </div>
                 <div class="col-xl-6">
@@ -57,12 +57,12 @@ include __DIR__ . '/A_Layout/Header/header.php';
         <div class="container space">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-xl-6 mb-30 mb-xl-0">
-                    <div class="img-box5"><img class="tilt-active" src="assets/img/vector/iOS&androidAppDevelopment-2.png" alt="Why">
+                    <div class="img-box5"><img class="tilt-active" src="assets/img/mockup/ios-smart.png" alt="Why">
                     </div>
                 </div>
                 <div class="col-xl-6">
                     <div class="title-area mb-35">
-                        <div class="shadow-title color2 color3">What is</div><span class="sub-title">
+                        <div class="shadow-title color2 color2">What is</div><span class="sub-title">
                             <div class="icon-masking me-2"><span class="mask-icon"
                                     data-mask-src="assets/img/theme-img/title_shape_2.svg"></span> <img
                                             src="assets/img/theme-img/title_shape_2.svg" alt="shape"></div>iOS & Android App Development?
@@ -114,7 +114,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <div class="row">
                                 <div class="col-md-6 mb-30">
                                     <div class="th-video d-flex justify-content-center"><img class="" style="width: 70%;"
-                                            src="assets/img/vector/iOS&androidAppDevelopment-3.png" alt="service"> <a
+                                            src="assets/img/mockup/ios-Key-Features.png" alt="service"> <a
                                             class="" ></a></div>
                                 </div>
                                 <div class="col-md-6 mb-30">
@@ -206,10 +206,15 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 </div>
                 <div class="col-xl-6 mt-35 mt-xl-0">
                     <div class="faq-img tilt-active">
-                        <div class="img-shape icon-masking"><span class="mask-icon"
+                        <!-- <div class="img-shape icon-masking"><span class="mask-icon"
                                 data-mask-src="assets/img/normal/about_3_1-shape.png"></span> <img
-                                src="assets/img/normal/about_3_1-shape.png" alt="img"></div><img
-                            src="assets/img/vector/canva/26.png" alt="Faq">
+                                src="assets/img/normal/about_3_1-shape.png" alt="img"></div> -->
+                               <div class="img-box6">
+                        <div class="img1"><img src="assets/img/normal/about_4_1.png" alt="About"></div>
+                        <div class="shape1"><img src="assets/img/normal/about_4_2.png" alt="About"></div>
+                        <div class="shape2"><img src="assets/img/normal/about_4_3.png" alt="About"></div>
+                        <div class="color-animate"></div>
+                    </div>
                     </div>
                 </div>
             </div>

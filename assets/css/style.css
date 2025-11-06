@@ -7274,8 +7274,8 @@ a.text-theme:hover,
 }
 
 .header-logo {
-    padding-top   : 15px;
-    padding-bottom: 15px
+    padding-top   : 11px;
+    padding-bottom: 11px
 }
 
 @media (max-width: 575px) {
@@ -11552,7 +11552,7 @@ a.text-theme:hover,
 
 @media (max-width: 767px) {
     .breadcumb-wrapper {
-        padding: 100px 0
+        padding: 120px 0
     }
 }
 
@@ -24688,7 +24688,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .img-box15 .img1 img {
-    box-shadow   : 10px 10px 50px 10px rgba(0, 31, 96, 0.2);
+    /* box-shadow   : 10px 10px 50px 10px rgba(0, 31, 96, 0.2); */
     border-radius: 10px
 }
 
@@ -25920,7 +25920,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .about-area25 {
-    background-color: #131313
+    background-color: #abc3ff52
 }
 
 .img-box25 {
@@ -33483,8 +33483,8 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .img-box2:before {
-    top                    : -20px;
-    left                   : -40px;
+    top                    : 12px;
+    left                   : -5px;
     opacity                : 0.5;
     -webkit-animation-delay: 0.2;
     animation-delay        : 0.2
@@ -35463,9 +35463,9 @@ span.select2-selection.select2-selection--single:focus {
     }
 }
 
-.faq-img5 img {
+/* .faq-img5 img {
     box-shadow: 10px 10px 50px 10px rgba(0, 31, 96, 0.2)
-}
+} */
 
 .faq-img5 .img2 {
     position: absolute;
@@ -39198,8 +39198,9 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .service-item3:hover {
-    background   : #1C1C25;
-    border-radius: 24px
+    background   : #789eff52;
+    border-radius: 24px;
+    border: 3px dotted #5484FF;
 }
 
 .service-item3:hover .box-number {
@@ -39931,7 +39932,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .choose-area {
     position  : relative;
-    margin-top: 70px
+    margin-top: 20px
 }
 
 @media (max-width: 1299px) {
@@ -46842,10 +46843,10 @@ span.select2-selection.select2-selection--single:focus {
     }
 }
 
-.feature-thumb8_wrapp img {
+/* .feature-thumb8_wrapp img {
     box-shadow   : 10px 10px 50px 10px rgba(0, 31, 96, 0.2);
     border-radius: 25px
-}
+} */
 
 .feature-thumb8-1 {
     text-align: right

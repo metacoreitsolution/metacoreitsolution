@@ -52,9 +52,9 @@ include __DIR__ . '/A_Layout/Header/header.php';
             <div class="row align-items-center">
                 <div class="col-lg-5 mb-30 mb-lg-0">
                     <div class="img-box6">
-                        <div class="img1"><img src="assets/img/normal/about_4_1.png" alt="About"></div>
-                        <div class="shape1"><img src="assets/img/normal/about_4_2.png" alt="About"></div>
-                        <div class="shape2"><img src="assets/img/normal/about_4_3.png" alt="About"></div>
+                        <div class="img1"><img src="assets/img/mockup/health-care-solution.png" alt="About"></div>
+                        <!-- <div class="shape1"><img src="assets/img/normal/about_4_2.png" alt="About"></div> -->
+                        <!-- <div class="shape2"><img src="assets/img/normal/about_4_3.png" alt="About"></div> -->
                         <div class="color-animate"></div>
                     </div>
                 </div>
@@ -72,13 +72,13 @@ include __DIR__ . '/A_Layout/Header/header.php';
         </div>
     </section>
     <div class="">
-        <div class="container space">
+        <div class="container space pt-0">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-lg-6 mb-30 mb-lg-0">
                     <div class="img-box7">
-                        <div class="img1"><img src="assets/img/normal/why_3_1.png" alt="Why"></div>
-                        <div class="shape1"><img src="assets/img/normal/why_3_2.png" alt="About"></div>
-                        <div class="shape2"><img src="assets/img/normal/why_3_3.png" alt="About"></div>
+                        <div class="img1"><img src="assets/img/mockup/61.png" alt="Why"></div>
+                        <!-- <div class="shape1"><img src="assets/img/normal/why_3_2.png" alt="About"></div> -->
+                        <!-- <div class="shape2"><img src="assets/img/normal/why_3_3.png" alt="About"></div> -->
                         <div class="color-animate"></div>
                     </div>
                 </div>

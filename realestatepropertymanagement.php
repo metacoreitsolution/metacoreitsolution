@@ -28,10 +28,10 @@ include __DIR__ . '/A_Layout/Header/header.php';
             <div class="row align-items-center">
                 <div class="col-xl-6 mb-30 mb-xl-0">
                     <div class="img-box3">
-                        <div class="img1"><img src="assets/img/normal/about_2_1.jpg" alt="About"></div>
-                        <div class="img2"><img src="assets/img/normal/about_2_2.jpg" alt="About"></div>
-                        <div class="img3"><img src="assets/img/normal/about_2_3.jpg" alt="About"></div>
-                        <div class="shape1"><img src="assets/img/normal/about_2_shape.png" alt="About"></div>
+                        <div class="img1"><img src="assets/img/mockup/realestate-property-management.avif" alt="About"></div>
+                        <!-- <div class="img2"><img src="assets/img/normal/about_2_2.jpg" alt="About"></div> -->
+                        <!-- <div class="img3"><img src="assets/img/normal/about_2_3.jpg" alt="About"></div> -->
+                        <!-- <div class="shape1"><img src="assets/img/normal/about_2_shape.png" alt="About"></div> -->
                     </div>
                 </div>
                 <div class="col-xl-6">
@@ -103,7 +103,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                     </div>
                 </div>
                 <div class="col-xl-6 mt-40 mt-xl-0">
-                    <div class="video-box1"><img class="tilt-active" src="assets/img/normal/video_shape_1.png"
+                    <div class="video-box1"><img class="tilt-active" src="assets/img/mockup/realestate-property-management-choose.avif"
                             alt="Video"> </div>
                 </div>
             </div>
@@ -163,10 +163,12 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 </div>
                 <div class="col-xl-6 mt-35 mt-xl-0">
                     <div class="faq-img tilt-active">
-                        <div class="img-shape icon-masking"><span class="mask-icon"
-                                data-mask-src="assets/img/normal/about_3_1-shape.png"></span> <img
-                                src="assets/img/normal/about_3_1-shape.png" alt="img"></div><img
-                            src="assets/img/vector/faq.png" alt="Faq">
+                        <div class="img-box6">
+                        <div class="img1"><img src="assets/img/normal/about_4_1.png" alt="About"></div>
+                        <div class="shape1"><img src="assets/img/normal/about_4_2.png" alt="About"></div>
+                        <div class="shape2"><img src="assets/img/normal/about_4_3.png" alt="About"></div>
+                        <div class="color-animate"></div>
+                    </div>
                     </div>
                 </div>
             </div>

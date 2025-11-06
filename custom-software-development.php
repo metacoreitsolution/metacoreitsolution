@@ -64,7 +64,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
         <div class="container th-container4">
             <div class="row justify-content-between flex-row-reverse">
                 <div class="col-xl-6">
-                    <div class="ps-xl-5 ms-xl-4">
+                    <div class="ps-xl-5">
                         <div class="title-area mb-25"><span class="sub-title sub-title3 style1">Custom Software Development Services</span>
                             <h2 class="sec-title">Tailored, scalable, and cloud-ready solutions that grow with your business.</h2>
                         </div>
@@ -87,7 +87,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 </div>
                 <div class="col-xl-6 d-flex justify-content-center align-items-center">
                     <div class="img-box14 mt-50 mt-xl-0">
-                        <div class="img1"><img src="assets/img/vector/custom-software-development.png" alt="About"></div>
+                        <div class="img1"><img src="assets/img/mockup/custom-software-development.png" alt="About"></div>
                     </div>
                 </div>
             </div>
@@ -105,7 +105,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
             <div class="row gy-3 justify-content-between align-items-center">
                 <div class="col-md-6 col-xl-3">
                     <div class="service-box2 wow fadeInRight">
-                        <div class="service-box2_shape" data-bg-src="assets/img/shape/ser_shape_1.png"></div>
+                        <!-- <div class="service-box2_shape" data-bg-src="assets/img/shape/ser_shape_1.png"></div> -->
                         <div class="service-box2_content">
                             <div class="service-box2_icon"><img src="assets/img/icon/service_3_1.svg" alt="Icon"></div>
                             <h3 class="box-title"><a href="about">Tailored to You</a></h3>
@@ -116,7 +116,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 </div>
                 <div class="col-md-6 col-xl-3">
                     <div class="service-box2 wow fadeInRight">
-                        <div class="service-box2_shape" data-bg-src="assets/img/shape/ser_shape_1.png"></div>
+                        <!-- <div class="service-box2_shape" data-bg-src="assets/img/shape/ser_shape_1.png"></div> -->
                         <div class="service-box2_content">
                             <div class="service-box2_icon"><img src="assets/img/icon/service_3_2.svg" alt="Icon"></div>
                             <h3 class="box-title"><a href="about">Scalable by Design</a></h3>
@@ -127,7 +127,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 </div>
                 <div class="col-md-6 col-xl-3">
                     <div class="service-box2 wow fadeInRight">
-                        <div class="service-box2_shape" data-bg-src="assets/img/shape/ser_shape_1.png"></div>
+                        <!-- <div class="service-box2_shape" data-bg-src="assets/img/shape/ser_shape_1.png"></div> -->
                         <div class="service-box2_content">
                             <div class="service-box2_icon"><img src="assets/img/icon/service_3_3.svg" alt="Icon"></div>
                             <h3 class="box-title"><a href="about">Smarter Operations</a></h3>
@@ -138,7 +138,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 </div>
                 <div class="col-md-6 col-xl-3">
                     <div class="service-box2 wow fadeInRight">
-                        <div class="service-box2_shape" data-bg-src="assets/img/shape/ser_shape_1.png"></div>
+                        <!-- <div class="service-box2_shape" data-bg-src="assets/img/shape/ser_shape_1.png"></div> -->
                         <div class="service-box2_content">
                             <div class="service-box2_icon"><img src="assets/img/icon/service_3_4.svg" alt="Icon"></div>
                             <h3 class="box-title"><a href="about">Cloud & Secure</a></h3>
@@ -153,7 +153,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
     <div class="choose-area m-2 mt-0 th-radius2 overflow-hidden space">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-12">
+                <div class="col-xl-7">
                     <div class="title-area mb-20"><span class="sub-title sub-title3 style1">Your Trusted Custom Software Partner</span>
                         <h2 class="sec-title">Crafting scalable, secure, and intelligent software—built for your unique business journey.</h2>
                     </div>
@@ -167,6 +167,9 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <li><i class="fa-light fa-square-check"></i>Agile & Transparent Process</li>    
                         </ul>
                     </div>
+                </div>
+                <div class="col-xl-5">
+                    <img src="assets/img/mockup/custom-software-developmentCrafting-scalable.png" alt="">
                 </div>
             </div>
         </div>
