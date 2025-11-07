@@ -96,6 +96,7 @@ echo
     </ul>
 </li>
                     <li class="menu-item-has-children"><a href="blog">Blog</a></li>
+                    <li class="menu-item-has-children d-block d-md-none"><a href="contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -167,7 +168,7 @@ echo
                             </nav>
                         </div>
                         <div class="col-auto">
-                            <div class="header-button d-none d-lg-inline-block"><a href="contact"
+                            <div class="header-button "><a href="contact"
                                     class="th-btn btn-gradient2 style-radius ' ?><?php if ($page == "contact.php") {
                                     echo 'active';
                                 } ?><?php echo '">Contact</a></div><button type="button"

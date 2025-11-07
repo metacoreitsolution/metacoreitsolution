@@ -25,15 +25,15 @@ include __DIR__ . '/A_Layout/Header/header.php';
             <div class="row justify-content-between align-items-center">
                 <div class="col-xl-6">
                     <div class="img-box20 pe-xl-5 me-xl-2">
-                        <div class="img1"><img src="assets/img/normal/about_17_1.jpg" alt="About">
-                            <div class="about-shape17"></div>
+                        <div class="img1"><img src="assets/img/mockup/billing-accounting-software.png " alt="About">
+                            <!-- <div class="about-shape17"></div> -->
                         </div>
-                        <div class="th-experience">
+                        <!-- <div class="th-experience">
                             <div class="th-experience_content">
                                 <h2 class="experience-year"><span class="counter-number">25</span></h2>
                                 <p class="experience-text">Years of experience in startup building</p>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-xl-6">
@@ -60,15 +60,15 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 </ul>
                             </div>
                         </div>
-                        <div class="btn-group style3"><a href="about"
+                        <!-- <div class="btn-group style3"><a href="about"
                                 class="th-btn style-radius text-capitalize">Contact us</a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
         </div>
     </div>
-     <div class="choose-area overflow-hidden mb-5">
+     <div class="choose-area  overflow-hidden mb-5 space pt-0">
         <div class="container th-container4">
             <div class="row">
                 
@@ -114,7 +114,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 </div>
                 <div class="col-xl-6 d-flex justify-content-center align-items-center">
                     <div class="choose-image4 pe-xl-5 me-xl-4">
-                        <div class="img1"><img src="assets/img/normal/choose_3.jpg" alt="Choose"></div>
+                        <div class="img1"><img src="assets/img/mockup/billing-accounting-software-choose.png" alt="Choose"></div>
                     </div>
                 </div>
             </div>

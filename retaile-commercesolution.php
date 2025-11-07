@@ -30,8 +30,8 @@ Retail and E-Commerce Solution</li>
             <div class="row justify-content-between">
                 <div class="col-xl-6 d-flex justify-content-center align-items-center">
                     <div class="img-box22">
-                        <div class="img1"><img src="assets/img/normal/about_20_1.jpg" alt="About"></div>
-                        <div class="img2 jump"><img src="assets/img/normal/about_20_2.jpg" alt="About"></div>
+                        <div class=""><img src="assets/img/mockup/RetailE-Commercesolution.png" alt="About"></div>
+                        <!-- <div class="img2 jump"><img src="assets/img/normal/about_20_2.jpg" alt="About"></div> -->
                     </div>
                 </div>
                 <div class="col-xl-6">
@@ -101,10 +101,10 @@ Retail and E-Commerce Solution</li>
                 </div>
                 <div class="col-xl-6">
                     <div class="feature-thumb14_wrapp">
-                        <div class="feature-thumb14-1"><img src="assets/img/normal/feature-img-12-1.jpg" alt="img">
+                        <div class="feature-thumb14-1 d-flex justify-content-center"><img src="assets/img/mockup/RetailE-Commercesolution-choose.png" alt="img">
                         </div>
-                        <div class="feature-thumb14-2 jump"><img src="assets/img/normal/feature-img-12-2.jpg" alt="img">
-                        </div>
+                        <!-- <div class="feature-thumb14-2 jump"><img src="assets/img/normal/feature-img-12-2.jpg" alt="img">
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -160,7 +160,7 @@ Retail and E-Commerce Solution</li>
                     </div>
                 </div>
                 <div class="col-xl-6">
-                    <div class="faq10-image pt-30"><img src="assets/img/normal/faq_10_1.png" alt=""></div>
+                    <div class="faq10-image pt-30 d-flex justify-content-center"><img src="assets/img/vector/faq.png" alt=""></div>
                 </div>
             </div>
         </div>

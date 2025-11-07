@@ -39,8 +39,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             </div>
                         </div>
                         <div class="col-xl-6">
-                            <div class="th-hero-image">
-                                <div class="th-hero-thumb"><img src="assets/img/hero/hero_img_15_1.png" alt="img"></div>
+                            <div class="th-hero-image ">
+                                <div class="th-hero-thumb d-flex justify-content-center"><img src="assets/img/hero/hero_img_15_1.png" alt="img" width="70%"></div>
                             </div>
                         </div>
                     </div>
@@ -122,7 +122,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
     <section class="process-area8 space pt-0" id="process-sec" data-bg-src="assets/img/bg/process_bg_5.png">
         <div class="container th-container4">
             <div class="row justify-content-center">
-                <div class="col-lg-7">
+                <div class="col-lg-7 mt-5 mt-md-0">
                     <div class="title-area text-center pe-xl-3 me-xl-3"><span class="sub-title sub-title8">Smart
                             Solutions, Real Impact</span>
                         <h2 class="sec-title sec-title3">Tailored Tech Solutions for <span>Tomorrow’s </span> Business
@@ -185,7 +185,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 </div>
             </div>
             <div class="row gy-16">
-                <div class="col-12">
+                <div class="col-md-6 col-12">
                     <div class="service-item3">
                         <div class="service-wrapp">
                             <div class="box-number">1.</div>
@@ -196,25 +196,9 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="service-button"><a href="ai-machine-learning-development"
-                                class="th-btn btn-gradient2 style-radius">See Details</a> <a
+                        <div class="service-button"><a
                                 href="ai-machine-learning-development" class="icon-btn"><img src="assets/img/icon/arrow-right.svg"
                                     alt=""></a></div>
-                    </div>
-                    <div class="service-item3">
-                        <div class="service-wrapp">
-                            <div class="box-number">2.</div>
-                            <div class="box-content">
-                                <h3 class="box-title">Custom Software Development</h3>
-                                <div class="box-list"><span>Software Architecture</span> <span>.NET Development</span>
-                                    <span>AI-Powered Software</span> <span>Python Development</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="service-button"><a href="custom-software-development"
-                                class="th-btn btn-gradient2 style-radius">See Details</a> <a
-                                href="custom-software-development" class="icon-btn"><img
-                                    src="assets/img/icon/arrow-right.svg" alt=""></a></div>
                     </div>
                     <div class="service-item3">
                         <div class="service-wrapp">
@@ -226,24 +210,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="service-button"><a href="ux-design"
-                                class="th-btn btn-gradient2 style-radius">See Details</a> <a href="ux-design"
+                        <div class="service-button"> <a 
                                 class="icon-btn"><img src="assets/img/icon/arrow-right.svg" alt=""></a></div>
-                    </div>
-                    <div class="service-item3">
-                        <div class="service-wrapp">
-                            <div class="box-number">4.</div>
-                            <div class="box-content">
-                                <h3 class="box-title">Android App Development</h3>
-                                <div class="box-list"><span>Kotlin Development</span> <span>Android Studio</span>
-                                    <span>API Integration</span> <span>IoT Android Apps</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="service-button"><a href="iOS&androidAppDevelopment"
-                                class="th-btn btn-gradient2 style-radius">See Details</a> <a
-                                href="iOS&androidAppDevelopment" class="icon-btn"><img
-                                    src="assets/img/icon/arrow-right.svg" alt=""></a></div>
                     </div>
                      <div class="service-item3">
                         <div class="service-wrapp">
@@ -255,11 +223,40 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="service-button"><a href="cross-platform-app-development"
-                                class="th-btn btn-gradient2 style-radius">See Details</a> <a
+                        <div class="service-button"> <a
                                 href="cross-platform-app-development" class="icon-btn"><img
                                     src="assets/img/icon/arrow-right.svg" alt=""></a></div>
                     </div> 
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="service-item3">
+                        <div class="service-wrapp">
+                            <div class="box-number">2.</div>
+                            <div class="box-content">
+                                <h3 class="box-title">Custom Software Development</h3>
+                                <div class="box-list"><span>Software Architecture</span> <span>.NET Development</span>
+                                    <span>AI-Powered Software</span> <span>Python Development</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-button"><a  
+                                href="custom-software-development" class="icon-btn"><img
+                                    src="assets/img/icon/arrow-right.svg" alt=""></a></div>
+                    </div>
+                    <div class="service-item3">
+                        <div class="service-wrapp">
+                            <div class="box-number">4.</div>
+                            <div class="box-content">
+                                <h3 class="box-title">Android App Development</h3>
+                                <div class="box-list"><span>Kotlin Development</span> <span>Android Studio</span>
+                                    <span>API Integration</span> <span>IoT Android Apps</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-button"> <a
+                                href="iOS&androidAppDevelopment" class="icon-btn"><img
+                                    src="assets/img/icon/arrow-right.svg" alt=""></a></div>
+                    </div>
                     <div class="service-item3">
                         <div class="service-wrapp">
                             <div class="box-number">6.</div>
@@ -270,8 +267,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="service-button"><a href="web-development"
-                                class="th-btn btn-gradient2 style-radius">See Details</a> <a
+                        <div class="service-button"> <a
                                 href="web-development" class="icon-btn"><img
                                     src="assets/img/icon/arrow-right.svg" alt=""></a></div>
                     </div> 
@@ -284,12 +280,12 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 src="assets/img/shape/shape_17.png" alt="shape"></div>
         <div class="shape-mockup movingX d-none d-xl-block" data-top="35%" data-left="2%"><img
                 src="assets/img/shape/shape_18.png" alt="shape"></div>
-        <div class="shape-mockup d-none d-xl-block" data-top="25%" data-right="5%"><img
-                src="assets/img/shape/shape_19.png" alt="shape"></div>
+        <!-- <div class="shape-mockup d-none d-xl-block" data-top="25%" data-right="5%"><img
+                src="assets/img/shape/shape_19.png" alt="shape"></div> -->
         <div class="shape-mockup d-none d-xl-block" data-top="38%" data-right="6%"><img
                 src="assets/img/shape/shape_20.png" alt="shape"></div>
-        <div class="shape-mockup spin d-none d-xl-block" data-top="53%" data-left="7%"><img
-                src="assets/img/shape/shape_21.png" alt="shape"></div>
+        <!-- <div class="shape-mockup spin d-none d-xl-block" data-top="53%" data-left="7%"><img
+                src="assets/img/shape/shape_21.png" alt="shape"></div> -->
         <div class="shape-mockup spin d-none d-xl-block" data-bottom="26%" data-right="3%"><img
                 src="assets/img/shape/shape_23.png" alt="shape"></div>
         <div class="shape-mockup movingX d-none d-xl-block" data-bottom="40%" data-left="3%"><img
@@ -299,12 +295,12 @@ include __DIR__ . '/A_Layout/Header/header.php';
         <div class="container th-container4">
             <div class="row">
                 <div class="col-xl-7 mb-30 mb-xl-0 ps-xl-5 d-flex justify-content-center align-items-center">
-                    <div class="img-box25 me-xl-5">
-                        <div class="img1"><img src="assets/img/vector/home-2.png" alt="About"></div>
-                        <div class="th-experience2">
+                    <div class="">
+                        <div class="img1"><img src="assets/img/mockup/37.png" alt="About"></div>
+                        <!-- <div class="th-experience2">
                             <h2 class="experience-year"><span class="counter-number">5</span>+</h2>
                             <p class="experience-text">Years <span>of experience</span></p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-xl-5">
@@ -340,9 +336,9 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <h3 class="box-title">24/7 Client Support</h3>
                         </div>
                     </div>
-                    <div class="btn-group style3 mt-40"><a href="about"
+                    <!-- <div class="btn-group style3 mt-40"><a href="about"
                             class="th-btn btn-gradient2 style-radius">Learn More</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -382,19 +378,19 @@ include __DIR__ . '/A_Layout/Header/header.php';
         <div class="shape-mockup spin d-none d-xl-block" data-bottom="16%" data-right="6%"><img
                 src="assets/img/shape/shape_15.png" alt="shape"></div>
     </div>
-    <div class="about-area25 space overflow-hidden" id="about-sec">
+    <div class="about-area25 py-5 overflow-hidden" id="about-sec">
         <div class="container th-container4">
             <div class="row align-items-center">
                 <div class="col-xl-7 mb-30 mb-xl-0">
                     <div class="img-box25">
-                        <div class="img1"><img src="assets/img/vector/home-3.png" alt="About"></div>
+                        <div class="img1 d-flex justify-content-center"><img src="assets/img/mockup/119.png" alt="About"></div>
                         
                     </div>
                 </div>
                 <div class="col-xl-5">
                     <div class="title-area mb-35"><span class="sub-title">Engineering Culture That Drives
                             Innovation</span>
-                        <h2 class="sec-title text-white">Empowering Talent with Agile Thinking and Modern Methodologies
+                        <h2 class="sec-title text-dark">Empowering Talent with Agile Thinking and Modern Methodologies
                         </h2>
                     </div>
                     <p class="mt-n2 mb-25">At MetaCore IT Solution, we build a culture where top talent thrives on
@@ -404,14 +400,14 @@ include __DIR__ . '/A_Layout/Header/header.php';
                     <div class="checklist list-two-column style15">
                         <ul>
                             <li><img src="assets/img/icon/check_6.svg" alt="">Vision and Mission</li>
-                            <li><img src="assets/img/icon/check_6.svg" alt="">Skilled & Passionate Engineers</li>
+                            <li class="mb-4 mb-md-0"><img src="assets/img/icon/check_6.svg" alt="">Skilled & Passionate Engineers</li>
                         </ul>
                     </div>
                     <div class="checklist style15 mb-50">
                         <ul>
                             <li><img src="assets/img/icon/check_6.svg" alt="">Client-Centric Collaboration</li>
                         </ul>
-                    </div><a href="about" class="th-btn style-border3">Discover More</a>
+                    </div><a href="about" class="th-btn btn-gradient2 style-radius ">Discover More</a>
                 </div>
             </div>
         </div>
@@ -1049,9 +1045,11 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             </div>
                         </div> -->
                     </div>
-                </div><button data-slider-prev="#testiSlider3" class="slider-arrow style3 slider-prev"><i
-                        class="far fa-arrow-left"></i></button> <button data-slider-next="#testiSlider3"
-                    class="slider-arrow style3 slider-next"><i class="far fa-arrow-right"></i></button>
+                </div>
+                <!-- <button data-slider-prev="#testiSlider3" class="slider-arrow style3 slider-prev"><i
+                        class="far fa-arrow-left"></i></button> 
+                        <button data-slider-next="#testiSlider3"
+                    class="slider-arrow style3 slider-next"><i class="far fa-arrow-right"></i></button> -->
             </div>
         </div>
     </section>

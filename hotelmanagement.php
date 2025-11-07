@@ -85,9 +85,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         </div>
                     </div>
                     <div class="col-xl-6">
-                        <div class="img-box6">
-                            <div class="img1"><img src="assets/img/normal/about_5_1.jpg" alt="About"></div>
-                        </div>
+                        <img src="./assets/img/mockup/hotel-management.png" alt="">
+                    </div>
                     </div>
                 </div>
             </div>
@@ -97,21 +96,11 @@ include __DIR__ . '/A_Layout/Header/header.php';
         <div class="container th-container4">
             <div class="row align-items-center">
                 <div class="col-xl-6">
-                    <div class="faq-img4">
-                        <div class="img1 th-anim"><img src="assets/img/normal/faq_4_1.png" alt="faq"></div>
-                        <div class="img2 dance2 th-anim"><img src="assets/img/normal/faq_4_2.png" alt="faq"></div>
-                        <!-- <div class="faq-client-box jump">
-                            <div class="client-thumb-group"><img src="assets/img/testimonial/client-img-1.png"
-                                    alt="avater"></div>
-                                    <span class="cilent-box_title">Customer Feedbacks</span>
-                        </div> -->
-                        <div class="faq-client-box jump">
-                                <div class="th-experience_content">
-                                    <h2 class="experience-year"><span class="counter-number">5</span></h2>
-                                    <p class="experience-text">Years of experience in startup building</p>
-                                </div>
-                            </div>
-                        <div class="faq-shape"></div>
+                    <div class="img-box7">
+                        <div class="img1"><img src="assets/img/normal/why_3_1.png" alt="Why"></div>
+                        <div class="shape1"><img src="assets/img/normal/why_3_2.png" alt="About"></div>
+                        <div class="shape2"><img src="assets/img/normal/why_3_3.png" alt="About"></div>
+                        <div class="color-animate"></div>
                     </div>
                 </div>
                 <div class="col-xl-6">

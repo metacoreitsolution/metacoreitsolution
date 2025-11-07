@@ -41,8 +41,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 infrastructures.</p>
                             <div class="row">
                                 <div class="col-md-6 mb-30">
-                                    <div class="th-video d-flex justify-content-center"><img class="w-50"
-                                            src="assets/img/vector/web-development.png" alt="service"></div>
+                                    <div class="th-video d-flex justify-content-center"><img class="w-60"
+                                            src="assets/img/mockup/web-development.png" alt="service"></div>
                                 </div>
                                 <div class="col-md-6 mb-30">
                                     <h3 class="h4 mb-20">We Serve The Best Work</h3>
@@ -86,7 +86,9 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 </div>
                             </div>
                             <h3 class="h4 mt-35 mb-4">Questions About Service</h3>
-                            <div class="accordion-area accordion" id="faqAccordion">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="accordion-area accordion" id="faqAccordion">
                                 <div class="accordion-card style2 active">
                                     <div class="accordion-header" id="collapse-item-1"><button class="accordion-button"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1"
@@ -133,6 +135,16 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                                 market-driven schemas rather than clicks-and-mortar benefits.</p>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="img-box6">
+                        <div class="img1"><img src="assets/img/normal/about_4_1.png" alt="About"></div>
+                        <div class="shape1"><img src="assets/img/normal/about_4_2.png" alt="About"></div>
+                        <!-- <div class="shape2"><img src="assets/img/normal/about_4_3.png" alt="About"></div> -->
+                        <div class="color-animate"></div>
+                    </div>
                                 </div>
                             </div>
                         </div>

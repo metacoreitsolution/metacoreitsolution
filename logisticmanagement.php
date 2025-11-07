@@ -28,11 +28,11 @@ include __DIR__ . '/A_Layout/Header/header.php';
             <div class="row align-items-center">
                 <div class="col-xl-7">
                     <div class="img-box14">
-                        <div class="img1"><img src="assets/img/normal/about_12_1.jpg" alt="About"></div>
-                        <div class="img2"><img src="assets/img/normal/about_12_3.jpg" alt="About"></div>
-                        <div class="img3"><img src="assets/img/normal/about_12_2.jpg" alt="About"></div>
-                        <div class="shape1"><img src="assets/img/normal/about_12_shape.png" alt="About"></div>
-                        <div class="shape2"><img src="assets/img/normal/about_12_1_shape.png" alt="About"></div>
+                        <div class="img1 d-flex justify-content-center"><img src="assets/img/mockup/logistic-management.png" alt="About"></div>
+                        <!-- <div class="img2"><img src="assets/img/normal/about_12_3.jpg" alt="About"></div> -->
+                        <!-- <div class="img3"><img src="assets/img/normal/about_12_2.jpg" alt="About"></div> -->
+                        <!-- <div class="shape1"><img src="assets/img/normal/about_12_shape.png" alt="About"></div> -->
+                        <!-- <div class="shape2"><img src="assets/img/normal/about_12_1_shape.png" alt="About"></div> -->
                     </div>
                 </div>
                 <div class="col-xl-5">
@@ -54,7 +54,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
             </div>
         </div>
     </div>
-    <div class="overflow-hidden space" id="about-sec">
+    <div class="overflow-hidden space pt-0" id="about-sec">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-6">
@@ -84,15 +84,15 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="btn-group"><a href="about" class="th-btn">DISCOVER MORE<i
+                        <!-- <div class="btn-group"><a href="about" class="th-btn">DISCOVER MORE<i
                                     class="fa-regular fa-arrow-right ms-2"></i></a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-xl-6 mb-30 mb-xl-0">
                     <div class="img-box1">
-                        <div class="img1"><img src="assets/img/normal/about_1_1.png" alt="About"></div>
-                        <div class="shape1"><img src="assets/img/normal/about_shape_1.png" alt="shape"></div>
+                        <div class="img1"><img src="assets/img/mockup/logistic-management-choose.png" alt="About"></div>
+                        <!-- <div class="shape1"><img src="assets/img/normal/about_shape_1.png" alt="shape"></div> -->
                        
                     </div>
                 </div>

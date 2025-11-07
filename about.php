@@ -25,7 +25,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
             <div class="row align-items-center">
                 <div class="col-xl-6 mb-30 mb-xl-0">
                     <div class="img-box1">
-                        <div class="img1"><img src="assets/img/vector/about-1.png" alt="About"></div>
+                        <div class="img1"><img src="assets/img/mockup/121.png" alt="About"></div>
                         <div class="shape1"><img src="assets/img/normal/about_shape_1.png" alt="shape"></div>
                     </div>
                 </div>
@@ -262,7 +262,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-xxl-7 col-xl-6 mb-30 mb-xl-0">
                     <div class="img-box2">
-                        <div class="img1"><img src="assets/img/vector/RetailE-Commercesolution-1.png" alt="Why"></div>
+                        <div class="img1"><img src="assets/img/mockup/Story-Origin.png" alt="Why"></div>
                     </div>
                 </div>
                 <div class="col-xxl-5 col-xl-6">
@@ -302,7 +302,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 <div class="swiper th-slider has-shadow" id="serviceSlider1"
                     data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"4"}}}'>
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
+                        <div class="swiper-slide d-flex justify-content-center">
                             <div class="service-grid">
                                 <div class="service-grid_icon"><img src="assets/img/icon/service_card_1.svg" alt="Icon">
                                 </div>
@@ -313,7 +313,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
+                        <div class="swiper-slide d-flex justify-content-center">
                             <div class="service-grid">
                                 <div class="service-grid_icon"><img src="assets/img/icon/service_card_2.svg" alt="Icon">
                                 </div>
@@ -324,7 +324,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
+                        <div class="swiper-slide d-flex justify-content-center">
                             <div class="service-grid">
                                 <div class="service-grid_icon"><img src="assets/img/icon/service_card_3.svg" alt="Icon">
                                 </div>
@@ -335,7 +335,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
+                        <div class="swiper-slide d-flex justify-content-center">
                             <div class="service-grid">
                                 <div class="service-grid_icon"><img src="assets/img/icon/service_card_4.svg" alt="Icon">
                                 </div>
@@ -346,7 +346,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
+                        <div class="swiper-slide d-flex justify-content-center">
                             <div class="service-grid">
                                 <div class="service-grid_icon"><img src="assets/img/icon/service_card_5.svg" alt="Icon">
                                 </div>

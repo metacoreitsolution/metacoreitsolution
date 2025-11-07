@@ -49,10 +49,12 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 </div>
                 <div class="col-xl-7">
                     <div class="img-box15 mb-xl-0 mt-xl-0 mt-n4">
-                        <div class="img1"><img src="assets/img/normal/about_13_1.jpg" alt="About">
-                            <div class="img2 jump"><img src="assets/img/normal/about_13_2.jpg" alt="About"></div>
-                            <div class="img3 movingX"><img src="assets/img/normal/about_13_3.jpg" alt="About"></div>
-                            <div class="about-shape15"></div>
+                        <div class="img1 d-flex justify-content-center"><img src="assets/img/mockup/education-technology-solution.png" alt="About">
+                            <!-- <div class="img2 jump">
+                                <img src="assets/img/normal/about_13_2.jpg" alt="About"></div> -->
+                            <!-- <div class="img3 movingX">
+                                <img src="assets/img/normal/about_13_3.jpg" alt="About"></div> -->
+                            <!-- <div class="about-shape15"></div> -->
                         </div>
                     </div>
                 </div>
@@ -110,10 +112,10 @@ include __DIR__ . '/A_Layout/Header/header.php';
                     </div>
                     <div class="col-xl-6">
                         <div class="feature-thumb8_wrapp">
-                            <div class="feature-thumb8-1"><img src="assets/img/normal/feature-img-8-1.jpg" alt="img">
+                            <div class="feature-thumb8-1 d-flex justify-content-center"><img src="assets/img/mockup/education-technology-solution-management.png" alt="img">
                             </div>
-                            <div class="feature-thumb8-2 jump"><img src="assets/img/normal/feature-img-8-2.jpg"
-                                    alt="img"></div>
+                            <!-- <div class="feature-thumb8-2 jump"><img src="assets/img/normal/feature-img-8-2.jpg"
+                                    alt="img"></div> -->
                         </div>
                     </div>
                     <div class="col-12 space-bottom">
@@ -125,11 +127,11 @@ include __DIR__ . '/A_Layout/Header/header.php';
         <div class="container th-container4">
             <div class="row">
                 <div class="col-xl-6 d-flex justify-content-center align-items-center">
-                    <div class="faq-img5 mb-xl-0 mt-xl-0 mt-n4 me-xl-5 pe-xl-5">
-                        <div class="img1"><img src="assets/img/normal/faq_5_1.jpg" alt="About">
-                            <div class="img2 jump"><img src="assets/img/normal/faq_5_2.jpg" alt="About"></div>
+                    <div class="faq-img5 mb-xl-0 mt-xl-0 mt-n4 ">
+                        <div class="img1 d-flex justify-content-center"><img src="assets/img/vector/faq.png" alt="About">
+                            <!-- <div class="img2 jump"><img src="assets/img/normal/faq_5_2.jpg" alt="About"></div>
                             <div class="img3 movingX"><img src="assets/img/normal/faq_5_3.jpg" alt="About"></div>
-                            <div class="faq-shape5"></div>
+                            <div class="faq-shape5"></div> -->
                         </div>
                     </div>
                 </div>
