@@ -296,7 +296,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
             <div class="row">
                 <div class="col-xl-7 mb-30 mb-xl-0 ps-xl-5 d-flex justify-content-center align-items-center">
                     <div class="">
-                        <div class="img1"><img src="assets/img/mockup/37.png" alt="About"></div>
+                        <div class="img1"><img src="assets/img/mockup/Software-Development.png" alt="About"></div>
                         <!-- <div class="th-experience2">
                             <h2 class="experience-year"><span class="counter-number">5</span>+</h2>
                             <p class="experience-text">Years <span>of experience</span></p>
