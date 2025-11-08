@@ -8,17 +8,34 @@ $MetaKeywords = "Contact MetaCore, get in touch, request a quote, IT support, so
 <?php
 include __DIR__ . '/A_Layout/Header/header.php';
 ?>
-<div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
-    <div class="container">
-        <div class="breadcumb-content">
-            <h1 class="breadcumb-title">Contact Us</h1>
-            <ul class="breadcumb-menu">
-                <li><a href="home">Home</a></li>
-                <li>Contact Us</li>
-            </ul>
-        </div>
+
+ <section class="breadcumb-wrapper py-5" style="background-color: #e4e9ffff;">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Left Side: Text -->
+      <div class="col-md-6">
+        <nav class="d-flex align-items-center mb-3">
+          <ul class="breadcumb-menu list-unstyled d-flex align-items-center mb-0">
+            <li><a href="home" class="text-decoration-none text-dark fw-semibold">Home</a></li>
+            <li><a href="service" class=" fw-semibold" style="color: #9fb0ffff;">Contact Us</a></li>
+          </ul>
+        </nav>
+
+        <h1 class="breadcumb-title fw-bold mb-3 " style="color: #9fb0ffff;">Contact Us</h1>
+        <p class="text-dark mb-0">
+          Let’s connect and create something exceptional together — our team is here to help you every step of the way.
+        </p>
+      </div>
+
+      <!-- Right Side: Image -->
+      <div class="col-md-6 text-center">
+        <img src="./assets/img/hero/Contact.png" alt="About Us" class="img-fluid" style="max-width: 450px;">
+      </div>
+
     </div>
-</div>
+  </div>
+</section>
 <div class="space" id="contact-sec">
     <div class="container">
         <div class="row gy-4">

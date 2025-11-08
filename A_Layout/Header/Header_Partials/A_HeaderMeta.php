@@ -5,7 +5,7 @@ echo
 <html lang="en">
 
 <head>
-<base href="https://localhost/metacoreitsolution/">
+
 <meta charset="utf-8" />
 <meta http-equiv="x-ua-compatible" content="ie=edge" />
 

@@ -11,17 +11,35 @@ $MetaKeywords = "web development, web developer, website design, custom web solu
 <?php
 include __DIR__ . '/A_Layout/Header/header.php';
 ?>
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
-        <div class="container">
-            <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Web Development</h1>
-                <ul class="breadcumb-menu">
-                    <li><a href="home">Home</a></li>
-                    <li>Web Development</li>
-                </ul>
-            </div>
-        </div>
+
+     <section class="breadcumb-wrapper py-5" style="background-color: #def4ff;">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Left Side: Text -->
+      <div class="col-md-6">
+        <nav class="d-flex align-items-center mb-3">
+          <ul class="breadcumb-menu list-unstyled d-flex align-items-center mb-0">
+            <li><a href="home" class="text-decoration-none text-dark fw-semibold">Home</a></li>
+            <li><a href="service" class="text-decoration-none text-dark fw-semibold">Services</a></li>
+            <li class="text-primary fw-semibold">Web Development</li>
+          </ul>
+        </nav>
+
+        <h1 class="breadcumb-title fw-bold mb-3 text-primary">Web Development</h1>
+        <p class="text-dark mb-0">
+          Build dynamic, responsive, and high-performing websites that elevate your digital presence and drive business growth.
+        </p>
+      </div>
+
+      <!-- Right Side: Image -->
+      <div class="col-md-6 text-center">
+        <img src="./assets/img/hero/Web-Development.png" alt="About Us" class="img-fluid" style="max-width: 450px;">
+      </div>
+
     </div>
+  </div>
+</section>
     <section class="space-top space-extra-bottom">
         <div class="container">
             <div class="row d-flex justify-content-center">

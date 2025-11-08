@@ -11,17 +11,34 @@ $MetaKeywords = "business solutions, industry solutions, MetaCore digital, IT so
 <?php
 include __DIR__ . '/A_Layout/Header/header.php';
 ?>
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
-        <div class="container">
-            <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Solution </h1>
-                <ul class="breadcumb-menu">
-                    <li><a href="home">Home</a></li>
-                    <li>Solution </li>
-                </ul>
-            </div>
-        </div>
+
+     <section class="breadcumb-wrapper py-5" style="background-color: #d2e1ffbd;">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Left Side: Text -->
+      <div class="col-md-6">
+        <nav class="d-flex align-items-center mb-3">
+          <ul class="breadcumb-menu list-unstyled d-flex align-items-center mb-0">
+            <li><a href="home" class="text-decoration-none text-dark fw-semibold">Home</a></li>
+            <li><a href="service" class=" fw-semibold" style="color: #88ACF9;">Solution</a></li>
+          </ul>
+        </nav>
+
+        <h1 class="breadcumb-title fw-bold mb-3 " style="color: #88ACF9;">Solution</h1>
+        <p class="text-dark mb-0">
+          Delivering intelligent, scalable solutions that solve real business challenges and drive digital success.
+        </p>
+      </div>
+
+      <!-- Right Side: Image -->
+      <div class="col-md-6 text-center">
+        <img src="./assets/img/hero/Solution.png" alt="About Us" class="img-fluid" style="max-width: 450px;">
+      </div>
+
     </div>
+  </div>
+</section>
     <section class="space" id="service-sec">
         <div class="container">
             <div class="row gy-4">

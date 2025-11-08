@@ -8,18 +8,34 @@ $MetaKeywords = "AI development, machine learning solutions, artificial intellig
 include __DIR__ . '/A_Layout/Header/header.php';
 ?>
 
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
-        <div class="container">
-            <div class="breadcumb-content">
-                <h1 class="breadcumb-title">AI & ML Development</h1>
-                <ul class="breadcumb-menu">
-                    <li><a href="home">Home</a></li>
-                    <li><a href="home">Services</a></li>
-                    <li>AI & ML Development</li>
-                </ul>
-            </div>
-        </div>
+    <section class="breadcumb-wrapper py-5" style="background-color: #def4ff;">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Left Side: Text -->
+      <div class="col-md-6">
+        <nav class="d-flex align-items-center mb-3">
+          <ul class="breadcumb-menu list-unstyled d-flex align-items-center mb-0">
+            <li><a href="home" class="text-decoration-none text-dark fw-semibold">Home</a></li>
+            <li><a href="service" class="text-decoration-none text-dark fw-semibold">Services</a></li>
+            <li class="text-primary fw-semibold">AI & ML Development</li>
+          </ul>
+        </nav>
+
+        <h1 class="breadcumb-title fw-bold mb-3 text-primary">AI & ML Development</h1>
+        <p class="text-dark mb-0">
+          Empower your business with intelligent automation and data-driven insights through cutting-edge AI & ML solutions designed for real-world impact.
+        </p>
+      </div>
+
+      <!-- Right Side: Image -->
+      <div class="col-md-6 text-center">
+        <img src="./assets/img/hero/aiml.png" alt="About Us" class="img-fluid" style="max-width: 450px;">
+      </div>
+
     </div>
+  </div>
+</section>
     <div class="space" id="about-sec">
         <div class="container th-container4">
             <div class="row">

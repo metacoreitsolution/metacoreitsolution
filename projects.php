@@ -9,17 +9,34 @@ $MetaKeywords = "About MetaCore Solution, our story, IT company profile, team, v
 include __DIR__ . '/A_Layout/Header/header.php';
 ?>
 
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/about-us.jpg">
-        <div class="container">
-            <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Projects</h1>
-                <ul class="breadcumb-menu">
-                    <li><a href="home">Home</a></li>
-                    <li>Projects</li>
-                </ul>
-            </div>
-        </div>
+
+     <section class="breadcumb-wrapper py-5" style="background-color: #def4ff;">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Left Side: Text -->
+      <div class="col-md-6">
+        <nav class="d-flex align-items-center mb-3">
+          <ul class="breadcumb-menu list-unstyled d-flex align-items-center mb-0">
+            <li><a href="home" class="text-decoration-none text-dark fw-semibold">Home</a></li>
+            <li><a href="service" class="text-primary fw-semibold">Project</a></li>
+          </ul>
+        </nav>
+
+        <h1 class="breadcumb-title fw-bold mb-3 text-primary">Project</h1>
+        <p class="text-dark mb-0">
+          Showcasing our successful projects that reflect innovation, precision, and impactful digital transformation.
+        </p>
+      </div>
+
+      <!-- Right Side: Image -->
+      <div class="col-md-6 text-center">
+        <img src="./assets/img/hero/project.png" alt="About Us" class="img-fluid" style="max-width: 450px;">
+      </div>
+
     </div>
+  </div>
+</section>
     <div class="overflow-hidden space pb-4 " id="about-sec">
         <div class="container">
             <div class="row align-items-center">

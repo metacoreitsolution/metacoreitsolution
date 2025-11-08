@@ -11,17 +11,35 @@ $MetaKeywords = "UI design, UX solutions, web design, user interface, user exper
 <?php
 include __DIR__ . '/A_Layout/Header/header.php';
 ?>
-    <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
-        <div class="container">
-            <div class="breadcumb-content">
-                <h1 class="breadcumb-title">UI/UX Design</h1>
-                <ul class="breadcumb-menu">
-                    <li><a href="home">Home</a></li>
-                    <li>UI/UX Design</li>
-                </ul>
-            </div>
-        </div>
+
+     <section class="breadcumb-wrapper py-5" style="background-color: #def4ff;">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Left Side: Text -->
+      <div class="col-md-6">
+        <nav class="d-flex align-items-center mb-3">
+          <ul class="breadcumb-menu list-unstyled d-flex align-items-center mb-0">
+            <li><a href="home" class="text-decoration-none text-dark fw-semibold">Home</a></li>
+            <li><a href="service" class="text-decoration-none text-dark fw-semibold">Services</a></li>
+            <li class="text-primary fw-semibold">UI/UX Design</li>
+          </ul>
+        </nav>
+
+        <h1 class="breadcumb-title fw-bold mb-3 text-primary">UI/UX Design</h1>
+        <p class="text-dark mb-0">
+          Crafting human-centered UI/UX designs that blend creativity, usability, and seamless interaction.
+        </p>
+      </div>
+
+      <!-- Right Side: Image -->
+      <div class="col-md-6 text-center">
+        <img src="./assets/img/hero/UI-UX-Design.png" alt="About Us" class="img-fluid" style="max-width: 450px;">
+      </div>
+
     </div>
+  </div>
+</section>
     <section class="space-top space-extra-bottom">
         <div class="container">
             <div class="row d-flex justify-content-center">
