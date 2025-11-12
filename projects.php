@@ -227,7 +227,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 </div>
                 <div class="col-xl-6 mb-30 mb-xl-0">
                     <div class="img-box1 d-flex justify-content-center align-items-center">
-                        <div class="img1"><img src="assets/img/projects/online-booking.png" alt="About" style="max-width: 650px !important;"></div>
+                        <div class="img1"><img src="assets/img/projects/online-booking.jpeg" alt="About" style="max-width: 650px !important;"></div>
                     </div>
                 </div>
             </div>
