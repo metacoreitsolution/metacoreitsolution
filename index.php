@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $Title = "MetaCore Solution | IT Services & Digital Solutions Provider";
 $MetaDescription = "MetaCore Solution delivers cutting-edge IT services, software development, and digital solutions to help businesses grow and succeed online.";
 $MetaKeywords = "MetaCore Solution, IT services, software development, digital solutions, web development, mobile apps, tech company";
@@ -184,93 +184,149 @@ include __DIR__ . '/A_Layout/Header/header.php';
                     </div>
                 </div>
             </div>
-            <div class="row gy-16">
-                <div class="col-md-6 col-12">
-                    <div class="service-item3">
-                        <div class="service-wrapp">
-                            <div class="box-number">1.</div>
-                            <div class="box-content">
-                                <h3 class="box-title"> AI & Machine Learning Solutions</h3>
-                                <div class="box-list"><span>Python</span> <span>TensorFlow</span>
-                                    <span>AWS SageMaker</span> <span>Pytorch</span>
-                                </div>
-                            </div>
+           <div class="our-tech-services-grid">
+                <!-- AR/VR Development -->
+                <div class="our-tech-service-card">
+                    <div class="our-tech-service-header">
+                        <div>
+                            <h3 class="our-tech-service-title">AR/VR<br>Development</h3>
                         </div>
-                        <div class="service-button"><a
-                                href="ai-machine-learning-development" class="icon-btn"><img src="assets/img/icon/arrow-right.svg"
-                                    alt=""></a></div>
+                        <div class="our-tech-service-icon">
+                            <i class="fas fa-vr-cardboard"></i>
+                        </div>
                     </div>
-                    <div class="service-item3">
-                        <div class="service-wrapp">
-                            <div class="box-number">3.</div>
-                            <div class="box-content">
-                                <h3 class="box-title">UX/UI Design</h3>
-                                <div class="box-list"><span>UI Design</span> <span>UX Design</span>
-                                    <span>User-Centered Design (UCD)</span> <span>Wireframing & Prototyping</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="service-button"> <a 
-                                class="icon-btn"><img src="assets/img/icon/arrow-right.svg" alt=""></a></div>
-                    </div>
-                     <div class="service-item3">
-                        <div class="service-wrapp">
-                            <div class="box-number">5.</div>
-                            <div class="box-content">
-                                <h3 class="box-title">Cross Platform App Development</h3>
-                                <div class="box-list"><span>Flutter</span> <span>API Integration</span>
-                                    <span>AR/VR Apps</span> <span>React Native</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="service-button"> <a
-                                href="cross-platform-app-development" class="icon-btn"><img
-                                    src="assets/img/icon/arrow-right.svg" alt=""></a></div>
-                    </div> 
+                    <p class="our-tech-service-description">
+                        Give your business an innovative edge with our new-age AR/VR development services that bring immersive experiences to life.
+                    </p>
+                    <a href="#" class="our-tech-service-link">
+                        Discover more <i class="fas fa-arrow-right"></i>
+                    </a>
                 </div>
-                <div class="col-md-6 col-12">
-                    <div class="service-item3">
-                        <div class="service-wrapp">
-                            <div class="box-number">2.</div>
-                            <div class="box-content">
-                                <h3 class="box-title">Custom Software Development</h3>
-                                <div class="box-list"><span>Software Architecture</span> <span>.NET Development</span>
-                                    <span>AI-Powered Software</span> <span>Python Development</span>
-                                </div>
-                            </div>
+
+                <!-- Game Development -->
+                <div class="our-tech-service-card">
+                    <div class="our-tech-service-header">
+                        <div>
+                            <h3 class="our-tech-service-title">Game development</h3>
                         </div>
-                        <div class="service-button"><a  
-                                href="custom-software-development" class="icon-btn"><img
-                                    src="assets/img/icon/arrow-right.svg" alt=""></a></div>
+                        <div class="our-tech-service-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
                     </div>
-                    <div class="service-item3">
-                        <div class="service-wrapp">
-                            <div class="box-number">4.</div>
-                            <div class="box-content">
-                                <h3 class="box-title">Android App Development</h3>
-                                <div class="box-list"><span>Kotlin Development</span> <span>Android Studio</span>
-                                    <span>API Integration</span> <span>IoT Android Apps</span>
-                                </div>
-                            </div>
+                    <p class="our-tech-service-description">
+                        Unleash the power of fun and engagement through our cutting-edge game development expertise.
+                    </p>
+                    <a href="#" class="our-tech-service-link">
+                        Discover more <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Blockchain Development -->
+                <div class="our-tech-service-card">
+                    <div class="our-tech-service-header">
+                        <div>
+                            <h3 class="our-tech-service-title">Blockchain<br>Development</h3>
                         </div>
-                        <div class="service-button"> <a
-                                href="iOS&androidAppDevelopment" class="icon-btn"><img
-                                    src="assets/img/icon/arrow-right.svg" alt=""></a></div>
+                        <div class="our-tech-service-icon">
+                            <i class="fas fa-link"></i>
+                        </div>
                     </div>
-                    <div class="service-item3">
-                        <div class="service-wrapp">
-                            <div class="box-number">6.</div>
-                            <div class="box-content">
-                                <h3 class="box-title">Web Development</h3>
-                                <div class="box-list"><span>Full-Stack Development</span> <span>React.js / Angular / Vue.js</span>
-                                    <span>WordPress Development</span> <span>Progressive Web Apps (PWA)</span>
-                                </div>
-                            </div>
+                    <p class="our-tech-service-description">
+                        Transparent and decentralized ecosystems for your business with our blockchain expertise.
+                    </p>
+                    <a href="#" class="our-tech-service-link">
+                        Discover more <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- AI/ML Development -->
+                <div class="our-tech-service-card">
+                    <div class="our-tech-service-header">
+                        <div>
+                            <h3 class="our-tech-service-title">AI/ML<br>Development</h3>
                         </div>
-                        <div class="service-button"> <a
-                                href="web-development" class="icon-btn"><img
-                                    src="assets/img/icon/arrow-right.svg" alt=""></a></div>
-                    </div> 
+                        <div class="our-tech-service-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                    </div>
+                    <p class="our-tech-service-description">
+                        AI/ML-driven models that help your business scale and grow faster with intelligent solutions.
+                    </p>
+                    <a href="ai-machine-learning-development" class="our-tech-service-link">
+                        Discover more <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Website Development -->
+                <div class="our-tech-service-card">
+                    <div class="our-tech-service-header">
+                        <div>
+                            <h3 class="our-tech-service-title">Website<br>Development</h3>
+                        </div>
+                        <div class="our-tech-service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                    <p class="our-tech-service-description">
+                        Help your business expand with our comprehensive web development services that simplify everything & cater to your needs.
+                    </p>
+                    <a href="web-development" class="our-tech-service-link">
+                        Discover more <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- UI/UX Design -->
+                <div class="our-tech-service-card">
+                    <div class="our-tech-service-header">
+                        <div>
+                            <h3 class="our-tech-service-title">UI/UX Design</h3>
+                        </div>
+                        <div class="our-tech-service-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                    </div>
+                    <p class="our-tech-service-description">
+                        Experience captivating interfaces, seamless navigation, and intuitive user experiences and guide them.
+                    </p>
+                    <a href="ux-design" class="our-tech-service-link">
+                        Discover more <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Mobile App Development -->
+                <div class="our-tech-service-card">
+                    <div class="our-tech-service-header">
+                        <div>
+                            <h3 class="our-tech-service-title">Mobile App<br>Development</h3>
+                        </div>
+                        <div class="our-tech-service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                    <p class="our-tech-service-description">
+                        Dominate the mobile-first world with our innovative mobile app and unique modern solutions.
+                    </p>
+                    <a href="iOS&androidAppDevelopment" class="our-tech-service-link">
+                        Discover more <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Build AI Agent -->
+                <div class="our-tech-service-card">
+                    <div class="our-tech-service-header">
+                        <div>
+                            <h3 class="our-tech-service-title">Build AI Agent</h3>
+                        </div>
+                        <div class="our-tech-service-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                    </div>
+                    <p class="our-tech-service-description">
+                        Specialists in building intelligent, autonomous AI agents that drive smarter, data-driven decisions.
+                    </p>
+                    <a href="#" class="our-tech-service-link">
+                        Discover more <i class="fas fa-arrow-right"></i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -291,6 +347,191 @@ include __DIR__ . '/A_Layout/Header/header.php';
         <div class="shape-mockup movingX d-none d-xl-block" data-bottom="40%" data-left="3%"><img
                 src="assets/img/shape/shape_13.png" alt="shape"></div>
     </section>
+
+     <section class="our-tech-section mt-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="text-center">
+                        <h2 class="our-tech-title">Our Tech Stack</h2>
+                        <p class="our-tech-subtitle">
+                            Our expertise spans over 100+ innovative technologies and platforms, enabling us to deliver customized business solutions.
+                        </p>
+                    </div>
+
+                    <div class="our-tech-nav-container">
+                        <div class="our-tech-nav" id="ourTechNav">
+                            <button class="our-tech-nav-item active" data-category="web">Web</button>
+                            <button class="our-tech-nav-item" data-category="mobile">Mobile</button>
+                            <button class="our-tech-nav-item" data-category="devops">DevOps</button>
+                            <button class="our-tech-nav-item" data-category="cloud">Cloud</button>
+                            <button class="our-tech-nav-item" data-category="platforms">Platforms</button>
+                            <button class="our-tech-nav-item" data-category="database">Relational Databases</button>
+                            <button class="our-tech-nav-item" data-category="bigdata">Big Data</button>
+                            <button class="our-tech-nav-item" data-category="ml">Machine Learning</button>
+                            <button class="our-tech-nav-item" data-category="automation">Automation Testing</button>
+                        </div>
+                        
+                        <div class="our-tech-arrows d-none d-lg-flex">
+                            <button class="our-tech-arrow" id="ourTechPrev">‹</button>
+                            <button class="our-tech-arrow" id="ourTechNext">›</button>
+                        </div>
+                    </div>
+
+                    <div class="our-tech-content">
+                        <!-- Backend Technologies -->
+                        <div class="our-tech-category" id="backend">
+                            <div class="our-tech-category-title">BACK END</div>
+                            <div class="our-tech-icons-grid">
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" alt="Swift">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" alt=".NET">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" alt="Go">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" alt="Ruby">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Web Technologies -->
+                        <div class="our-tech-category active" id="web">
+                            <div class="our-tech-category-title">FRONT END</div>
+                            <div class="our-tech-icons-grid">
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Angular">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue.js">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/ember/ember.png" alt="Ember">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="Sass">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Mobile Technologies -->
+                        <div class="our-tech-category" id="mobile">
+                            <div class="our-tech-category-title">MOBILE</div>
+                            <div class="our-tech-icons-grid">
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Native">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" alt="iOS">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" alt="Android">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- DevOps Technologies -->
+                        <div class="our-tech-category" id="devops">
+                            <div class="our-tech-category-title">DEVOPS</div>
+                            <div class="our-tech-icons-grid">
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" alt="Terraform">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Cloud Technologies -->
+                        <div class="our-tech-category" id="cloud">
+                            <div class="our-tech-category-title">CLOUD</div>
+                            <div class="our-tech-icons-grid">
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" alt="AWS">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="Google Cloud">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original.svg" alt="DigitalOcean">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Database Technologies -->
+                        <div class="our-tech-category" id="database">
+                            <div class="our-tech-category-title">DATABASES</div>
+                            <div class="our-tech-icons-grid">
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+                                </div>
+                                <div class="our-tech-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <div class="about-area22 position-relative space" id="about-sec" data-bg-src="assets/img/bg/about_bg_2.jpg">
         <div class="container th-container4">
             <div class="row">
@@ -343,7 +584,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
             </div>
         </div>
     </div>
-    <div class="about-area26 position-relative space-top" id="about-sec">
+    <div class="about-area26 position-relative mt-5 mb-5" id="about-sec">
         <div class="container th-container4">
             <div class="row align-items-center">
                 <div class="col-xl-6">
@@ -1297,6 +1538,103 @@ include __DIR__ . '/A_Layout/Header/header.php';
             </div>
         </div>
     </div> -->
+
+    
+    <script>
+        class OurTechStack {
+            constructor() {
+                this.navItems = document.querySelectorAll('.our-tech-nav-item');
+                this.categories = document.querySelectorAll('.our-tech-category');
+                this.navContainer = document.getElementById('ourTechNav');
+                this.prevBtn = document.getElementById('ourTechPrev');
+                this.nextBtn = document.getElementById('ourTechNext');
+                this.currentIndex = 0;
+                
+                this.init();
+            }
+
+            init() {
+                // Navigation item click handlers
+                this.navItems.forEach((item, index) => {
+                    item.addEventListener('click', () => {
+                        this.switchCategory(item.dataset.category, index);
+                    });
+                });
+
+                // Arrow navigation
+                this.prevBtn?.addEventListener('click', () => this.navigateNav(-1));
+                this.nextBtn?.addEventListener('click', () => this.navigateNav(1));
+
+                // Initialize with Web category
+                this.switchCategory('web', 0);
+            }
+
+            switchCategory(category, index) {
+                // Update navigation active state
+                this.navItems.forEach(item => item.classList.remove('active'));
+                this.navItems[index].classList.add('active');
+                
+                // Update category display
+                this.categories.forEach(cat => {
+                    cat.classList.remove('active');
+                    if (cat.id === category) {
+                        cat.classList.add('active');
+                    }
+                });
+
+                this.currentIndex = index;
+                this.scrollToActiveNav();
+            }
+
+            navigateNav(direction) {
+                const newIndex = Math.max(0, Math.min(this.navItems.length - 1, this.currentIndex + direction));
+                const targetItem = this.navItems[newIndex];
+                
+                if (targetItem) {
+                    this.switchCategory(targetItem.dataset.category, newIndex);
+                }
+            }
+
+            scrollToActiveNav() {
+                const activeItem = this.navItems[this.currentIndex];
+                const container = this.navContainer;
+                const itemOffset = activeItem.offsetLeft;
+                const containerWidth = container.clientWidth;
+                const itemWidth = activeItem.clientWidth;
+                
+                const scrollPosition = itemOffset - (containerWidth / 2) + (itemWidth / 2);
+                container.scrollTo({
+                    left: Math.max(0, scrollPosition),
+                    behavior: 'smooth'
+                });
+            }
+        }
+
+        // Initialize when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            new OurTechStack();
+        });
+
+        // Add smooth scroll animation on category switch
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add intersection observer for animation on scroll
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            });
+
+            document.querySelectorAll('.our-tech-icon').forEach(icon => {
+                icon.style.opacity = '0';
+                icon.style.transform = 'translateY(20px)';
+                icon.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                observer.observe(icon);
+            });
+        });
+    </script>
     
 <?php
 include __DIR__ . '/A_Layout/Footer/footer.php';
