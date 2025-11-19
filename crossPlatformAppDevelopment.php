@@ -62,35 +62,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                     Native to run smoothly on both iOS and Android.
                     Our solutions save time and cost while ensuring a consistent, high-quality user experience across
                     devices.</p>
-                <div class="achivement-tab filter-menu-active indicator-active"><button data-filter=".cat1"
-                        class="active" type="button">Cross-Platform Code</button> <button data-filter=".cat2"
-                        type="button">Unified Experience</button></div>
-                <div class="achivement-box-area filter-active-cat1">
-                    <div class="filter-item w-100 cat1">
-                        <div class="achivement-box">
-                            <div class="achivement-box_img"><img src="assets/img/normal/about_3_1_1.jpg" alt="About">
-                            </div>
-                            <div class="media-body">
-                                <h3 class="box-title">Single Codebase, Dual Platform</h3>
-                                <p class="achivement-box_text">Develop once and run on both iOS & Android, reducing time
-                                    and cost without sacrificing quality.</p><a href="about" class="th-btn">About
-                                    More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="filter-item w-100 cat2">
-                        <div class="achivement-box">
-                            <div class="achivement-box_img"><img src="assets/img/normal/about_3_1_2.jpg" alt="About">
-                            </div>
-                            <div class="media-body">
-                                <h3 class="box-title">Consistent User Interface</h3>
-                                <p class="achivement-box_text">Deliver a smooth, native-like experience across all
-                                    devices with consistent design and functionality</p><a href="about"
-                                    class="th-btn">About More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                    <p>We create fast, reliable mobile apps using Flutter and React Native, designed to perform seamlessly on iOS and Android. Our approach delivers consistent UI, faster development cycles, and cost-effective solutions that scale effortlessly as your user base grows.</p>
             </div>
         </div>
     </div>

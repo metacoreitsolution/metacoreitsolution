@@ -42,7 +42,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
             <div class="row align-items-center">
                 <div class="col-xl-6 mb-30 mb-xl-0">
                     <div class="img-box1">
-                        <div class="img1"><img src="assets/img/mockup/121.png" alt="About"></div>
+                        <div class="img1"><img src="assets/img/mockup/112.png" alt="About"></div>
                         <div class="shape1"><img src="assets/img/normal/about_shape_1.png" alt="shape"></div>
                     </div>
                 </div>

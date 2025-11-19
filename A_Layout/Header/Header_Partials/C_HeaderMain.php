@@ -95,7 +95,7 @@ echo
                             <li><a href="logistic-management">Logistic Management</a></li>
     </ul>
 </li>
-                    <li class="menu-item-has-children"><a href="blog">Blog</a></li>
+                    <li class="menu-item-has-children"><a href="project">Project</a></li>
                     <li class="menu-item-has-children d-block d-md-none"><a href="contact">Contact</a></li>
                 </ul>
             </div>

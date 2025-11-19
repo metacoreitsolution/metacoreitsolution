@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $Title = "MetaCore Solution | IT Services & Digital Solutions Provider";
 $MetaDescription = "MetaCore Solution delivers cutting-edge IT services, software development, and digital solutions to help businesses grow and succeed online.";
 $MetaKeywords = "MetaCore Solution, IT services, software development, digital solutions, web development, mobile apps, tech company";
@@ -133,23 +133,14 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 </div>
             </div>
             <div class="row gy-4">
-                <div class="col-xl-6">
+                <div class="col-xl-6 d-flex justify-content-center align-items-center">
                     <div class="row gy-24">
                         <div class="col-12 process-card4-wrap">
                             <div class="process-card4">
                                 <div class="box-content">
-                                    <p class="process-card4_text">At MetaCore IT Solution, we <b> bridge the gap</b>
-                                        between <b>visionary ideas</b> and cutting-edge technology to build solutions
-                                        that empower businesses to thrive in the digital age. Whether you're in
-                                        healthcare, education, real estate, hospitality, or logistics, our team delivers
-                                        scalable mobile apps, enterprise systems, and AI-driven platforms tailored to
-                                        your needs. With a clear focus on innovation, security, and usability, we help
-                                        organizations stay agile and competitive in a fast-changing market.</p>
+                                    <p class="process-card4_text">At MetaCore IT Solution, we turn ideas into <b>powerful digital</b> products that help <b>businesses grow</b>. From healthcare and education to real estate, hospitality, and logistics, we build scalable mobile apps, enterprise systems, and AI-driven platforms designed for modern needs.</p>
                                     <br>
-                                    <p class="process-card4_text">We combine creativity, technical expertise, and
-                                        business insight to deliver user-focused digital solutions. From concept to
-                                        launch, we work closely with you to solve real problems and drive meaningful
-                                        growth.</p>
+                                    <p class="process-card4_text">We blend creativity, technology, and strategy to deliver user-focused solutions. From concept to launch, our team works closely with you to solve real challenges and drive meaningful business growth.</p>
                                 </div>
                             </div>
                         </div>
@@ -373,8 +364,18 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         </div>
                         
                         <div class="our-tech-arrows d-none d-lg-flex">
-                            <button class="our-tech-arrow" id="ourTechPrev">‹</button>
-                            <button class="our-tech-arrow" id="ourTechNext">›</button>
+                            <button class="our-tech-arrow" id="ourTechPrev">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-left" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8.354 1.646a.5.5 0 0 1 0 .708L2.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+  <path fill-rule="evenodd" d="M12.354 1.646a.5.5 0 0 1 0 .708L6.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+</svg>
+                            </button>
+                            <button class="our-tech-arrow" id="ourTechNext">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708"/>
+  <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708"/>
+</svg>
+                            </button>
                         </div>
                     </div>
 
@@ -492,9 +493,9 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <div class="our-tech-category" id="cloud">
                             <div class="our-tech-category-title">CLOUD</div>
                             <div class="our-tech-icons-grid">
-                                <div class="our-tech-icon">
+                                <!-- <div class="our-tech-icon">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" alt="AWS">
-                                </div>
+                                </div> -->
                                 <div class="our-tech-icon">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure">
                                 </div>
@@ -537,7 +538,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
             <div class="row">
                 <div class="col-xl-7 mb-30 mb-xl-0 ps-xl-5 d-flex justify-content-center align-items-center">
                     <div class="">
-                        <div class="img1"><img src="assets/img/mockup/Software-Development.png" alt="About"></div>
+                        <div class="img1"><img src="assets/img/mockup/50.png" alt="About"></div>
                         <!-- <div class="th-experience2">
                             <h2 class="experience-year"><span class="counter-number">5</span>+</h2>
                             <p class="experience-text">Years <span>of experience</span></p>

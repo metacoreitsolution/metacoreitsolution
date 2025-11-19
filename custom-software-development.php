@@ -83,7 +83,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 <div class="col-xl-6">
                     <div class="ps-xl-5">
                         <div class="title-area mb-25"><span class="sub-title sub-title3 style1">Custom Software Development Services</span>
-                            <h2 class="sec-title">Tailored, scalable, and cloud-ready solutions that grow with your business.</h2>
+                            <h2 class="sec-title">Scalable Cloud Solutions</h2>
                         </div>
                         <p class>We specialize in developing custom software solutions designed specifically to align with your business operations, goals, and workflows. Whether you're a startup seeking digital automation or an enterprise aiming to modernize legacy systems, our team delivers secure, scalable, and performance-driven applications. From discovery to deployment and ongoing support, we follow the complete software development lifecycle (SDLC) to ensure your product is robust, user-friendly, and future-ready—with built-in analytics and cloud integration using AWS, Azure, or Google Cloud.</p>
                         <div class="checklist style4 mb-40 list-two-column">
@@ -104,7 +104,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 </div>
                 <div class="col-xl-6 d-flex justify-content-center align-items-center">
                     <div class="img-box14 mt-50 mt-xl-0">
-                        <div class="img1"><img src="assets/img/mockup/custom-software-development.png" alt="About"></div>
+                        <div class="img1"><img src="assets/img/mockup/29.png" alt="About"></div>
                     </div>
                 </div>
             </div>
@@ -137,7 +137,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <div class="service-box2_content">
                             <div class="service-box2_icon"><img src="assets/img/icon/service_3_2.svg" alt="Icon"></div>
                             <h3 class="box-title"><a href="about">Scalable by Design</a></h3>
-                            <p class="service-box2_text">Easily adaptable and expandable as your business grows.</p><a href="about"
+                            <p class="service-box2_text">Easily adaptable and expandable as your business grows, offering true flexibility.</p><a href="about"
                                 class="icon-btn"><i class="fa-regular fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -148,7 +148,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <div class="service-box2_content">
                             <div class="service-box2_icon"><img src="assets/img/icon/service_3_3.svg" alt="Icon"></div>
                             <h3 class="box-title"><a href="about">Smarter Operations</a></h3>
-                            <p class="service-box2_text">Automates repetitive tasks to save your time and reduce errors.</p><a href="about"
+                            <p class="service-box2_text">Automates repetitive tasks to save time and reduce errors with the smart efficiency.</p><a href="about"
                                 class="icon-btn"><i class="fa-regular fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -159,7 +159,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <div class="service-box2_content">
                             <div class="service-box2_icon"><img src="assets/img/icon/service_3_4.svg" alt="Icon"></div>
                             <h3 class="box-title"><a href="about">Cloud & Secure</a></h3>
-                            <p class="service-box2_text">Cloud-ready with top-tier security on AWS, Azure, or Google Cloud.</p><a href="about"
+                            <p class="service-box2_text">Cloud-ready with top-tier security across AWS, Azure, and Google Cloud platforms.</p><a href="about"
                                 class="icon-btn"><i class="fa-regular fa-arrow-right"></i></a>
                         </div>
                     </div>

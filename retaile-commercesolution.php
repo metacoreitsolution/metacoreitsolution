@@ -34,7 +34,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
 
       <!-- Right Side: Image -->
       <div class="col-md-6 text-center">
-        <img src="./assets/img/hero/Retail-E-Commerce-Solution.png" alt="About Us" class="img-fluid" style="max-width: 450px;">
+        <img src="./assets/img/hero/re" alt="About Us" class="img-fluid" style="max-width: 450px;">
       </div>
 
     </div>
@@ -87,7 +87,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
         <div class="container th-container4">
             <div class="row justify-content-center justify-content-lg-between align-items-center">
                 <div class="col-xl-6">
-                    <div class="title-area"><span class="sub-title text-capitalize fs-20">
+                    <div class="title-area"><span class="sub-title text-capitalize fs-20 mt-5">
                             <div class="icon-masking me-2"><span class="mask-icon"
                                     data-mask-src="assets/img/theme-img/title_shape_5.svg"></span> <img
                                     src="assets/img/theme-img/title_shape_5.svg" alt="shape"></div>Why Choose Our E-Commerce Solution
@@ -118,8 +118,6 @@ include __DIR__ . '/A_Layout/Header/header.php';
                     <div class="feature-thumb14_wrapp">
                         <div class="feature-thumb14-1 d-flex justify-content-center"><img src="assets/img/mockup/RetailE-Commercesolution-choose.png" alt="img">
                         </div>
-                        <!-- <div class="feature-thumb14-2 jump"><img src="assets/img/normal/feature-img-12-2.jpg" alt="img">
-                        </div> -->
                     </div>
                 </div>
             </div>

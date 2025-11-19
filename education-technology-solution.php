@@ -105,25 +105,6 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <div class="feature-wrap">
                                 <div class="btn-wrap"><a href="about" class="th-btn style-radius">view details</a>
                                 </div>
-                                <div class="about-client-box style2 mb-sm-0 mb-3">
-                                    <div class="client-thumb-group">
-                                        <div class="thumb"><img src="assets/img/testimonial/client-img-1-1.png"
-                                                alt="avater"></div>
-                                        <div class="thumb"><img src="assets/img/testimonial/client-img-1-2.png"
-                                                alt="avater"></div>
-                                        <div class="thumb"><img src="assets/img/testimonial/client-img-1-3.png"
-                                                alt="avater"></div>
-                                    </div>
-                                    <div class="cilent-box">
-                                        <div class="about_review"><i class="fa-sharp fa-solid fa-star"></i><i
-                                                class="fa-sharp fa-solid fa-star"></i><i
-                                                class="fa-sharp fa-solid fa-star"></i><i
-                                                class="fa-sharp fa-solid fa-star"></i><i
-                                                class="fa-sharp fa-solid fa-star"></i></div>
-                                        <h4 class="cilent-box_counter"><span class="counter-number">2960</span>+ Client
-                                            Reviews</h4>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -131,8 +112,6 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <div class="feature-thumb8_wrapp">
                             <div class="feature-thumb8-1 d-flex justify-content-center"><img src="assets/img/mockup/education-technology-solution-management.png" alt="img">
                             </div>
-                            <!-- <div class="feature-thumb8-2 jump"><img src="assets/img/normal/feature-img-8-2.jpg"
-                                    alt="img"></div> -->
                         </div>
                     </div>
                     <div class="col-12 space-bottom">
@@ -146,9 +125,6 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 <div class="col-xl-6 d-flex justify-content-center align-items-center">
                     <div class="faq-img5 mb-xl-0 mt-xl-0 mt-n4 ">
                         <div class="img1 d-flex justify-content-center"><img src="assets/img/vector/faq.png" alt="About">
-                            <!-- <div class="img2 jump"><img src="assets/img/normal/faq_5_2.jpg" alt="About"></div>
-                            <div class="img3 movingX"><img src="assets/img/normal/faq_5_3.jpg" alt="About"></div>
-                            <div class="faq-shape5"></div> -->
                         </div>
                     </div>
                 </div>

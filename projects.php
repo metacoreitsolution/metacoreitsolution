@@ -129,23 +129,24 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             </div>
                              <div class="about-feature">
                                 <div class="media-body">
-                                    <h3 class="about-feature_title">Writing Assistant: </h3>
-                                    <p class="about-feature_text">Provides intelligent suggestions for tone, structure, and content to enhance readability and engagement.</p>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="col-md-6">
-                             <div class="about-feature">
-                                <div class="media-body">
                                     <h3 class="about-feature_title">Smart Templates: </h3>
                                     <p class="about-feature_text">Library of templates for follow-ups, job inquiries, sales, customer support, and more.</p>
                                 </div>
                             </div>
-                           <div class="about-feature">
+                            
+                        </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="about-feature">
                                 <div class="media-body">
                                     <h3 class="about-feature_title">Grammar Checker: </h3>
                                     <p class="about-feature_text">Advanced grammar and spell-check ensures polished, error-free emails.</p>
+                                </div>
+                            </div>
+                           <div class="about-feature">
+                                <div class="media-body">
+                                    <h3 class="about-feature_title">Writing Assistant: </h3>
+                                    <p class="about-feature_text">Provides intelligent suggestions for tone, structure, and content to enhance readability and engagement.</p>
                                 </div>
                             </div>
                         </div>
@@ -180,7 +181,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <div class="about-feature">
                                 <div class="media-body">
                                     <h3 class="about-feature_title">Secure Storage: </h3>
-                                    <p class="about-feature_text">Encrypted database secured with master password and two-factor authentication.</p>
+                                    <p class="about-feature_text">Encrypted database secured password and two-factor authentication.</p>
                                 </div>
                             </div>
                             <div class="about-feature">
@@ -243,7 +244,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <div class="about-feature">
                                 <div class="media-body">
                                     <h3 class="about-feature_title">Client Booking: </h3>
-                                    <p class="about-feature_text">Customizable options including service selection and time zones.</p>
+                                    <p class="about-feature_text">Customizable options including service selection and time zones — Fully Customizable</p>
                                 </div>
                             </div>
                             
