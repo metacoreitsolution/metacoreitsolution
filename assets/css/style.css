@@ -11548,6 +11548,17 @@ a.text-theme:hover,
     }
 }
 
+@media (max-width: 425px) {
+    .breadcumb-menu li,
+    .breadcumb-menu a,
+    .breadcumb-menu span {
+        font-size: 14px
+    }
+    .our-tech-nav{
+        border-radius: 27px;
+    }
+}
+
 @media (max-width: 991px) {
     .breadcumb-wrapper {
         padding: 120px 0
@@ -11556,7 +11567,7 @@ a.text-theme:hover,
 
 @media (max-width: 767px) {
     .breadcumb-wrapper {
-        padding: 120px 0
+        padding: 150px 0
     }
 }
 
@@ -38049,6 +38060,12 @@ span.select2-selection.select2-selection--single:focus {
 @media (max-width: 767px) {
     .service-box2 .icon-btn {
         right: 80px
+    }
+}
+
+@media (max-width: 380px) {
+    .service-box2 .icon-btn {
+        right: 25px
     }
 }
 

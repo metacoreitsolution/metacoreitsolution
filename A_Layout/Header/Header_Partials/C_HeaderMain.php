@@ -36,6 +36,7 @@ echo
                                     echo 'active';
                                 } ?><?php echo '">Home</a></li>
                     <li><a href="about" class="active">About Us</a></li>
+
                     <li class="menu-item-has-children-custom first-menu-in-desktop">
                         <a href="service" class="solution-link d-flex justify-content-between align-items-center">
                             Service
@@ -50,6 +51,8 @@ echo
                             <li><a href="ai-machine-learning-development">AI & ML Development</a></li>
                         </ul>
                     </li>
+                <li><a href="project">Project</a></li>
+
                     <li class="menu-item-has-children-custom th-item-has-children">
     <div class="d-flex justify-content-between align-items-center">
         <a href="service" class="solution-link">Service</a>
@@ -95,7 +98,6 @@ echo
                             <li><a href="logistic-management">Logistic Management</a></li>
     </ul>
 </li>
-                    <li class="menu-item-has-children"><a href="project">Project</a></li>
                     <li class="menu-item-has-children d-block d-md-none"><a href="contact">Contact</a></li>
                 </ul>
             </div>

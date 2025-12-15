@@ -33,7 +33,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
 
       <!-- Right Side: Image -->
       <div class="col-md-6 text-center">
-        <img src="./assets/img/hero/Services.png" alt="About Us" class="img-fluid" style="max-width: 450px;">
+        <img src="./assets/img/hero/services.png" alt="About Us" class="img-fluid" style="max-width: 450px;">
       </div>
 
     </div>

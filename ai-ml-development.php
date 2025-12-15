@@ -41,7 +41,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
             <div class="row">
                 <div class="col-xl-6 mb-30 mb-xl-0">
                     <div class=" pe-xl-5">
-                        <div class="img1"><img src="assets/img/mockup/56.png" alt="About"></div>
+                        <div class="img1"><img src="assets/img/mockup/71.png" alt="About"></div>
                     </div>
                 </div>
                 <div class="col-xl-6">

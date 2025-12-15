@@ -639,17 +639,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         innovation, continuous learning, and collaboration. Our agile mindset, supported by Scrum
                         practices, enables us to deliver high-quality solutions that adapt to your business needs and
                         evolve with your growth.</p>
-                    <div class="checklist list-two-column style15">
-                        <ul>
-                            <li><img src="assets/img/icon/check_6.svg" alt="">Vision and Mission</li>
-                            <li class="mb-4 mb-md-0"><img src="assets/img/icon/check_6.svg" alt="">Skilled & Passionate Engineers</li>
-                        </ul>
-                    </div>
-                    <div class="checklist style15 mb-50">
-                        <ul>
-                            <li><img src="assets/img/icon/check_6.svg" alt="">Client-Centric Collaboration</li>
-                        </ul>
-                    </div><a href="about" class="th-btn btn-gradient2 style-radius ">Discover More</a>
+                <a href="about" class="th-btn btn-gradient2 style-radius ">Discover More</a>
                 </div>
             </div>
         </div>
