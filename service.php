@@ -1,10 +1,10 @@
-﻿
+
 
 
     <?php
-$Title = "Our Services | IT, Web & Mobile App Solutions - MetaCore Solution";
-$MetaDescription = "Discover a range of services offered by MetaCore Solution, including web development, mobile apps, custom software, and more.";
-$MetaKeywords = "IT services, web development, app development, software services, MetaCore services, business solutions";
+$Title = "Our Services | IT, Web & Mobile App Solutions - MetaCortex Solution";
+$MetaDescription = "Discover a range of services offered by MetaCortex Solution, including web development, mobile apps, custom software, and more.";
+$MetaKeywords = "IT services, web development, app development, software services, MetaCortex services, business solutions";
 
 ?>
 

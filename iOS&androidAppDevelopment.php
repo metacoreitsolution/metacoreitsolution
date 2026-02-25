@@ -1,7 +1,7 @@
 <?php
-$Title = "iOS & Android App Development | MetaCore Mobile Solutions";
-$MetaDescription = "MetaCore develops feature-rich iOS and Android apps tailored for performance, design, and cross-platform compatibility.";
-$MetaKeywords = "iOS app development, Android developer, mobile app solutions, native apps, mobile development company, MetaCore apps";
+$Title = "iOS & Android App Development | MetaCortex Mobile Solutions";
+$MetaDescription = "MetaCortex develops feature-rich iOS and Android apps tailored for performance, design, and cross-platform compatibility.";
+$MetaKeywords = "iOS app development, Android developer, mobile app solutions, native apps, mobile development company, MetaCortex apps";
     
 ?>
 
@@ -86,7 +86,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <h2 class="sec-title">Smart Solutions for <span class="text-theme">Mobile-First </span>Users</h2>
                     </div>
                     <p class="mt-n2 mb-30">We develop high-performance mobile apps for iOS and Android using native and cross-platform technologies like Swift, Kotlin, Flutter, and React Native.
-                    From UI/UX design to deployment, MetaCore delivers seamless, user-friendly apps tailored to your business needs.</p>
+                    From UI/UX design to deployment, MetaCortex delivers seamless, user-friendly apps tailored to your business needs.</p>
                     <div class="feature-circle-wrap">
                         <div class="feature-circle">
                             <div class="progressbar" data-path-color="#684DF4">
@@ -125,7 +125,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         </div>
                         <div class="page-content">
                             <h2 class="h3 page-title">How We Develop Custom Software</h2>
-                            <p>At MetaCore IT Solution, custom software development starts with a deep understanding of your business goals, processes, and challenges. We begin by collaborating with your team to gather detailed requirements, ensuring we capture every critical function and workflow specific to your operations.</p>
+                            <p>At MetaCortex IT Solution, custom software development starts with a deep understanding of your business goals, processes, and challenges. We begin by collaborating with your team to gather detailed requirements, ensuring we capture every critical function and workflow specific to your operations.</p>
                             <p class="mb-30">Our expert developers then design a tailored software solution that aligns with your unique business needs. We follow an agile, stage-wise development approach—building, testing, and refining each module with your feedback. This iterative process ensures flexibility, transparency, and a high-quality outcome.</p>
                             <div class="row">
                                 <div class="col-md-6 mb-30">

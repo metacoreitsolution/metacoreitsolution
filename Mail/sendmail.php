@@ -27,7 +27,7 @@ class SendMail
         $mail->CharSet = 'UTF-8';
         $mail->Username = $this->SenderEmail;
         $mail->Password = $this->SenderEmailPassword;
-        $mail->setFrom($this->SenderEmail, 'MetaCore IT Solution'); // Add a name for better identification
+        $mail->setFrom($this->SenderEmail, 'MetaCortex IT Solution'); // Add a name for better identification
         $mail->Subject = $subject;
         $mail->Body = $body;
         $mail->addAddress($this->ReciverEmail);

@@ -1,7 +1,7 @@
 <?php
-$Title = "Cross-Platform App Development Services | MetaCore Solution";
-$MetaDescription = "Build powerful cross-platform mobile apps with MetaCore for seamless performance across Android, iOS, and more.";
-$MetaKeywords = "cross-platform app development, hybrid mobile apps, Flutter, React Native, MetaCore mobile solutions";
+$Title = "Cross-Platform App Development Services | MetaCortex Solution";
+$MetaDescription = "Build powerful cross-platform mobile apps with MetaCortex for seamless performance across Android, iOS, and more.";
+$MetaKeywords = "cross-platform app development, hybrid mobile apps, Flutter, React Native, MetaCortex mobile solutions";
 ?>
 
 <?php
@@ -89,7 +89,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                     a single codebase that runs seamlessly on both iOS and Android devices. Instead of developing two
                     separate apps, developers use powerful frameworks like Flutter and React Native to create one
                     unified app that delivers native-like performance across platforms.</p>
-                <p class="mt-n2 mb-30">At MetaCore IT Solution, we leverage cross-platform technologies to accelerate
+                <p class="mt-n2 mb-30">At MetaCortex IT Solution, we leverage cross-platform technologies to accelerate
                     development timelines, reduce project costs, and ensure consistent design and functionality. This
                     approach allows businesses to reach a broader audience faster—without sacrificing performance,
                     quality, or user experience.</p>
@@ -107,7 +107,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 </div>
                 <div class="page-content">
                     <h2 class="h3 page-title">How We Develop Cross-Platform Code</h2>
-                    <p>At MetaCore IT Solution, we follow a streamlined, agile approach to cross-platform app
+                    <p>At MetaCortex IT Solution, we follow a streamlined, agile approach to cross-platform app
                         development. We begin by understanding your business goals and user expectations, which allows
                         us to define a clear roadmap tailored to your needs. Using powerful frameworks like Flutter and
                         React Native, we design and develop a single codebase that works across both iOS and Android,

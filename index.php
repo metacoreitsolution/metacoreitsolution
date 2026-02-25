@@ -1,7 +1,7 @@
-﻿<?php
-$Title = "MetaCore Solution | IT Services & Digital Solutions Provider";
-$MetaDescription = "MetaCore Solution delivers cutting-edge IT services, software development, and digital solutions to help businesses grow and succeed online.";
-$MetaKeywords = "MetaCore Solution, IT services, software development, digital solutions, web development, mobile apps, tech company";
+<?php
+$Title = "MetaCortex Solution | IT Services & Digital Solutions Provider";
+$MetaDescription = "MetaCortex Solution delivers cutting-edge IT services, software development, and digital solutions to help businesses grow and succeed online.";
+$MetaKeywords = "MetaCortex Solution, IT services, software development, digital solutions, web development, mobile apps, tech company";
 ?>
 
 <?php
@@ -19,7 +19,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                     <div class="icon-masking me-2"><span class="mask-icon bg-mask"
                                             style="mask-image: url(&quot;assets/img/theme-img/title_shape_4.svg&quot;);"></span>
                                         <img src="assets/img/theme-img/title_shape_4.svg" alt="shape">
-                                    </div>Welcome to MetaCore IT Solution
+                                    </div>Welcome to MetaCortex IT Solution
                                 </span>
                                 <h1 class="hero-title">Seamless IT Solutions for <span class="text-theme">business
                                         growth</span></h1>
@@ -138,7 +138,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <div class="col-12 process-card4-wrap">
                             <div class="process-card4">
                                 <div class="box-content">
-                                    <p class="process-card4_text">At MetaCore IT Solution, we turn ideas into <b>powerful digital</b> products that help <b>businesses grow</b>. From healthcare and education to real estate, hospitality, and logistics, we build scalable mobile apps, enterprise systems, and AI-driven platforms designed for modern needs.</p>
+                                    <p class="process-card4_text">At MetaCortex IT Solution, we turn ideas into <b>powerful digital</b> products that help <b>businesses grow</b>. From healthcare and education to real estate, hospitality, and logistics, we build scalable mobile apps, enterprise systems, and AI-driven platforms designed for modern needs.</p>
                                     <br>
                                     <p class="process-card4_text">We blend creativity, technology, and strategy to deliver user-focused solutions. From concept to launch, our team works closely with you to solve real challenges and drive meaningful business growth.</p>
                                 </div>
@@ -551,7 +551,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <h2 class="sec-title sec-title3 text-white">Software Development Technologies That Drive <span
                                 class="text-white">Business Growth </span></h2>
                     </div>
-                    <p class="sec-text5 mt-n2 mb-25 text-white fs-20">At MetaCore IT Solution, we transform ideas into
+                    <p class="sec-text5 mt-n2 mb-25 text-white fs-20">At MetaCortex IT Solution, we transform ideas into
                         powerful, scalable software and mobile apps. Using modern tech and agile practices, we deliver
                         cost-effective solutions that drive real business results.</p>
                     <div class="feature-item2">
@@ -594,7 +594,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <h2 class="sec-title sec-title4">Your Trusted Partner in <span class="">Digital
                                 Innovation</span></h2>
                     </div>
-                    <p class="sec-text5 mt-n2 mb-25 fs-20 pe-xl-5 me-xl-4">At MetaCore IT Solution, we don’t just build
+                    <p class="sec-text5 mt-n2 mb-25 fs-20 pe-xl-5 me-xl-4">At MetaCortex IT Solution, we don’t just build
                         software — we craft smart, scalable, and secure digital experiences that align with your
                         business goals. Our client-centric approach, combined with technical expertise, ensures you get
                         solutions that make an impact. From startups to enterprises, we're committed to driving digital
@@ -635,7 +635,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <h2 class="sec-title text-dark">Empowering Talent with Agile Thinking and Modern Methodologies
                         </h2>
                     </div>
-                    <p class="mt-n2 mb-25">At MetaCore IT Solution, we build a culture where top talent thrives on
+                    <p class="mt-n2 mb-25">At MetaCortex IT Solution, we build a culture where top talent thrives on
                         innovation, continuous learning, and collaboration. Our agile mindset, supported by Scrum
                         practices, enables us to deliver high-quality solutions that adapt to your business needs and
                         evolve with your growth.</p>
@@ -989,7 +989,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <div id="collapse-1" class="accordion-collapse collapse" aria-labelledby="collapse-item-1"
                                 data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p class="faq-text">You can get analytics help from professional digital marketing agencies or consultants who specialize in data-driven insights, Google Analytics, and performance tracking. At MetaCore IT Solutions, we offer comprehensive analytics support to help you understand user behavior, improve conversions, and make smarter business decisions.</p>
+                                    <p class="faq-text">You can get analytics help from professional digital marketing agencies or consultants who specialize in data-driven insights, Google Analytics, and performance tracking. At MetaCortex IT Solutions, we offer comprehensive analytics support to help you understand user behavior, improve conversions, and make smarter business decisions.</p>
                                 </div>
                             </div>
                         </div>

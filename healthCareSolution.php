@@ -2,9 +2,9 @@
 
 
     <?php
-$Title = "Healthcare IT Solutions | MetaCore Digital Health Services";
+$Title = "Healthcare IT Solutions | MetaCortex Digital Health Services";
 $MetaDescription = "Empowering healthcare with digital solutions — from hospital management to telemedicine apps and patient portals.";
-$MetaKeywords = "healthcare IT, hospital management system, digital health, telemedicine software, MetaCore healthcare solutions";
+$MetaKeywords = "healthcare IT, hospital management system, digital health, telemedicine software, MetaCortex healthcare solutions";
 
 ?>
 

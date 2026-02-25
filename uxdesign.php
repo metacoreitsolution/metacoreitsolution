@@ -2,9 +2,9 @@
 
 
     <?php
-$Title = "UI/UX Design Services | MetaCore Creative Solutions";
-$MetaDescription = "Create stunning user experiences with MetaCore’s UI/UX design services — intuitive, modern, and user-focused designs.";
-$MetaKeywords = "UI design, UX solutions, web design, user interface, user experience, MetaCore UI/UX agency";
+$Title = "UI/UX Design Services | MetaCortex Creative Solutions";
+$MetaDescription = "Create stunning user experiences with MetaCortex’s UI/UX design services — intuitive, modern, and user-focused designs.";
+$MetaKeywords = "UI design, UX solutions, web design, user interface, user experience, MetaCortex UI/UX agency";
 
 ?>
 
@@ -48,7 +48,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         </div>
                         <div class="page-content">
                             <h2 class="h3 page-title">UI/UX Design</h2>
-                            <p>At MetaCore IT Solution, our UI/UX design approach blends creativity with functionality to craft seamless digital experiences. We focus on understanding user behavior, business goals, and brand identity to design interfaces that are not only visually appealing but also highly intuitive and conversion-focused. Every screen, button, and interaction is thoughtfully designed to enhance usability and engagement.</p>
+                            <p>At MetaCortex IT Solution, our UI/UX design approach blends creativity with functionality to craft seamless digital experiences. We focus on understanding user behavior, business goals, and brand identity to design interfaces that are not only visually appealing but also highly intuitive and conversion-focused. Every screen, button, and interaction is thoughtfully designed to enhance usability and engagement.</p>
                             <p class="mb-30">From wireframing and prototyping to final design handoff, we ensure a user-first strategy backed by real feedback and testing. Whether it’s a mobile app or a web platform, our responsive, scalable, and brand-consistent designs help you stand out and deliver meaningful user journeys that drive business success.</p>
                             <div class="row">
                                 <div class="col-md-6 mb-30">

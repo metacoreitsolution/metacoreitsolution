@@ -1,7 +1,7 @@
-﻿<?php
-$Title = "About MetaCore Solution | Innovating the Future of IT Services";
-$MetaDescription = "Learn about MetaCore Solution's mission, vision, and team dedicated to providing innovative IT and digital transformation services.";
-$MetaKeywords = "About MetaCore Solution, our story, IT company profile, team, vision, mission, software experts";
+<?php
+$Title = "About MetaCortex Solution | Innovating the Future of IT Services";
+$MetaDescription = "Learn about MetaCortex Solution's mission, vision, and team dedicated to providing innovative IT and digital transformation services.";
+$MetaKeywords = "About MetaCortex Solution, our story, IT company profile, team, vision, mission, software experts";
 
 ?>
 
@@ -24,7 +24,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
 
         <h1 class="breadcumb-title fw-bold mb-3 text-primary">About Us</h1>
         <p class="text-dark mb-0">
-          MetaCore drives innovation at the core — empowering businesses with intelligent, scalable, and future-ready digital solutions.
+          MetaCortex drives innovation at the core — empowering businesses with intelligent, scalable, and future-ready digital solutions.
         </p>
       </div>
 
@@ -51,10 +51,10 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <div class="title-area mb-35"><span class="sub-title">
                                 <div class="icon-masking me-2"><span class="mask-icon"
                                         data-mask-src="assets/img/theme-img/title_shape_1.svg"></span> <img
-                                        src="assets/img/theme-img/title_shape_1.svg" alt="shape"></div>About MetaCore</span>
+                                        src="assets/img/theme-img/title_shape_1.svg" alt="shape"></div>About MetaCortex</span>
                             <h2 class="sec-title">Driving Innovation, Powering  <span class="text-theme">Possibilities</span></h2>
                         </div>
-                        <p class="mt-n2 mb-25">At MetaCore IT Solution, we turn ideas into intelligent, future-ready digital solutions. From startups to enterprises, we deliver real impact through innovation, expertise, and precision.</p>
+                        <p class="mt-n2 mb-25">At MetaCortex IT Solution, we turn ideas into intelligent, future-ready digital solutions. From startups to enterprises, we deliver real impact through innovation, expertise, and precision.</p>
                         <div class="about-feature-wrap">
                             <div class="about-feature">
                                 <div class="about-feature_icon"><img src="assets/img/icon/about_feature_1_1.svg"
@@ -289,8 +289,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                     src="assets/img/theme-img/title_shape_1.svg" alt="shape"></div>Our Story & Origin</span>
                         <h2 class="sec-title">The Core of Digital  <span class="text-theme">Transformation</span></h2>
                     </div>
-                    <p class="mt-n2 mb-30">MetaCore stands for innovation at the core. With a future-focused vision, we’re dedicated to driving digital transformation that empowers modern businesses.</p>
-                    <p class="mt-n2 mb-30">Founded by experienced IT professionals, MetaCore blends advanced technology with business insight to create meaningful, scalable digital solutions. We build lasting partnerships that help organizations grow and succeed in a fast-changing digital landscape.</p>
+                    <p class="mt-n2 mb-30">MetaCortex stands for innovation at the core. With a future-focused vision, we’re dedicated to driving digital transformation that empowers modern businesses.</p>
+                    <p class="mt-n2 mb-30">Founded by experienced IT professionals, MetaCortex blends advanced technology with business insight to create meaningful, scalable digital solutions. We build lasting partnerships that help organizations grow and succeed in a fast-changing digital landscape.</p>
                     <p><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="current" viewBox="0 0 448 512"><path d="M0 216C0 149.7 53.7 96 120 96l8 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-8 0c-30.9 0-56 25.1-56 56l0 8 64 0c35.3 0 64 28.7 64 64l0 64c0 35.3-28.7 64-64 64l-64 0c-35.3 0-64-28.7-64-64l0-32 0-32 0-72zm256 0c0-66.3 53.7-120 120-120l8 0c17.7 0 32 14.3 32 32s-14.3 32-32 32l-8 0c-30.9 0-56 25.1-56 56l0 8 64 0c35.3 0 64 28.7 64 64l0 64c0 35.3-28.7 64-64 64l-64 0c-35.3 0-64-28.7-64-64l0-32 0-32 0-72z"/></svg> Transforming bold visions into powerful digital realities — from the core outwards.</p>
                 </div>
             </div>

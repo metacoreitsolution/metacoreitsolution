@@ -2,9 +2,9 @@
 
 
         <?php
-$Title = "Real Estate & Property Management Solutions | MetaCore";
-$MetaDescription = "MetaCore provides smart real estate solutions including CRM, listing portals, rent management, and customer tracking systems.";
-$MetaKeywords = "real estate CRM, property management system, real estate portal, property listings, MetaCore real estate tech";
+$Title = "Real Estate & Property Management Solutions | MetaCortex";
+$MetaDescription = "MetaCortex provides smart real estate solutions including CRM, listing portals, rent management, and customer tracking systems.";
+$MetaKeywords = "real estate CRM, property management system, real estate portal, property listings, MetaCortex real estate tech";
 
 ?>
 
@@ -60,7 +60,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <h2 class="sec-title">Transforming Real Estate with <span
                                 class="text-theme fw-normal">Smart Digital Tools</span></h2>
                     </div>
-                    <p class="mt-n2 mb-25">At MetaCore IT Solution, we create powerful, user-friendly real estate and property management platforms that simplify every step of the buying, selling, and renting process. Designed for agents, buyers, brokers, and property managers, our solutions feature dynamic property listings, intuitive dashboards, and smart automation tools to streamline communication, manage inquiries, and track bookings.</p>
+                    <p class="mt-n2 mb-25">At MetaCortex IT Solution, we create powerful, user-friendly real estate and property management platforms that simplify every step of the buying, selling, and renting process. Designed for agents, buyers, brokers, and property managers, our solutions feature dynamic property listings, intuitive dashboards, and smart automation tools to streamline communication, manage inquiries, and track bookings.</p>
                     <p class="mt-n2 mb-25">With integrated CRM systems, document upload capabilities, e-signatures, and in-depth reports, we empower real estate businesses to manage leads, monitor commissions, and optimize ROI—all from a single digital ecosystem. Whether you're listing properties or closing deals, our technology helps you stay organized, efficient, and ahead of the competition.</p>
                     <a href="about" class="th-btn">DISCOVER MORE<i
                             class="fa-regular fa-arrow-right ms-2"></i></a>
@@ -78,12 +78,12 @@ include __DIR__ . '/A_Layout/Header/header.php';
                     <div class="title-area mb-35 text-center text-xl-start"><span class="sub-title">
                             <div class="icon-masking me-2"><span class="mask-icon"
                                     data-mask-src="assets/img/theme-img/title_shape_2.svg"></span> <img
-                                    src="assets/img/theme-img/title_shape_2.svg" alt="shape"></div>Why Choose MetaCore
+                                    src="assets/img/theme-img/title_shape_2.svg" alt="shape"></div>Why Choose MetaCortex
                         </span>
                         <h2 class="sec-title">Smart Technology for Smarter <span
                                 class="text-theme fw-normal"> Real Estate</span></h2>
                     </div>
-                    <p class="mt-n2 mb-25 text-center text-xl-start">At MetaCore IT Solution, we offer tailored real estate platforms that simplify property listings, streamline bookings, and boost lead conversions. Our end-to-end digital tools—from CRM to e-signatures—are built to save time, reduce manual work, and give agents and property managers full control over their operations. With intuitive dashboards and real-time analytics, you stay ahead in a competitive market while offering a better experience to your clients.</p>
+                    <p class="mt-n2 mb-25 text-center text-xl-start">At MetaCortex IT Solution, we offer tailored real estate platforms that simplify property listings, streamline bookings, and boost lead conversions. Our end-to-end digital tools—from CRM to e-signatures—are built to save time, reduce manual work, and give agents and property managers full control over their operations. With intuitive dashboards and real-time analytics, you stay ahead in a competitive market while offering a better experience to your clients.</p>
                     <div class="pe-xxl-4">
                         <div class="skill-feature">
                             <h3 class="skill-feature_title">Custom Dashboards</h3>

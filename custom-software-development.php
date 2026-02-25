@@ -2,9 +2,9 @@
 
 
     <?php
-$Title = "Custom Software Development Company | MetaCore Solution";
-$MetaDescription = "MetaCore offers tailored software development to meet your business needs — scalable, secure, and future-ready.";
-$MetaKeywords = "custom software, software development company, enterprise solutions, application development, MetaCore software";
+$Title = "Custom Software Development Company | MetaCortex Solution";
+$MetaDescription = "MetaCortex offers tailored software development to meet your business needs — scalable, secure, and future-ready.";
+$MetaKeywords = "custom software, software development company, enterprise solutions, application development, MetaCortex software";
 ?>
 
 <?php

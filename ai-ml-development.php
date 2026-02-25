@@ -1,7 +1,7 @@
 <?php
-$Title = "AI & Machine Learning Development | MetaCore Solution";
-$MetaDescription = "Unlock the power of AI and machine learning with MetaCore’s intelligent solutions that enhance decision-making and automation.";
-$MetaKeywords = "AI development, machine learning solutions, artificial intelligence, predictive analytics, MetaCore AI services";
+$Title = "AI & Machine Learning Development | MetaCortex Solution";
+$MetaDescription = "Unlock the power of AI and machine learning with MetaCortex’s intelligent solutions that enhance decision-making and automation.";
+$MetaKeywords = "AI development, machine learning solutions, artificial intelligence, predictive analytics, MetaCortex AI services";
 ?>
 
 <?php

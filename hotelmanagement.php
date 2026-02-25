@@ -2,9 +2,9 @@
 
 
     <?php
-$Title = "Hotel Management System Solutions | MetaCore Solution";
-$MetaDescription = "Streamline hotel operations with MetaCore’s hotel management software – reservation systems, billing, staff, and guest services all-in-one.";
-$MetaKeywords = "hotel management software, hospitality solutions, property management system, hotel booking system, MetaCore hotel services";
+$Title = "Hotel Management System Solutions | MetaCortex Solution";
+$MetaDescription = "Streamline hotel operations with MetaCortex’s hotel management software – reservation systems, billing, staff, and guest services all-in-one.";
+$MetaKeywords = "hotel management software, hospitality solutions, property management system, hotel booking system, MetaCortex hotel services";
 
 ?>
 

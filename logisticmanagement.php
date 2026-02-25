@@ -2,9 +2,9 @@
 
 
         <?php
-$Title = "Logistics Management Solutions | MetaCore IT Services";
-$MetaDescription = "Optimize supply chains with MetaCore’s logistics management system — track deliveries, inventory, and fleet in real-time.";
-$MetaKeywords = "logistics software, supply chain management, fleet tracking, logistics automation, MetaCore logistics solutions";
+$Title = "Logistics Management Solutions | MetaCortex IT Services";
+$MetaDescription = "Optimize supply chains with MetaCortex’s logistics management system — track deliveries, inventory, and fleet in real-time.";
+$MetaKeywords = "logistics software, supply chain management, fleet tracking, logistics automation, MetaCortex logistics solutions";
 
 ?>
 
@@ -57,7 +57,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <h2 class="sec-title">Streamlining Logistics with Smart, <span
                                 class="text-theme">Real-Time Control</span></h2>
                     </div>
-                    <p class="mt-n2 mb-25">At MetaCore IT Solution, we empower logistics companies with intelligent, end-to-end management systems that optimize every stage of the supply chain. From real-time vehicle tracking to warehouse dispatch control, our platform ensures smooth coordination between drivers, hubs, and admin teams.</p>
+                    <p class="mt-n2 mb-25">At MetaCortex IT Solution, we empower logistics companies with intelligent, end-to-end management systems that optimize every stage of the supply chain. From real-time vehicle tracking to warehouse dispatch control, our platform ensures smooth coordination between drivers, hubs, and admin teams.</p>
                     <h6 class="text-theme fw-semibold mb-30">We are making every business grow!</h6>
                     <div class="checklist style8 mb-40">
                         <ul>
@@ -79,10 +79,10 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <div class="title-area mb-35"><span class="sub-title">
                                 <div class="icon-masking me-2"><span class="mask-icon"
                                         data-mask-src="assets/img/theme-img/title_shape_1.svg"></span> <img
-                                        src="assets/img/theme-img/title_shape_1.svg" alt="shape"></div>Why Choose MetaCore</span>
+                                        src="assets/img/theme-img/title_shape_1.svg" alt="shape"></div>Why Choose MetaCortex</span>
                             <h2 class="sec-title">Smarter Logistics. Faster Deliveries. <span class="text-theme">Greater Control.</span></h2>
                         </div>
-                        <p class="mt-n2 mb-25">MetaCore IT Solution delivers powerful logistics management software that gives you complete visibility and real-time control over your fleet, routes, and warehouse operations. With intelligent automation, role-based access, and performance analytics, we help you reduce costs, eliminate delays, and improve delivery efficiency across the board.</p>
+                        <p class="mt-n2 mb-25">MetaCortex IT Solution delivers powerful logistics management software that gives you complete visibility and real-time control over your fleet, routes, and warehouse operations. With intelligent automation, role-based access, and performance analytics, we help you reduce costs, eliminate delays, and improve delivery efficiency across the board.</p>
                         <div class="about-feature-wrap">
                             <div class="about-feature">
                                 <div class="about-feature_icon"><img src="assets/img/icon/about_feature_1_1.svg"

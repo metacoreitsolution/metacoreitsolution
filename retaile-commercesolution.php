@@ -2,9 +2,9 @@
 
 
         <?php
-$Title = "Retail & E-Commerce Solutions | MetaCore Digital Commerce";
-$MetaDescription = "Grow your e-commerce business with MetaCore’s retail tech — from online store development to inventory and payment systems.";
-$MetaKeywords = "e-commerce development, online store, retail tech, inventory management, MetaCore e-commerce services";
+$Title = "Retail & E-Commerce Solutions | MetaCortex Digital Commerce";
+$MetaDescription = "Grow your e-commerce business with MetaCortex’s retail tech — from online store development to inventory and payment systems.";
+$MetaKeywords = "e-commerce development, online store, retail tech, inventory management, MetaCortex e-commerce services";
 
 ?>
 

@@ -2,9 +2,9 @@
 
 
     <?php
-$Title = "EdTech Solutions | Education Technology Services - MetaCore";
-$MetaDescription = "Transform learning with MetaCore’s digital education platforms, e-learning tools, and smart campus solutions.";
-$MetaKeywords = "EdTech solutions, e-learning software, education technology, LMS, school ERP, MetaCore education services";
+$Title = "EdTech Solutions | Education Technology Services - MetaCortex";
+$MetaDescription = "Transform learning with MetaCortex’s digital education platforms, e-learning tools, and smart campus solutions.";
+$MetaKeywords = "EdTech solutions, e-learning software, education technology, LMS, school ERP, MetaCortex education services";
 ?>
 
 <?php

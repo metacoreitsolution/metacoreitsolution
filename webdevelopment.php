@@ -2,9 +2,9 @@
 
 
     <?php
-$Title = "Custom Web Development Services | MetaCore Web Solutions";
-$MetaDescription = "MetaCore delivers custom websites that are fast, secure, and responsive — built using modern frameworks and technologies.";
-$MetaKeywords = "web development, web developer, website design, custom web solutions, MetaCore website development";
+$Title = "Custom Web Development Services | MetaCortex Web Solutions";
+$MetaDescription = "MetaCortex delivers custom websites that are fast, secure, and responsive — built using modern frameworks and technologies.";
+$MetaKeywords = "web development, web developer, website design, custom web solutions, MetaCortex website development";
 
 ?>
 

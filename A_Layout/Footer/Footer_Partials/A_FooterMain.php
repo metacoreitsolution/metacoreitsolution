@@ -58,7 +58,7 @@ echo
                         <div class="widget footer-widget">
                             <h3 class="widget_title style2 text-white">Meta Core IT Solution</h3>
                             <div class="th-widget-about style2">
-                                <p class="about-text">MetaCore IT Solution delivers innovative software and mobile app
+                                <p class="about-text">MetaCortex IT Solution delivers innovative software and mobile app
                                     solutions tailored to modern business needs.</p>
                                 <div class="th-social"><a href="https://www.linkedin.com/in/metacore-it-solution-3aab23382/"><i
                                             class="fab fa-linkedin-in"></i></a> <a href="https://www.instagram.com/metacoreitsolution?igsh=MW1qcXBwOThwem11ZA=="><i
@@ -128,7 +128,7 @@ echo
                 <div class="row justify-content-between align-items-center">
                     <div class="col-lg-6">
                         <p class="copyright-text">Copyright: <i class="fal fa-copyright"></i> 2025 . All Rights
-                            Reserved by <a href="https://metacoreitsolution.com/">MetaCore IT Solution </a></p>
+                            Reserved by <a href="https://metacoreitsolution.com/">MetaCortex IT Solution </a></p>
                     </div>
                     <div class="col-lg-6 text-center text-md-end">
                         <ul class="footer-menu">

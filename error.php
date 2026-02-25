@@ -1,10 +1,10 @@
-﻿
+
 
 
     <?php
-$Title = "Oops! Page Not Found | MetaCore Solution";
-$MetaDescription = "The page you're looking for doesn't exist. Return to our homepage or explore our services at MetaCore Solution.";
-$MetaKeywords = "404 error, page not found, broken link, MetaCore error page";
+$Title = "Oops! Page Not Found | MetaCortex Solution";
+$MetaDescription = "The page you're looking for doesn't exist. Return to our homepage or explore our services at MetaCortex Solution.";
+$MetaKeywords = "404 error, page not found, broken link, MetaCortex error page";
 
 ?>
 

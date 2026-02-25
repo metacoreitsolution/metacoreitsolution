@@ -1,7 +1,7 @@
 <?php
-$Title = "Billing & Accounting Software Solutions | MetaCore Solution";
-$MetaDescription = "Simplify your finances with MetaCore’s billing and accounting software tailored for businesses of all sizes.";
-$MetaKeywords = "billing software, accounting solutions, invoicing systems, financial management, MetaCore accounting tools";
+$Title = "Billing & Accounting Software Solutions | MetaCortex Solution";
+$MetaDescription = "Simplify your finances with MetaCortex’s billing and accounting software tailored for businesses of all sizes.";
+$MetaKeywords = "billing software, accounting solutions, invoicing systems, financial management, MetaCortex accounting tools";
 ?>
 
 <?php

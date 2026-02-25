@@ -1,7 +1,7 @@
 <?php
-$Title = "Blog MetaCore Solution | Innovating the Future of IT Services";
-$MetaDescription = "Learn about MetaCore Solution's mission, vision, and team dedicated to providing innovative IT and digital transformation services.";
-$MetaKeywords = "About MetaCore Solution, our story, IT company profile, team, vision, mission, software experts";
+$Title = "Blog MetaCortex Solution | Innovating the Future of IT Services";
+$MetaDescription = "Learn about MetaCortex Solution's mission, vision, and team dedicated to providing innovative IT and digital transformation services.";
+$MetaKeywords = "About MetaCortex Solution, our story, IT company profile, team, vision, mission, software experts";
 
 ?>
 

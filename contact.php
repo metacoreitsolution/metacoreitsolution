@@ -1,7 +1,7 @@
-﻿<?php
-$Title = "Contact MetaCore Solution | Get in Touch with Our Experts";
-$MetaDescription = "Have questions or need support? Contact MetaCore Solution today to discuss your IT, software, or digital project requirements.";
-$MetaKeywords = "Contact MetaCore, get in touch, request a quote, IT support, software consultation, connect with us";
+<?php
+$Title = "Contact MetaCortex Solution | Get in Touch with Our Experts";
+$MetaDescription = "Have questions or need support? Contact MetaCortex Solution today to discuss your IT, software, or digital project requirements.";
+$MetaKeywords = "Contact MetaCortex, get in touch, request a quote, IT support, software consultation, connect with us";
 
 ?>
 

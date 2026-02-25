@@ -2,9 +2,9 @@
 
 
     <?php
-$Title = "Business Solutions by MetaCore | Empowering Digital Transformation";
-$MetaDescription = "MetaCore Solution provides tailored business solutions for various industries, helping you achieve digital transformation and operational efficiency.";
-$MetaKeywords = "business solutions, industry solutions, MetaCore digital, IT solutions, enterprise software, digital transformation";
+$Title = "Business Solutions by MetaCortex | Empowering Digital Transformation";
+$MetaDescription = "MetaCortex Solution provides tailored business solutions for various industries, helping you achieve digital transformation and operational efficiency.";
+$MetaKeywords = "business solutions, industry solutions, MetaCortex digital, IT solutions, enterprise software, digital transformation";
  
 ?>
 

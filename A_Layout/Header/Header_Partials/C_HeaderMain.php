@@ -26,7 +26,7 @@ echo
             <div class="mobile-logo">
   <a href="home">
     <img src="https://metacoreitsolution.com/assets/img/logo/MetaCore-It-Solutions-Logo.svg" 
-         alt="MetaCore IT Solutions Logo" style=" width: 150px;"/>
+         alt="MetaCortex IT Solutions Logo" style=" width: 150px;"/>
   </a>
 </div>
 
