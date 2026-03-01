@@ -33,6 +33,9 @@ RewriteRule ^retaile-commercesolution$ retaile-commercesolution.php [L,NC]
 RewriteRule ^ux-design$ uxdesign.php [L,NC]
 RewriteRule ^web-development$ webdevelopment.php [L,NC]
 RewriteRule ^home-digital-marking$ home-digital-marking.php [L,NC]
+RewriteRule ^ar-vr-development$ ar-vr-development.php [L,NC]
+RewriteRule ^blockchain-development$ blockchain-development.php [L,NC]
+RewriteRule ^build-ai-age$ build-ai-age.php [L,NC]
 
 
 

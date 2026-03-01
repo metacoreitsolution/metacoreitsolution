@@ -8,7 +8,7 @@ echo
     <div id="loader" class="th-preloader">
         <div class="animation-preloader">
             <!-- Logo -->
-            <img src="assets/img/logo/MetaCore-It-Solutions-Logo.svg" alt="Logo" class="preloader-logo" />
+            <img src="https://metacoreitsolution.com/assets/img/logo/MetaCortex-It-Solution-Logo.svg" alt="Logo" class="preloader-logo" />
 
             <!-- Progress Bar -->
             <div class="progress-bar">
@@ -25,8 +25,8 @@ echo
         <div class="th-menu-area text-center"><button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
   <a href="home">
-    <img src="https://metacoreitsolution.com/assets/img/logo/MetaCore-It-Solutions-Logo.svg" 
-         alt="MetaCortex IT Solutions Logo" style=" width: 150px;"/>
+    <img src="https://metacoreitsolution.com/assets/img/logo/MetaCortex-It-Solution-Logo.svg" 
+         alt="MetaCore IT Solutions Logo" style=" width: 150px;"/>
   </a>
 </div>
 
@@ -46,27 +46,33 @@ echo
                             <li><a href="iOS&androidAppDevelopment">IOS & Android App Development</a></li>
                             <li><a href="cross-platform-app-development">Cross Platform App Development</a></li>
                             <li><a href="web-development">Web Development</a></li>
+                            <li><a href="ar-vr-development">AR/VR Development</a></li>
+                            <li><a href="blockchain-development">Blockchain Development</a></li>
+                            <li><a href="build-ai-age">Build AI Age</a></li>
+                            <li><a href="custom-software-development">Custom Software Development</a></li>
+                            <li><a href="ux-design">UI/UX Design</a></li>
+                            <li><a href="ai-machine-learning-development">AI & ML Development</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-item-has-children-custom th-item-has-children">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href="service" class="solution-link">Service</a>
+                            <span class="toggle-icon ms-2 th-mean-expand"></span>
+                        </div>
+                        <ul class="sub-menu th-submenu" style="display: none;">
+                            <li><a href="iOS&androidAppDevelopment">IOS & Android App Development</a></li>
+                            <li><a href="cross-platform-app-development">Cross Platform App Development</a></li>
+                            <li><a href="web-development">Web Development</a></li>
+                            <li><a href="ar-vr-development">AR/VR Development</a></li>
+                            <li><a href="blockchain-development">Blockchain Development</a></li>
+                            <li><a href="build-ai-age">Build AI Age</a></li>
                             <li><a href="custom-software-development">Custom Software Development</a></li>
                             <li><a href="ux-design">UI/UX Design</a></li>
                             <li><a href="ai-machine-learning-development">AI & ML Development</a></li>
                         </ul>
                     </li>
                 <li><a href="project">Project</a></li>
-
-                    <li class="menu-item-has-children-custom th-item-has-children">
-    <div class="d-flex justify-content-between align-items-center">
-        <a href="service" class="solution-link">Service</a>
-        <span class="toggle-icon ms-2 th-mean-expand"></span>
-    </div>
-    <ul class="sub-menu th-submenu" style="display: none;">
-        <li><a href="iOS&androidAppDevelopment">IOS & Android App Development</a></li>
-        <li><a href="cross-platform-app-development">Cross Platform App Development</a></li>
-        <li><a href="web-development">Web Development</a></li>
-        <li><a href="custom-software-development">Custom SIOS & Android App Developmentoftware Development</a></li>
-        <li><a href="ux-design">UI/UX Design</a></li>
-        <li><a href="ai-machine-learning-development">AI & ML Development</a></li>
-    </ul>
-</li>
 
                     <li class="menu-item-has-children-custom first-menu-in-desktop">
                         <a href="solution" class="solution-link d-flex justify-content-between align-items-center">
@@ -109,7 +115,7 @@ echo
                 <div class="container th-container4">
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
-                            <div class="header-logo"><a class="" href="home"><img src="./assets/img/logo/MetaCore-It-Solutions-Logo.svg"
+                            <div class="header-logo"><a class="" href="home"><img src="./assets/img/logo/MetaCortex-It-Solution-Logo.svg"
                                         alt="Webteck" class="w-50"></a></div>
                         </div>
                         <div class="col-auto">
@@ -130,15 +136,15 @@ echo
                                             <span class="toggle-icon ms-2"></span>
                                         </a>
                                         <ul class="sub-menu">
-                                            <li><a href="iOS&androidAppDevelopment">IOS & Android App
-                                                    Development</a></li>
-                                            <li><a href="cross-platform-app-development">Cross Platform App
-                                                    Development</a></li>
-                                            <li><a href="web-development">Web Development</a></li>
-                                            <li><a href="custom-software-development">Custom Software Development</a>
-                                            </li>
-                                            <li><a href="ux-design">UI/UX Design</a></li>
-                                            <li><a href="ai-machine-learning-development">AI & ML Development</a></li>
+                                            <li><a href="iOS&androidAppDevelopment">IOS & Android App Development</a></li>
+                            <li><a href="cross-platform-app-development">Cross Platform App Development</a></li>
+                            <li><a href="web-development">Web Development</a></li>
+                            <li><a href="ar-vr-development">AR/VR Development</a></li>
+                            <li><a href="blockchain-development">Blockchain Development</a></li>
+                            <li><a href="build-ai-age">Build AI Age</a></li>
+                            <li><a href="custom-software-development">Custom Software Development</a></li>
+                            <li><a href="ux-design">UI/UX Design</a></li>
+                            <li><a href="ai-machine-learning-development">AI & ML Development</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="project"class=" ' ?><?php if ($page == "project.php") {

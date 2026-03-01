@@ -56,7 +56,7 @@ echo
                 <div class="row justify-content-between">
                     <div class="col-md-6 col-xxl-3 col-xl-3">
                         <div class="widget footer-widget">
-                            <h3 class="widget_title style2 text-white">Meta Core IT Solution</h3>
+                            <h3 class="widget_title style2 text-white">MetaCortex IT Solution</h3>
                             <div class="th-widget-about style2">
                                 <p class="about-text">MetaCortex IT Solution delivers innovative software and mobile app
                                     solutions tailored to modern business needs.</p>
