@@ -107,7 +107,7 @@ echo
                                 <ul class="list-unstyled text-white">
                                     <li class="mb-2">
                                         <i class="fas fa-phone-alt me-2"></i>
-                                        <a href="tel:+919265738337" class="text-white text-decoration-none">+91 9104902707</a>
+                                        <a href="tel:+919104902707" class="text-white text-decoration-none">+91 91049 02707</a>
                                     </li>
                                     <li class="mb-2">
                                         <i class="fas fa-envelope me-2"></i>

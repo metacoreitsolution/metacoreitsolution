@@ -97,9 +97,21 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 <option value="" disabled="disabled" selected="selected" hidden="">Select Subject
                                 </option>
                                 <option value="Web Development">Web Development</option>
-                                <option value="Brand Marketing">Brand Marketing</option>
-                                <option value="UI/UX Designing">UI/UX Designing</option>
-                                <option value="Digital Marketing">Digital Marketing</option>
+                                <option value="Custom Software Development">Custom Software Development</option>
+                                <option value="Cross-Platform App Development">Cross-Platform App Development</option>
+                                <option value="iOS & Android App Development">iOS & Android App Development</option>
+                                <option value="UI/UX Design">UI/UX Design</option>
+                                <option value="AI & ML Development">AI & ML Development</option>
+                                <option value="E-Commerce & Retail Solutions">E-Commerce & Retail Solutions</option>
+                                <option value="Healthcare IT Solutions">Healthcare IT Solutions</option>
+                                <option value="Education Technology Solutions">Education Technology Solutions</option>
+                                <option value="Real Estate & Property Management">Real Estate & Property Management</option>
+                                <option value="Hotel Management Solutions">Hotel Management Solutions</option>
+                                <option value="Logistics Management Solutions">Logistics Management Solutions</option>
+                                <option value="Billing & Accounting Software">Billing & Accounting Software</option>
+                                <option value="Project Discussion">Project Discussion</option>
+                                <option value="Project Support">Project Support</option>
+                                <option value="General Inquiry">General Inquiry</option>
                             </select> <i class="fal fa-chevron-down"></i></div>
                         <div class="form-group col-md-6"><input  id="phone" type="tel" class="form-control" name="number"
                                 id="number" placeholder="Phone Number"> <i class="fal fa-phone"></i></div>
@@ -142,7 +154,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
 </div>
 <div class="map-sec">
     <iframe 
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.555888529703!2d72.57136241534561!3d23.022505784943525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84f5cfaa8f67%3A0xa5a37d0d1b5e9df3!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1695485289269!5m2!1sen!2sin" 
+  src="https://maps.google.com/maps?q=Money%20Plant%20High%20Street%2C%20Sarkhej-Gandhinagar%20S.G.%20Highway%2C%20Ahmedabad%2C%20Gujarat%2C%20India&t=&z=16&ie=UTF8&iwloc=&output=embed" 
   width="100%" 
   height="400" 
   style="border:0;" 
