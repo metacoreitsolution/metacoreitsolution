@@ -1,7 +1,7 @@
 <?php
-$Title = "AR & VR Development Services | Immersive Augmented & Virtual Reality Solutions | MetaCore IT Solutions";
-$MetaDescription = "Transform user experiences with cutting-edge AR & VR development services. MetaCore IT Solutions builds immersive augmented reality apps, virtual reality simulations, 3D environments, and interactive experiences for enterprises and startups.";
-$MetaKeywords = "AR development services, VR development company, augmented reality app development, virtual reality solutions, 3D simulation development, immersive technology services, AR VR application development, MetaCore IT Solutions";
+$Title = "AR & VR Development Services | Immersive Augmented & Virtual Reality Solutions | MetaCortex IT Solutions";
+$MetaDescription = "Transform user experiences with cutting-edge AR & VR development services. MetaCortex IT Solutions builds immersive augmented reality apps, virtual reality simulations, 3D environments, and interactive experiences for enterprises and startups.";
+$MetaKeywords = "AR development services, VR development company, augmented reality app development, virtual reality solutions, 3D simulation development, immersive technology services, AR VR application development, MetaCortex IT Solutions";
 ?>
 
 <?php

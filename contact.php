@@ -61,7 +61,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                     <div class="contact-info_icon"><i class="fas fa-envelope"></i></div>
                     <div class="media-body">
                         <h4 class="box-title">Send An Email</h4><span class="contact-info_text"><a
-                                href="mailto:info@metacoreitsolution.com">info@metacoreitsolution.com</a></span>
+                                href="mailto:info@MetaCortexitsolution.com">info@metaCortexitsolution.com</a></span>
                     </div>
                 </div>
             </div>

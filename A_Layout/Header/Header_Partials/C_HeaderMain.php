@@ -8,7 +8,7 @@ echo
     <div id="loader" class="th-preloader">
         <div class="animation-preloader">
             <!-- Logo -->
-            <img src="https://metacoreitsolution.com/assets/img/logo/MetaCortex-It-Solution-Logo.svg" alt="Logo" class="preloader-logo" />
+            <img src="https://metacortexitsolution.com/assets/img/logo/MetaCortex-It-Solution-Logo.svg" alt="Logo" class="preloader-logo" />
 
             <!-- Progress Bar -->
             <div class="progress-bar">
@@ -25,8 +25,8 @@ echo
         <div class="th-menu-area text-center"><button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
   <a href="home">
-    <img src="https://metacoreitsolution.com/assets/img/logo/MetaCortex-It-Solution-Logo.svg" 
-         alt="MetaCore IT Solutions Logo" style=" width: 150px;"/>
+    <img src="https://metacortexitsolution.com/assets/img/logo/MetaCortex-It-Solution-Logo.svg" 
+         alt="MetaCortex IT Solutions Logo" style=" width: 150px;"/>
   </a>
 </div>
 

@@ -1,7 +1,7 @@
 <?php
-$Title = "AI & ML Development Services | Intelligent Automation & Predictive Solutions | MetaCore IT Solutions";
-$MetaDescription = "Transform your business with advanced AI & Machine Learning development services. MetaCore IT Solutions delivers predictive analytics, intelligent automation, NLP, and scalable cloud-based AI systems tailored to your goals.";
-$MetaKeywords = "AI & ML development services, artificial intelligence solutions, machine learning development company, predictive analytics services, NLP development, computer vision solutions, AI automation, cloud AI integration, MetaCore IT Solutions";
+$Title = "AI & ML Development Services | Intelligent Automation & Predictive Solutions | MetaCortex IT Solutions";
+$MetaDescription = "Transform your business with advanced AI & Machine Learning development services. MetaCortex IT Solutions delivers predictive analytics, intelligent automation, NLP, and scalable cloud-based AI systems tailored to your goals.";
+$MetaKeywords = "AI & ML development services, artificial intelligence solutions, machine learning development company, predictive analytics services, NLP development, computer vision solutions, AI automation, cloud AI integration, MetaCortex IT Solutions";
 ?>
 
 <?php

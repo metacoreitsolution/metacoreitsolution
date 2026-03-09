@@ -312,7 +312,7 @@ console.log("Collected form data:", { firstName, email, phone, message, subject 
     <div class="container">
         <!-- Header Section -->
         <header class="header">
-            <div class="logo">Meta Core Solution</div>
+            <div class="logo">MetaCortex Solution</div>
             <h1 class="main-title">Transform Your Business with <span class="highlight">Technology</span></h1>
             <p class="subtitle">Someone wants to connect with you</p>
         </header>

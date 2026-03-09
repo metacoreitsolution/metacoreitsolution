@@ -1,7 +1,7 @@
 <?php
-$Title = "Blockchain Development Services | Secure & Scalable Web3 Solutions | MetaCore IT Solutions";
-$MetaDescription = "Build secure, transparent, and decentralized applications with MetaCore IT Solutions. We deliver custom blockchain development, smart contracts, DeFi platforms, NFT marketplaces, and enterprise-grade Web3 solutions.";
-$MetaKeywords = "Blockchain development services, smart contract development, Web3 development company, DeFi development, NFT marketplace development, decentralized applications, enterprise blockchain solutions, MetaCore IT Solutions";
+$Title = "Blockchain Development Services | Secure & Scalable Web3 Solutions | MetaCortex IT Solutions";
+$MetaDescription = "Build secure, transparent, and decentralized applications with MetaCortex IT Solutions. We deliver custom blockchain development, smart contracts, DeFi platforms, NFT marketplaces, and enterprise-grade Web3 solutions.";
+$MetaKeywords = "Blockchain development services, smart contract development, Web3 development company, DeFi development, NFT marketplace development, decentralized applications, enterprise blockchain solutions, MetaCortex IT Solutions";
 ?>
 
 <?php
