@@ -17,7 +17,7 @@ if (!empty($CanonicalPath)) {
     $CanonicalPath = $_SERVER['REQUEST_URI'] ?? '/';
 }
 
-include __DIR__ . '/../../A_Layout/Header/header.php';
+include __DIR__ . '/../A_Layout/Header/header.php';
 ?>
 <section class="breadcumb-wrapper py-5" style="background-color: #def4ff;">
   <div class="container">
@@ -55,4 +55,4 @@ include __DIR__ . '/../../A_Layout/Header/header.php';
     </div>
   </div>
 </div>
-<?php include __DIR__ . '/../../A_Layout/Footer/footer.php'; ?>
+<?php include __DIR__ . '/../A_Layout/Footer/footer.php'; ?>

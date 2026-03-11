@@ -1,8 +1,11 @@
 <?php
 if (!defined('SITE_BASE_URL')) {
-    require_once __DIR__ . '/../../../../config.php';
+    require_once __DIR__ . '/../../../config.php';
 }
 $baseUrl = SITE_BASE_URL;
+if (empty($Title)) $Title = 'MetaCortex IT Solution';
+if (empty($MetaDescription)) $MetaDescription = 'MetaCortex IT Solution delivers innovative software and mobile app solutions.';
+if (empty($MetaKeywords)) $MetaKeywords = 'MetaCortex, IT solutions, software development';
 
 // Build canonical URL - use $CanonicalPath if set per page, else derive from path
 if (!empty($CanonicalPath)) {

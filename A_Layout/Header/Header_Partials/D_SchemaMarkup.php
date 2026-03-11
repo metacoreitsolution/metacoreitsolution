@@ -4,7 +4,7 @@
  * Organization schema on all pages; Service/FAQ added per page when $SchemaType is set
  */
 if (!defined('SITE_BASE_URL')) {
-    require_once __DIR__ . '/../../../../config.php';
+    require_once __DIR__ . '/../../../config.php';
 }
 $baseUrl = SITE_BASE_URL;
 
