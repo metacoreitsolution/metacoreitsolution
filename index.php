@@ -1,4 +1,16 @@
 <?php
+// TEMPORARY: Remove after fixing 500 error
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+
+// Load config first - ensures paths work on all server setups
+if (!defined('SITE_BASE_URL')) {
+    $configPath = __DIR__ . '/config.php';
+    if (file_exists($configPath)) {
+        require_once $configPath;
+    }
+}
 $Title = "MetaCortex Solution | IT Services & Digital Solutions Provider";
 $MetaDescription = "MetaCortex Solution delivers cutting-edge IT services, software development, and digital solutions to help businesses grow and succeed online.";
 $MetaKeywords = "MetaCortex Solution, IT services, software development, digital solutions, web development, mobile apps, tech company";

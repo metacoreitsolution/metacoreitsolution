@@ -4,7 +4,14 @@
  * Organization schema on all pages; Service/FAQ added per page when $SchemaType is set
  */
 if (!defined('SITE_BASE_URL')) {
-    require_once __DIR__ . '/../../../config.php';
+    $configPaths = [
+        __DIR__ . '/../../../config.php',
+        (isset($_SERVER['SCRIPT_FILENAME']) ? dirname($_SERVER['SCRIPT_FILENAME']) : __DIR__ . '/../../..') . '/config.php',
+    ];
+    foreach ($configPaths as $p) {
+        if ($p && file_exists($p)) { require_once $p; break; }
+    }
+    if (!defined('SITE_BASE_URL')) define('SITE_BASE_URL', 'https://metacortexitsolution.com');
 }
 $baseUrl = SITE_BASE_URL;
 

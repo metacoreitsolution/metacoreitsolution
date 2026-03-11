@@ -3,7 +3,11 @@
  * URL Router - Maps new URL structure to page content
  * Handles: /about-us, /services/*, /technologies/*, /industries/*, /hire-developers/*, /portfolio/*, /case-studies/*, /blog/*, /locations/*, /careers, /contact-us, /privacy-policy
  */
-$path = trim($_GET['path'] ?? '', '/');
+if (!defined('SITE_BASE_URL')) {
+    $configPath = __DIR__ . '/config.php';
+    if (file_exists($configPath)) require_once $configPath;
+}
+$path = isset($_GET['path']) ? trim($_GET['path'], '/') : '';
 $pathParts = $path ? explode('/', $path) : [];
 
 // URL to PHP file mapping (new URL => existing file or page template)
