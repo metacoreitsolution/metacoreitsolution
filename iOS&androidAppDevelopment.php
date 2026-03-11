@@ -1,4 +1,7 @@
 <?php
+// 301 redirect to new clean URL - remove this file after search engines update
+header('Location: /ios-android-app-development', true, 301);
+exit;
 $Title = "iOS & Android App Development | MetaCortex Mobile Solutions";
 $MetaDescription = "MetaCortex develops feature-rich iOS and Android apps tailored for performance, design, and cross-platform compatibility.";
 $MetaKeywords = "iOS app development, Android developer, mobile app solutions, native apps, mobile development company, MetaCortex apps";

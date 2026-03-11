@@ -21,7 +21,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
         <nav class="d-flex align-items-center mb-3">
           <ul class="breadcumb-menu list-unstyled d-flex align-items-center mb-0">
             <li><a href="home" class="text-decoration-none text-dark fw-semibold">Home</a></li>
-            <li><a href="service" class="text-primary fw-semibold">Services</a></li>
+            <li><a href="services" class="text-primary fw-semibold">Services</a></li>
           </ul>
         </nav>
 
@@ -47,9 +47,9 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <div class="service-card_number">01</div>
                         <div class="shape-icon"><img src="assets/img/icon/service_card_1.svg" alt="Icon"> <span
                                 class="dots"></span></div>
-                        <h3 class="box-title"><a href="web-development">Web Development</a></h3>
+                        <h3 class="box-title"><a href="services/web-development">Web Development</a></h3>
                         <p class="service-card_text">Intrinsicly redefine competitive e-business before adaptive
-                            potentialiti. Professionally build progressive users with.</p><a href="web-development"
+                            potentialiti. Professionally build progressive users with.</p><a href="services/web-development"
                             class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
                         <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
                     </div>
@@ -59,9 +59,9 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <div class="service-card_number">02</div>
                         <div class="shape-icon"><img src="assets/img/icon/service_card_2.svg" alt="Icon"> <span
                                 class="dots"></span></div>
-                        <h3 class="box-title"><a href="ux-design">UI/UX Design</a></h3>
+                        <h3 class="box-title"><a href="services/ui-ux-design-services">UI/UX Design</a></h3>
                         <p class="service-card_text">Intrinsicly redefine competitive e-business before adaptive
-                            potentialiti. Professionally build progressive users with.</p><a href="ux-design"
+                            potentialiti. Professionally build progressive users with.</p><a href="services/ui-ux-design-services"
                             class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
                         <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
                     </div>
@@ -71,8 +71,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <div class="service-card_number">03</div>
                         <div class="shape-icon"><img src="assets/img/icon/service_card_3.svg" alt="Icon"> <span
                                 class="dots"></span></div>
-                        <h3 class="box-title"><a href="iOS&androidAppDevelopment">IOS & Android App Development</a></h3>
-                        <p class="service-card_text">Creating high-performance, native mobile apps tailored for iOS and Android platforms.</p><a href="iOS&androidAppDevelopment"
+                        <h3 class="box-title"><a href="services/mobile-app-development">Mobile App Development</a></h3>
+                        <p class="service-card_text">Creating high-performance, native mobile apps tailored for iOS and Android platforms.</p><a href="services/mobile-app-development"
                             class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
                         <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
                     </div>
@@ -82,8 +82,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <div class="service-card_number">04</div>
                         <div class="shape-icon"><img src="assets/img/icon/service_card_4.svg" alt="Icon"> <span
                                 class="dots"></span></div>
-                        <h3 class="box-title"><a href="cross-platform-app-development">Cross Platform App Development</a></h3>
-                        <p class="service-card_text">Building seamless apps that run smoothly across both iOS and Android using a single codebase.</p><a href="cross-platform-app-development"
+                        <h3 class="box-title"><a href="technologies/flutter-app-development">Cross Platform App Development</a></h3>
+                        <p class="service-card_text">Building seamless apps that run smoothly across both iOS and Android using a single codebase.</p><a href="technologies/flutter-app-development"
                             class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
                         <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
                     </div>
@@ -93,8 +93,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <div class="service-card_number">05</div>
                         <div class="shape-icon"><img src="assets/img/icon/service_card_5.svg" alt="Icon"> <span
                                 class="dots"></span></div>
-                        <h3 class="box-title"><a href="custom-software-development">Custom Software Development</a></h3>
-                        <p class="service-card_text">Designing scalable, secure, and tailor-made software solutions for unique business needs.</p><a href="custom-software-development"
+                        <h3 class="box-title"><a href="services/custom-software-development">Custom Software Development</a></h3>
+                        <p class="service-card_text">Designing scalable, secure, and tailor-made software solutions for unique business needs.</p><a href="services/custom-software-development"
                             class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
                         <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
                     </div>
@@ -104,8 +104,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <div class="service-card_number">06</div>
                         <div class="shape-icon"><img src="assets/img/icon/service_card_6.svg" alt="Icon"> <span
                                 class="dots"></span></div>
-                        <h3 class="box-title"><a href="ai-machine-learning-development">AI & ML Development</a></h3>
-                        <p class="service-card_text">Delivering intelligent systems powered by AI and machine learning to automate and optimize processes.</p><a href="ai-machine-learning-development"
+                        <h3 class="box-title"><a href="services/ai-development-services">AI & ML Development</a></h3>
+                        <p class="service-card_text">Delivering intelligent systems powered by AI and machine learning to automate and optimize processes.</p><a href="services/ai-development-services"
                             class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
                         <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
                     </div>

@@ -1,44 +1,83 @@
 RewriteEngine On
+RewriteBase /
+
+# Redirect old URLs to new structure (301 permanent)
+RewriteRule ^about$ /about-us [L,R=301,NC]
+RewriteRule ^contact$ /contact-us [L,R=301,NC]
+RewriteRule ^service$ /services [L,R=301,NC]
+RewriteRule ^solution$ /industries [L,R=301,NC]
+RewriteRule ^project$ /portfolio [L,R=301,NC]
+RewriteRule ^iOS&androidAppDevelopment$ /services/mobile-app-development [L,R=301,NC]
+RewriteRule ^ios-android-app-development$ /services/mobile-app-development [L,R=301,NC]
+RewriteRule ^retaile-commercesolution$ /industries/ecommerce-software-development [L,R=301,NC]
+RewriteRule ^RetailE-Commercesolution$ /industries/ecommerce-software-development [L,R=301,NC]
+RewriteRule ^retail-ecommerce-solution$ /industries/ecommerce-software-development [L,R=301,NC]
+RewriteRule ^web-development$ /services/web-development [L,R=301,NC]
+RewriteRule ^custom-software-development$ /services/custom-software-development [L,R=301,NC]
+RewriteRule ^ai-machine-learning-development$ /services/ai-development-services [L,R=301,NC]
+RewriteRule ^build-ai-age$ /services/ai-development-services [L,R=301,NC]
+RewriteRule ^blockchain-development$ /services/blockchain-development [L,R=301,NC]
+RewriteRule ^ar-vr-development$ /services/ar-vr-development [L,R=301,NC]
+RewriteRule ^ux-design$ /services/ui-ux-design-services [L,R=301,NC]
+RewriteRule ^cross-platform-app-development$ /technologies/flutter-app-development [L,R=301,NC]
+RewriteRule ^health-care-solution$ /industries/healthcare-software-development [L,R=301,NC]
+RewriteRule ^realestate-property-management$ /industries/real-estate-software-development [L,R=301,NC]
+RewriteRule ^billing-accounting-software$ /industries/fintech-software-development [L,R=301,NC]
+RewriteRule ^logistic-management$ /industries/logistics-software-development [L,R=301,NC]
+RewriteRule ^education-technology-solution$ /industries/edtech-software-development [L,R=301,NC]
+
 RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
 Header always set Content-Security-Policy "upgrade-insecure-requests"
 
-
 # Define custom error pages
-ErrorDocument 404 /error.php	
+ErrorDocument 404 /error.php
 
-# Rewrite rules for clean URLs
+# XML Sitemap
+RewriteRule ^sitemap\.xml$ sitemap.php [L]
+
+# Homepage
 RewriteRule ^home$ index.php [L,NC]
-RewriteRule ^about$ about.php [L,NC]
-RewriteRule ^contact$ contact.php [L,NC]
-RewriteRule ^blog$ blog.php [L,NC]
+RewriteRule ^$ index.php [L]
+
+# New URL structure - route to router
+RewriteRule ^about-us$ router.php?path=about-us [L,QSA]
+RewriteRule ^contact-us$ router.php?path=contact-us [L,QSA]
+RewriteRule ^careers$ router.php?path=careers [L,QSA]
+RewriteRule ^privacy-policy$ router.php?path=privacy-policy [L,QSA]
+
+# Services
+RewriteRule ^services$ router.php?path=services [L,QSA]
+RewriteRule ^services/([a-z0-9-]+)$ router.php?path=services/$1 [L,QSA]
+
+# Technologies
+RewriteRule ^technologies$ router.php?path=technologies [L,QSA]
+RewriteRule ^technologies/([a-z0-9-]+)$ router.php?path=technologies/$1 [L,QSA]
+
+# Industries
+RewriteRule ^industries$ router.php?path=industries [L,QSA]
+RewriteRule ^industries/([a-z0-9-]+)$ router.php?path=industries/$1 [L,QSA]
+
+# Hire developers
+RewriteRule ^hire-developers$ router.php?path=hire-developers [L,QSA]
+RewriteRule ^hire-developers/([a-z0-9-]+)$ router.php?path=hire-developers/$1 [L,QSA]
+
+# Portfolio
+RewriteRule ^portfolio$ router.php?path=portfolio [L,QSA]
+RewriteRule ^portfolio/([a-z0-9-]+)$ router.php?path=portfolio/$1 [L,QSA]
+
+# Case studies
+RewriteRule ^case-studies$ router.php?path=case-studies [L,QSA]
+RewriteRule ^case-studies/([a-z0-9-]+)$ router.php?path=case-studies/$1 [L,QSA]
+
+# Blog
+RewriteRule ^blog$ router.php?path=blog [L,QSA]
+RewriteRule ^blog/([a-z0-9-]+)$ router.php?path=blog/$1 [L,QSA]
+
+# Locations
+RewriteRule ^locations$ router.php?path=locations [L,QSA]
+RewriteRule ^locations/([a-z0-9-]+)$ router.php?path=locations/$1 [L,QSA]
+
+# Legacy routes (blog-details, siteMap) - keep for backward compatibility
 RewriteRule ^blog-details$ blog-details.php [L,NC]
-RewriteRule ^service$ service.php [L,NC]
-RewriteRule ^solution$ solution.php [L,NC]
 RewriteRule ^siteMap$ sitemap.php [L,NC]
-RewriteRule ^project$ projects.php [L,NC]
-
-RewriteRule ^ai-machine-learning-development$ ai-ml-development.php [L,NC]
-RewriteRule ^billing-accounting-software$ billingaccountingSoftware.php [L,NC]
-RewriteRule ^cross-platform-app-development$ crossPlatformAppDevelopment.php [L,NC]
-RewriteRule ^custom-software-development$ custom-software-development.php [L,NC]
-RewriteRule ^education-technology-solution$ education-technology-solution.php [L,NC]
-RewriteRule ^health-care-solution$ healthCareSolution.php [L,NC]
-RewriteRule ^hospitalitymanagement$ hospitalitymanagement.php [L,NC]
-RewriteRule ^hotel-management$ hotelmanagement.php [L,NC]
-RewriteRule ^iOS&androidAppDevelopment$ iOS&androidAppDevelopment.php [L,NC]
-RewriteRule ^logistic-management$ logisticmanagement.php [L,NC]
-RewriteRule ^realestate-property-management$ realestatepropertymanagement.php [L,NC]
-RewriteRule ^retaile-commercesolution$ retaile-commercesolution.php [L,NC]
-RewriteRule ^ux-design$ uxdesign.php [L,NC]
-RewriteRule ^web-development$ webdevelopment.php [L,NC]
-RewriteRule ^home-digital-marking$ home-digital-marking.php [L,NC]
-RewriteRule ^ar-vr-development$ ar-vr-development.php [L,NC]
-RewriteRule ^blockchain-development$ blockchain-development.php [L,NC]
-RewriteRule ^build-ai-age$ build-ai-age.php [L,NC]
-
-
-
-
-
-

@@ -21,7 +21,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
         <nav class="d-flex align-items-center mb-3">
           <ul class="breadcumb-menu list-unstyled d-flex align-items-center mb-0">
             <li><a href="home" class="text-decoration-none text-dark fw-semibold">Home</a></li>
-            <li><a href="service" class=" fw-semibold" style="color: #88ACF9;">Solution</a></li>
+            <li><a href="industries" class=" fw-semibold" style="color: #88ACF9;">Industries</a></li>
           </ul>
         </nav>
 
@@ -47,8 +47,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <div class="service-card_number">01</div>
                         <div class="shape-icon"><img src="assets/img/icon/service_card_1.svg" alt="Icon"> <span
                                 class="dots"></span></div>
-                        <h3 class="box-title"><a href="health-care-solution">HealthCare Solution</a></h3>
-                        <p class="service-card_text">Manage patients, appointments, and records with secure digital tools.</p><a href="health-care-solution"
+                        <h3 class="box-title"><a href="industries/healthcare-software-development">Healthcare Software Development</a></h3>
+                        <p class="service-card_text">Manage patients, appointments, and records with secure digital tools.</p><a href="industries/healthcare-software-development"
                             class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
                         <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
                     </div>
@@ -81,8 +81,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <div class="service-card_number">04</div>
                         <div class="shape-icon"><img src="assets/img/icon/service_card_4.svg" alt="Icon"> <span
                                 class="dots"></span></div>
-                        <h3 class="box-title"><a href="billing-accounting-software">Billing & Accounting Software</a></h3>
-                        <p class="service-card_text">Simplify invoicing, payments, and real-time financial reporting.</p><a href="billing-accounting-software"
+                        <h3 class="box-title"><a href="industries/fintech-software-development">Fintech Software Development</a></h3>
+                        <p class="service-card_text">Simplify invoicing, payments, and real-time financial reporting.</p><a href="industries/fintech-software-development"
                             class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
                         <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
                     </div>
@@ -92,8 +92,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <div class="service-card_number">05</div>
                         <div class="shape-icon"><img src="assets/img/icon/service_card_5.svg" alt="Icon"> <span
                                 class="dots"></span></div>
-                        <h3 class="box-title"><a href="education-technology-solution">Education Technology Solution</a></h3>
-                        <p class="service-card_text">Digitize admissions, attendance, exams, and online learning.</p><a href="education-technology-solution"
+                        <h3 class="box-title"><a href="industries/edtech-software-development">EdTech Software Development</a></h3>
+                        <p class="service-card_text">Digitize admissions, attendance, exams, and online learning.</p><a href="industries/edtech-software-development"
                             class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
                         <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
                     </div>
@@ -103,8 +103,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <div class="service-card_number">06</div>
                         <div class="shape-icon"><img src="assets/img/icon/service_card_6.svg" alt="Icon"> <span
                                 class="dots"></span></div>
-                        <h3 class="box-title"><a href="RetailE-Commercesolution">Retail and E-Commerce Solution</a></h3>
-                        <p class="service-card_text">Delivering intelligent systems powered by AI and machine learning to automate and optimize processes.</p><a href="RetailE-Commercesolution"
+                        <h3 class="box-title"><a href="industries/ecommerce-software-development">Ecommerce Software Development</a></h3>
+                        <p class="service-card_text">Online stores, inventory, and retail solutions.</p><a href="industries/ecommerce-software-development"
                             class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
                         <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
                     </div>
@@ -114,8 +114,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <div class="service-card_number">07</div>
                         <div class="shape-icon"><img src="assets/img/icon/service_card_7.svg" alt="Icon"> <span
                                 class="dots"></span></div>
-                        <h3 class="box-title"><a href="realestate-property-management">Real Estate & Property Management</a></h3>
-                        <p class="service-card_text">Track properties, leads, and clients with easy-to-use tools.</p><a href="realestate-property-management"
+                        <h3 class="box-title"><a href="industries/real-estate-software-development">Real Estate Software Development</a></h3>
+                        <p class="service-card_text">Track properties, leads, and clients with easy-to-use tools.</p><a href="industries/real-estate-software-development"
                             class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
                         <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
                     </div>
@@ -125,8 +125,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                         <div class="service-card_number">08</div>
                         <div class="shape-icon"><img src="assets/img/icon/service_card_8.svg" alt="Icon"> <span
                                 class="dots"></span></div>
-                        <h3 class="box-title"><a href="logistic-management">Logistic Management</a></h3>
-                        <p class="service-card_text">Monitor shipments, optimize routes, and manage warehouse operations.</p><a href="logistic-management"
+                        <h3 class="box-title"><a href="industries/logistics-software-development">Logistics Software Development</a></h3>
+                        <p class="service-card_text">Monitor shipments, optimize routes, and manage warehouse operations.</p><a href="industries/logistics-software-development"
                             class="th-btn">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
                         <div class="bg-shape"><img src="assets/img/bg/service_card_bg.png" alt="bg"></div>
                     </div>

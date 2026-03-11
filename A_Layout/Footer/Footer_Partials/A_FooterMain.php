@@ -14,7 +14,7 @@ echo
             d="M4.868,43.803c-0.132,0-0.26-0.052-0.355-0.148c-0.125-0.127-0.174-0.312-0.127-0.483l2.639-9.636c-1.636-2.906-2.499-6.206-2.497-9.556C4.532,13.238,13.273,4.5,24.014,4.5c5.21,0.002,10.105,2.031,13.784,5.713c3.679,3.683,5.704,8.577,5.702,13.781c-0.004,10.741-8.746,19.48-19.486,19.48c-3.189-0.001-6.344-0.788-9.144-2.277l-9.875,2.589C4.953,43.798,4.911,43.803,4.868,43.803z">
           </path>
           <path fill="#cfd8dc"
-            d="M24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,4C24.014,4,24.014,4,24.014,4C12.998,4,4.032,12.962,4.027,23.979c-0.001,3.367,0.849,6.685,2.461,9.622l-2.585,9.439c-0.094,0.345,0.002,0.713,0.254,0.967c0.19,0.192,0.447,0.297,0.711,0.297c0.085,0,0.17-0.011,0.254-0.033l9.687-2.54c2.828,1.468,5.998,2.243,9.197,2.244c11.024,0,19.99-8.963,19.995-19.98c0.002-5.339-2.075-10.359-5.848-14.135C34.378,6.083,29.357,4.002,24.014,4L24.014,4z">
+            d="M4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,4C24.014,4,24.014,4,24.014,4C12.998,4,4.032,12.962,4.027,23.979c-0.001,3.367,0.849,6.685,2.461,9.622l-2.585,9.439c-0.094,0.345,0.002,0.713,0.254,0.967c0.19,0.192,0.447,0.297,0.711,0.297c0.085,0,0.17-0.011,0.254-0.033l9.687-2.54c2.828,1.468,5.998,2.243,9.197,2.244c11.024,0,19.99-8.963,19.995-19.98c0.002-5.339-2.075-10.359-5.848-14.135C34.378,6.083,29.357,4.002,24.014,4L24.014,4z">
           </path>
           <path fill="#40c351"
             d="M35.176,12.832c-2.98-2.982-6.941-4.625-11.157-4.626c-8.704,0-15.783,7.076-15.787,15.774c-0.001,2.981,0.833,5.883,2.413,8.396l0.376,0.597l-1.595,5.821l5.973-1.566l0.577,0.342c2.422,1.438,5.2,2.198,8.032,2.199h0.006c8.698,0,15.777-7.077,15.78-15.776C39.795,19.778,38.156,15.814,35.176,12.832z">
@@ -71,31 +71,26 @@ echo
                             <h3 class="widget_title style2 text-white">Services</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="iOS&androidAppDevelopment">iOS & Android App Development</a></li>
-                                    <li><a href="cross-platform-app-development">Cross Platform App Development</a>
-                                    </li>
-                                    <li><a href="web-development">Web Development</a></li>
-                                    <li><a href="custom-software-development">Custom Software Development</a></li>
-                                    <li><a href="ux-design">UI/UX Design </a></li>
-                                    <li><a href="ai-machine-learning-development">AI & ML Development</a></li>
+                                    <li><a href="services/mobile-app-development">Mobile App Development</a></li>
+                                    <li><a href="services/web-development">Web Development</a></li>
+                                    <li><a href="services/custom-software-development">Custom Software Development</a></li>
+                                    <li><a href="services/ui-ux-design-services">UI/UX Design Services</a></li>
+                                    <li><a href="services/ai-development-services">AI Development Services</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-xxl-3 col-xl-3">
                         <div class="widget widget_nav_menu footer-widget">
-                            <h3 class="widget_title style2">Solution</h3>
+                            <h3 class="widget_title style2">Industries</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="health-care-solution">HealthCare Solution</a></li>
-                                    <li><a href="hotel-management">Hotel Management</a></li>
-                                    <li><a href="billing-accounting-software">Billing & Accounting Software</a></li>
-                                    <li><a href="education-technology-solution">Education Technology Solution</a>
-                                    </li>
-                                    <li><a href="RetailE-Commercesolution">Retail and E-Commerce Solution</a></li>
-                                    <li><a href="realestate-property-management">Real Estate & Property
-                                            Management</a></li>
-                                    <li><a href="logistic-management">Logistic Management</a></li>
+                                    <li><a href="industries/healthcare-software-development">Healthcare Software Development</a></li>
+                                    <li><a href="industries/real-estate-software-development">Real Estate Software Development</a></li>
+                                    <li><a href="industries/fintech-software-development">Fintech Software Development</a></li>
+                                    <li><a href="industries/edtech-software-development">EdTech Software Development</a></li>
+                                    <li><a href="industries/ecommerce-software-development">Ecommerce Software Development</a></li>
+                                    <li><a href="industries/logistics-software-development">Logistics Software Development</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -132,11 +127,12 @@ echo
                     </div>
                     <div class="col-lg-6 text-center text-md-end">
                         <ul class="footer-menu">
-                            <li><a href="about">About Us</a></li>
-                            <li><a href="service">service</a></li>
-                            <li><a href="solution">Solution</a></li>
-                            <li><a href="project">Project</a></li>
-                            <li><a href="contact">Contact</a></li>
+                            <li><a href="about-us">About Us</a></li>
+                            <li><a href="services">Services</a></li>
+                            <li><a href="industries">Industries</a></li>
+                            <li><a href="portfolio">Portfolio</a></li>
+                            <li><a href="contact-us">Contact</a></li>
+                            <li><a href="privacy-policy">Privacy Policy</a></li>
                         </ul>
                     </div>
                 </div>

@@ -2,6 +2,7 @@
 $Title = "MetaCortex Solution | IT Services & Digital Solutions Provider";
 $MetaDescription = "MetaCortex Solution delivers cutting-edge IT services, software development, and digital solutions to help businesses grow and succeed online.";
 $MetaKeywords = "MetaCortex Solution, IT services, software development, digital solutions, web development, mobile apps, tech company";
+$CanonicalPath = '/';
 ?>
 
 <?php
@@ -196,7 +197,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                     Give your business an innovative edge with our new-age AR/VR development services that bring
                     immersive experiences to life.
                 </p>
-                <a href="ar-vr-development" class="our-tech-service-link">
+                <a href="services/ar-vr-development" class="our-tech-service-link">
                     Discover more <i class="fas fa-arrow-right"></i>
                 </a>
             </div>
@@ -232,7 +233,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 <p class="our-tech-service-description">
                     Transparent and decentralized ecosystems for your business with our blockchain expertise.
                 </p>
-                <a href="blockchain-development" class="our-tech-service-link">
+                <a href="services/blockchain-development" class="our-tech-service-link">
                     Discover more <i class="fas fa-arrow-right"></i>
                 </a>
             </div>
@@ -250,7 +251,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 <p class="our-tech-service-description">
                     AI/ML-driven models that help your business scale and grow faster with intelligent solutions.
                 </p>
-                <a href="ai-machine-learning-development" class="our-tech-service-link">
+                <a href="services/ai-development-services" class="our-tech-service-link">
                     Discover more <i class="fas fa-arrow-right"></i>
                 </a>
             </div>
@@ -269,7 +270,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                     Help your business expand with our comprehensive web development services that simplify everything &
                     cater to your needs.
                 </p>
-                <a href="web-development" class="our-tech-service-link">
+                <a href="services/web-development" class="our-tech-service-link">
                     Discover more <i class="fas fa-arrow-right"></i>
                 </a>
             </div>
@@ -288,7 +289,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                     Experience captivating interfaces, seamless navigation, and intuitive user experiences and guide
                     them.
                 </p>
-                <a href="ux-design" class="our-tech-service-link">
+                <a href="services/ui-ux-design-services" class="our-tech-service-link">
                     Discover more <i class="fas fa-arrow-right"></i>
                 </a>
             </div>
@@ -306,7 +307,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 <p class="our-tech-service-description">
                     Dominate the mobile-first world with our innovative mobile app and unique modern solutions.
                 </p>
-                <a href="iOS&androidAppDevelopment" class="our-tech-service-link">
+                <a href="services/mobile-app-development" class="our-tech-service-link">
                     Discover more <i class="fas fa-arrow-right"></i>
                 </a>
             </div>
@@ -965,7 +966,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                     innovation, continuous learning, and collaboration. Our agile mindset, supported by Scrum
                     practices, enables us to deliver high-quality solutions that adapt to your business needs and
                     evolve with your growth.</p>
-                <a href="about" class="th-btn btn-gradient2 style-radius ">Discover More</a>
+                <a href="about-us" class="th-btn btn-gradient2 style-radius ">Discover More</a>
             </div>
         </div>
     </div>
@@ -982,7 +983,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                     </div>
                 </div>
                 <div class="col-auto">
-                    <div class="sec-btn"><a href="service" class="th-btn btn-gradient2 style-radius">View All
+                    <div class="sec-btn"><a href="services" class="th-btn btn-gradient2 style-radius">View All
                             Projects</a></div>
                 </div>
             </div>

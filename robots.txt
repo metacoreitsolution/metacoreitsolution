@@ -1,0 +1,10 @@
+# robots.txt for metacortexitsolution.com
+User-agent: *
+Allow: /
+
+# Disallow admin and sensitive paths (add if applicable)
+# Disallow: /admin/
+# Disallow: /Mail/
+
+# Sitemap location - submit this URL in Google Search Console
+Sitemap: https://metacortexitsolution.com/sitemap.xml

@@ -5,6 +5,7 @@
 $Title = "Retail & E-Commerce Solutions | MetaCortex Digital Commerce";
 $MetaDescription = "Grow your e-commerce business with MetaCortex’s retail tech — from online store development to inventory and payment systems.";
 $MetaKeywords = "e-commerce development, online store, retail tech, inventory management, MetaCortex e-commerce services";
+$CanonicalPath = '/retail-ecommerce-solution';
 
 ?>
 
@@ -21,7 +22,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
         <nav class="d-flex align-items-center mb-3">
           <ul class="breadcumb-menu list-unstyled d-flex align-items-center mb-0">
             <li><a href="home" class="text-decoration-none text-dark fw-semibold">Home</a></li>
-            <li><a href="service" class="text-decoration-none text-dark fw-semibold">Solution</a></li>
+            <li><a href="industries" class="text-decoration-none text-dark fw-semibold">Industries</a></li>
             <li class="text-primary fw-semibold">Retail and E-Commerce Solution</li>
           </ul>
         </nav>

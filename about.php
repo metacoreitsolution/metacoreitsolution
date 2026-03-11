@@ -311,7 +311,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                     </div>
                 </div>
                 <div class="col-auto">
-                    <div class="sec-btn"><a href="service" class="th-btn style3">VIEW ALL SERVICES<i
+                    <div class="sec-btn"><a href="services" class="th-btn style3">VIEW ALL SERVICES<i
                                 class="fa-regular fa-arrow-right ms-2"></i></a></div>
                 </div>
             </div>
@@ -368,7 +368,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 <div class="service-grid_icon"><img src="assets/img/icon/service_card_5.svg" alt="Icon">
                                 </div>
                                 <div class="service-grid_content">
-                                    <h3 class="box-title"><a href="web-development">Software Services</a></h3>
+                                    <h3 class="box-title"><a href="services/web-development">Software Services</a></h3>
                                     <p class="service-grid_text">Continually engage customized infomediarie and quality
                                         growth strategies. Appropriately.</p>
                                     <div class="bg-shape"><img src="assets/img/bg/service_grid_bg.png" alt="bg"></div>

@@ -19,7 +19,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
         <nav class="d-flex align-items-center mb-3">
           <ul class="breadcumb-menu list-unstyled d-flex align-items-center mb-0">
             <li><a href="home" class="text-decoration-none text-dark fw-semibold">Home</a></li>
-            <li><a href="service" class="text-primary fw-semibold">Project</a></li>
+            <li><a href="portfolio" class="text-primary fw-semibold">Portfolio</a></li>
           </ul>
         </nav>
 

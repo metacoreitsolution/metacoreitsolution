@@ -21,7 +21,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
         <nav class="d-flex align-items-center mb-3">
           <ul class="breadcumb-menu list-unstyled d-flex align-items-center mb-0">
             <li><a href="home" class="text-decoration-none text-dark fw-semibold">Home</a></li>
-            <li><a href="service" class="text-decoration-none text-dark fw-semibold">Solution</a></li>
+            <li><a href="industries" class="text-decoration-none text-dark fw-semibold">Industries</a></li>
             <li class="text-primary fw-semibold">Hotel Management</li>
           </ul>
         </nav>
