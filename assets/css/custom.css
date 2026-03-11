@@ -548,25 +548,33 @@
     max-height: 40px;
 }
 
-/* Mega menu - Solutions dropdown */
+/* Mega menu - Solutions dropdown (Industries only) */
 .main-menu .mega-menu.mega-menu-content {
     left: 50%;
     transform: translateX(-50%) scaleY(0);
     transform-origin: top;
-    min-width: 600px;
+    min-width: 320px;
     padding: 25px 30px !important;
-    background: #fff !important;
+    background-color: #ffffff !important;
+    background: #ffffff !important;
     box-shadow: 0 10px 40px rgba(0,0,0,0.12);
     border-radius: 8px;
     transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s;
     visibility: hidden;
     opacity: 0;
+    z-index: 9999;
 }
 .main-menu .menu-item-has-children:hover .mega-menu.mega-menu-content,
 .main-menu .mega-menu-wrap:hover .mega-menu.mega-menu-content {
     transform: translateX(-50%) scaleY(1);
     visibility: visible;
     opacity: 1;
+}
+/* Override theme's transparent mega menu - ensure solid white background */
+.header-layout23 .main-menu ul.mega-menu.mega-menu-content,
+.main-menu ul.mega-menu.mega-menu-content {
+    background-color: #ffffff !important;
+    background: #ffffff !important;
 }
 .main-menu .megamenu-list {
     padding: 0 20px 0 0;
@@ -595,10 +603,20 @@
     font-size: 0.9em;
 }
 
-/* Dropdown sub-menu - smooth animation */
+/* Dropdown sub-menu (Services, Company) - match Solutions mega menu styling */
 .main-menu ul.sub-menu {
     transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s;
     min-width: 260px;
+    background-color: #ffffff !important;
+    background: #ffffff !important;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.12);
+    border-radius: 8px;
+    padding: 20px 24px !important;
+    z-index: 9999;
+}
+.header-layout23 .main-menu ul.sub-menu {
+    background-color: #ffffff !important;
+    background: #ffffff !important;
 }
 .main-menu ul.sub-menu li a i {
     opacity: 0.7;

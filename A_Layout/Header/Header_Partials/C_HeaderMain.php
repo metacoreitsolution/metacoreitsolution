@@ -2,8 +2,9 @@
 $page = basename($_SERVER['PHP_SELF'] ?? '');
 $currentPath = trim(parse_url($_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH), '/');
 $isServicePage = strpos($currentPath, 'services/') === 0;
-$isSolutionPage = strpos($currentPath, 'industries/') === 0 || strpos($currentPath, 'technologies/') === 0;
+$isSolutionPage = strpos($currentPath, 'industries/') === 0;
 $isCompanyPage = in_array($currentPath, ['case-studies', 'blog', 'locations', 'careers', 'contact-us']) || strpos($currentPath, 'case-studies/') === 0 || strpos($currentPath, 'blog/') === 0 || strpos($currentPath, 'locations/') === 0;
+$logoUrl = (defined('SITE_BASE_URL') ? rtrim(SITE_BASE_URL, '/') : 'https://metacortexitsolution.com') . '/assets/img/logo/MetaCortex-It-Solution-Logo.svg';
 ?>
 <body class="theme2">
 
@@ -48,18 +49,11 @@ $isCompanyPage = in_array($currentPath, ['case-studies', 'blog', 'locations', 'c
                     <li class="menu-item-has-children-custom th-item-has-children">
                         <a href="/industries" class="solution-link d-flex justify-content-between align-items-center <?php echo $isSolutionPage ? 'active' : ''; ?>"><i class="fas fa-industry me-2"></i>Solutions <span class="toggle-icon ms-2 th-mean-expand"></span></a>
                         <ul class="sub-menu th-submenu" style="display: none;">
-                            <li class="megamenu-mobile-title">Industries</li>
-                            <li><a href="/industries/healthcare-software-development"><i class="fas fa-heartbeat me-2"></i>Healthcare</a></li>
-                            <li><a href="/industries/fintech-software-development"><i class="fas fa-university me-2"></i>Fintech</a></li>
-                            <li><a href="/industries/real-estate-software-development"><i class="fas fa-building me-2"></i>Real Estate</a></li>
-                            <li><a href="/industries/logistics-software-development"><i class="fas fa-truck me-2"></i>Logistics</a></li>
-                            <li><a href="/industries/edtech-software-development"><i class="fas fa-graduation-cap me-2"></i>EdTech</a></li>
-                            <li class="megamenu-mobile-title">Technologies</li>
-                            <li><a href="/technologies/flutter-app-development"><i class="fab fa-android me-2"></i>Flutter</a></li>
-                            <li><a href="/technologies/react-native-app-development"><i class="fab fa-react me-2"></i>React Native</a></li>
-                            <li><a href="/technologies/nodejs-development"><i class="fab fa-node-js me-2"></i>Node.js</a></li>
-                            <li><a href="/technologies/python-development"><i class="fab fa-python me-2"></i>Python</a></li>
-                            <li><a href="/technologies/laravel-development"><i class="fab fa-laravel me-2"></i>Laravel</a></li>
+                            <li><a href="/industries/healthcare-software-development"><i class="fas fa-heartbeat me-2"></i>Healthcare Software Development</a></li>
+                            <li><a href="/industries/fintech-software-development"><i class="fas fa-university me-2"></i>Fintech Software Development</a></li>
+                            <li><a href="/industries/real-estate-software-development"><i class="fas fa-building me-2"></i>Real Estate Software Development</a></li>
+                            <li><a href="/industries/logistics-software-development"><i class="fas fa-truck me-2"></i>Logistics Software Development</a></li>
+                            <li><a href="/industries/edtech-software-development"><i class="fas fa-graduation-cap me-2"></i>EdTech Software Development</a></li>
                         </ul>
                     </li>
                     <li><a href="/portfolio" class="<?php echo (strpos($currentPath, 'portfolio') === 0) ? 'active' : ''; ?>"><i class="fas fa-briefcase me-2"></i>Projects</a></li>
@@ -88,7 +82,7 @@ $isCompanyPage = in_array($currentPath, ['case-studies', 'blog', 'locations', 'c
                         <div class="col-auto">
                             <div class="header-logo">
                                 <a href="/" aria-label="MetaCortex IT Solution - Home">
-                                    <img src="./assets/img/logo/MetaCortex-It-Solution-Logo.svg" alt="MetaCortex IT Solution" class="header-logo-img"/>
+                                    <img src="<?php echo htmlspecialchars($logoUrl); ?>" alt="MetaCortex IT Solution" class="header-logo-img" width="180" height="43" loading="eager"/>
                                 </a>
                             </div>
                         </div>
@@ -125,16 +119,6 @@ $isCompanyPage = in_array($currentPath, ['case-studies', 'blog', 'locations', 'c
                                                     <li><a href="/industries/real-estate-software-development"><i class="fas fa-building me-2"></i>Real Estate Software Development</a></li>
                                                     <li><a href="/industries/logistics-software-development"><i class="fas fa-truck me-2"></i>Logistics Software Development</a></li>
                                                     <li><a href="/industries/edtech-software-development"><i class="fas fa-graduation-cap me-2"></i>EdTech Software Development</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="megamenu-list">
-                                                <a href="/technologies" class="mega-menu-title">Technologies</a>
-                                                <ul>
-                                                    <li><a href="/technologies/flutter-app-development"><i class="fab fa-android me-2"></i>Flutter Development</a></li>
-                                                    <li><a href="/technologies/react-native-app-development"><i class="fab fa-react me-2"></i>React Native Development</a></li>
-                                                    <li><a href="/technologies/nodejs-development"><i class="fab fa-node-js me-2"></i>Node.js Development</a></li>
-                                                    <li><a href="/technologies/python-development"><i class="fab fa-python me-2"></i>Python Development</a></li>
-                                                    <li><a href="/technologies/laravel-development"><i class="fab fa-laravel me-2"></i>Laravel Development</a></li>
                                                 </ul>
                                             </li>
                                         </ul>

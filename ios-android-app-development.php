@@ -1,8 +1,13 @@
 <?php
+if (!defined('ASSETS_BASE')) {
+    $configPath = __DIR__ . '/config.php';
+    if (file_exists($configPath)) require_once $configPath;
+    if (!defined('ASSETS_BASE')) define('ASSETS_BASE', '/assets');
+}
 $Title = "iOS & Android App Development | MetaCortex Mobile Solutions";
 $MetaDescription = "MetaCortex develops feature-rich iOS and Android apps tailored for performance, design, and cross-platform compatibility.";
 $MetaKeywords = "iOS app development, Android developer, mobile app solutions, native apps, mobile development company, MetaCortex apps";
-$CanonicalPath = '/ios-android-app-development';
+$CanonicalPath = '/services/mobile-app-development';
 $SchemaService = ['name' => 'iOS & Android App Development', 'description' => $MetaDescription];
 $SchemaFAQ = [
     ['question' => 'What is custom software?', 'answer' => "It's software built specifically for your business needs and processes."],
@@ -22,8 +27,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
       <div class="col-md-6">
         <nav class="d-flex align-items-center mb-3">
           <ul class="breadcumb-menu list-unstyled d-flex align-items-center mb-0">
-            <li><a href="home" class="text-decoration-none text-dark fw-semibold">Home</a></li>
-            <li><a href="services" class="text-decoration-none text-dark fw-semibold">Services</a></li>
+            <li><a href="/" class="text-decoration-none text-dark fw-semibold">Home</a></li>
+            <li><a href="/services" class="text-decoration-none text-dark fw-semibold">Services</a></li>
             <li class="text-primary fw-semibold">IOS & Android App Development</li>
           </ul>
         </nav>
@@ -36,7 +41,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
 
       <!-- Right Side: Image -->
       <div class="col-md-6 text-center">
-        <img src="./assets/img/hero/IOS-Android-App-Development.png" alt="About Us" class="img-fluid" style="max-width: 450px;">
+        <img src="/assets/img/hero/IOS-Android-App-Development.png" alt="About Us" class="img-fluid" style="max-width: 450px;">
       </div>
 
     </div>
@@ -47,15 +52,15 @@ include __DIR__ . '/A_Layout/Header/header.php';
             <div class="row align-items-center">
                 <div class="col-xl-6 mb-30 mb-xl-0">
                     <div class="img-box3">
-                        <div class="img1"><img src="assets/img/mockup/ios.png" alt="About"></div>
-                        <!-- <div class="shape1"><img src="assets/img/normal/about_2_shape.png" alt="About"></div> -->
+                        <div class="img1"><img src="/assets/img/mockup/ios.png" alt="About"></div>
+                        <!-- <div class="shape1"><img src="/assets/img/normal/about_2_shape.png" alt="About"></div> -->
                     </div>
                 </div>
                 <div class="col-xl-6">
                     <div class="title-area mb-35"><span class="sub-title">
                             <div class="icon-masking me-2"><span class="mask-icon"
-                                    data-mask-src="assets/img/theme-img/title_shape_2.svg"></span> <img
-                                    src="assets/img/theme-img/title_shape_2.svg" alt="shape"></div>IOS & Android App Development</span>
+                                    data-mask-src="/assets/img/theme-img/title_shape_2.svg"></span> <img
+                                    src="/assets/img/theme-img/title_shape_2.svg" alt="shape"></div>IOS & Android App Development</span>
                         <h2 class="sec-title">Build High-Performance Mobile Apps for a <span
                                 class="text-theme fw-normal">Connected World</span></h2>
                     </div>
@@ -66,7 +71,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <li><i class="fa-solid fa-square-check"></i> Cross-Platform Solutions using Flutter or React Native</li>
                             <li><i class="fa-solid fa-square-check"></i> End-to-End Support from UI/UX to App Store deployment</li>
                         </ul>
-                    </div><a href="about" class="th-btn">DISCOVER MORE<i
+                    </div><a href="/about-us" class="th-btn">DISCOVER MORE<i
                             class="fa-regular fa-arrow-right ms-2"></i></a>
                 </div>
             </div>
@@ -75,19 +80,19 @@ include __DIR__ . '/A_Layout/Header/header.php';
             <div class="particle-2 small" id="particle-1"></div>
         </div>
     </div>
-       <div class="why-sec-v2" data-bg-src="assets/img/bg/why_bg_2.jpg">
+       <div class="why-sec-v2" data-bg-src="/assets/img/bg/why_bg_2.jpg">
         <div class="container space">
             <div class="row align-items-center flex-row-reverse">
                 <div class="col-xl-6 mb-30 mb-xl-0">
-                    <div class="img-box5"><img class="tilt-active" src="assets/img/mockup/ios-smart.png" alt="Why">
+                    <div class="img-box5"><img class="tilt-active" src="/assets/img/mockup/ios-smart.png" alt="Why">
                     </div>
                 </div>
                 <div class="col-xl-6">
                     <div class="title-area mb-35">
                         <div class="shadow-title color2 color2">What is</div><span class="sub-title">
                             <div class="icon-masking me-2"><span class="mask-icon"
-                                    data-mask-src="assets/img/theme-img/title_shape_2.svg"></span> <img
-                                            src="assets/img/theme-img/title_shape_2.svg" alt="shape"></div>iOS & Android App Development?
+                                    data-mask-src="/assets/img/theme-img/title_shape_2.svg"></span> <img
+                                            src="/assets/img/theme-img/title_shape_2.svg" alt="shape"></div>iOS & Android App Development?
                         </span>
                         <h2 class="sec-title">Smart Solutions for <span class="text-theme">Mobile-First </span>Users</h2>
                     </div>
@@ -116,7 +121,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                 <p class="feature-circle_text">Efficiently transition top-line ideas before market.</p>
                             </div>
                         </div>
-                    </div><a href="about" class="th-btn">LEARN MORE<i
+                    </div><a href="/about-us" class="th-btn">LEARN MORE<i
                             class="fa-regular fa-arrow-right ms-2"></i></a>
                 </div>
             </div>
@@ -127,7 +132,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
             <div class="row d-flex justify-content-center">
                 <div class="col-xxl-12 col-lg-8">
                     <div class="page-single">
-                        <!-- <div class="page-img"><img src="assets/img/service/service_details.jpg" alt="Service Image"> -->
+                        <!-- <div class="page-img"><img src="/assets/img/service/service_details.jpg" alt="Service Image"> -->
                         </div>
                         <div class="page-content">
                             <h2 class="h3 page-title">How We Develop Custom Software</h2>
@@ -136,7 +141,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <div class="row">
                                 <div class="col-md-6 mb-30">
                                     <div class="th-video d-flex justify-content-center"><img class="" style="width: 70%;"
-                                            src="assets/img/mockup/ios-Key-Features.png" alt="service"> <a
+                                            src="/assets/img/mockup/ios-Key-Features.png" alt="service"> <a
                                             class="" ></a></div>
                                 </div>
                                 <div class="col-md-6 mb-30">
@@ -155,7 +160,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                             <h3 class="h4 mb-20">Benefits With Our Service</h3>
                             <div class="service-feature-wrap">
                                 <div class="service-feature">
-                                    <div class="service-feature_icon"><img src="assets/img/icon/service_feature_1.svg"
+                                    <div class="service-feature_icon"><img src="/assets/img/icon/service_feature_1.svg"
                                             alt="icon"></div>
                                     <div class="media-body">
                                         <h4 class="service-feature_title">Tailored to Your Business</h4>
@@ -163,7 +168,7 @@ include __DIR__ . '/A_Layout/Header/header.php';
                                     </div>
                                 </div>
                                 <div class="service-feature">
-                                    <div class="service-feature_icon"><img src="assets/img/icon/service_feature_2.svg"
+                                    <div class="service-feature_icon"><img src="/assets/img/icon/service_feature_2.svg"
                                             alt="icon"></div>
                                     <div class="media-body">
                                         <h4 class="service-feature_title"> Agile & Flexible Development</h4>
@@ -184,8 +189,8 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 <div class="col-xl-6 col-lg-9">
                     <div class="title-area text-center text-xl-start"><span class="sub-title">
                             <div class="icon-masking me-2"><span class="mask-icon"
-                                    data-mask-src="assets/img/theme-img/title_shape_2.svg"></span> <img
-                                    src="assets/img/theme-img/title_shape_2.svg" alt="shape"></div>Frequently Ask
+                                    data-mask-src="/assets/img/theme-img/title_shape_2.svg"></span> <img
+                                    src="/assets/img/theme-img/title_shape_2.svg" alt="shape"></div>Frequently Ask
                             Question
                         </span>
                         <h2 class="sec-title">Talk To About Any <span class="text-theme fw-normal">Question?</span></h2>
@@ -229,19 +234,19 @@ include __DIR__ . '/A_Layout/Header/header.php';
                 <div class="col-xl-6 mt-35 mt-xl-0">
                     <div class="faq-img tilt-active">
                         <!-- <div class="img-shape icon-masking"><span class="mask-icon"
-                                data-mask-src="assets/img/normal/about_3_1-shape.png"></span> <img
-                                src="assets/img/normal/about_3_1-shape.png" alt="img"></div> -->
+                                data-mask-src="/assets/img/normal/about_3_1-shape.png"></span> <img
+                                src="/assets/img/normal/about_3_1-shape.png" alt="img"></div> -->
                                <div class="img-box6">
-                        <div class="img1"><img src="assets/img/normal/about_4_1.png" alt="About"></div>
-                        <div class="shape1"><img src="assets/img/normal/about_4_2.png" alt="About"></div>
-                        <div class="shape2"><img src="assets/img/normal/about_4_3.png" alt="About"></div>
+                        <div class="img1"><img src="/assets/img/normal/about_4_1.png" alt="About"></div>
+                        <div class="shape1"><img src="/assets/img/normal/about_4_2.png" alt="About"></div>
+                        <div class="shape2"><img src="/assets/img/normal/about_4_3.png" alt="About"></div>
                         <div class="color-animate"></div>
                     </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="shape-mockup jump" data-bottom="0%" data-left="0%"><img src="assets/img/shape/tech_shape_5.png"
+        <div class="shape-mockup jump" data-bottom="0%" data-left="0%"><img src="/assets/img/shape/tech_shape_5.png"
                 alt="shape"></div>
     </div>
   <?php

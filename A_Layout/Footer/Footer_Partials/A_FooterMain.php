@@ -50,7 +50,7 @@ echo
   </div>
 </div>
 
- <footer class="footer-wrapper footer-layout5 footer-layout23" data-bg-src="assets/img/bg/footer_bg_18.jpg">
+ <footer class="footer-wrapper footer-layout5 footer-layout23" data-bg-src="/assets/img/bg/footer_bg_18.jpg">
         <div class="container th-container4">
             <div class="widget-area">
                 <div class="row justify-content-between">
@@ -71,11 +71,11 @@ echo
                             <h3 class="widget_title style2 text-white">Services</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="services/mobile-app-development">Mobile App Development</a></li>
-                                    <li><a href="services/web-development">Web Development</a></li>
-                                    <li><a href="services/custom-software-development">Custom Software Development</a></li>
-                                    <li><a href="services/ui-ux-design-services">UI/UX Design Services</a></li>
-                                    <li><a href="services/ai-development-services">AI Development Services</a></li>
+                                    <li><a href="/services/mobile-app-development">Mobile App Development</a></li>
+                                    <li><a href="/services/web-development">Web Development</a></li>
+                                    <li><a href="/services/custom-software-development">Custom Software Development</a></li>
+                                    <li><a href="/services/ui-ux-design-services">UI/UX Design Services</a></li>
+                                    <li><a href="/services/ai-development-services">AI Development Services</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -85,12 +85,12 @@ echo
                             <h3 class="widget_title style2">Industries</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="industries/healthcare-software-development">Healthcare Software Development</a></li>
-                                    <li><a href="industries/real-estate-software-development">Real Estate Software Development</a></li>
-                                    <li><a href="industries/fintech-software-development">Fintech Software Development</a></li>
-                                    <li><a href="industries/edtech-software-development">EdTech Software Development</a></li>
-                                    <li><a href="industries/ecommerce-software-development">Ecommerce Software Development</a></li>
-                                    <li><a href="industries/logistics-software-development">Logistics Software Development</a></li>
+                                    <li><a href="/industries/healthcare-software-development">Healthcare Software Development</a></li>
+                                    <li><a href="/industries/real-estate-software-development">Real Estate Software Development</a></li>
+                                    <li><a href="/industries/fintech-software-development">Fintech Software Development</a></li>
+                                    <li><a href="/industries/edtech-software-development">EdTech Software Development</a></li>
+                                    <li><a href="/industries/ecommerce-software-development">Ecommerce Software Development</a></li>
+                                    <li><a href="/industries/logistics-software-development">Logistics Software Development</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -127,12 +127,12 @@ echo
                     </div>
                     <div class="col-lg-6 text-center text-md-end">
                         <ul class="footer-menu">
-                            <li><a href="about-us">About Us</a></li>
-                            <li><a href="services">Services</a></li>
-                            <li><a href="industries">Industries</a></li>
-                            <li><a href="portfolio">Portfolio</a></li>
-                            <li><a href="contact-us">Contact</a></li>
-                            <li><a href="privacy-policy">Privacy Policy</a></li>
+                            <li><a href="/about-us">About Us</a></li>
+                            <li><a href="/services">Services</a></li>
+                            <li><a href="/industries">Industries</a></li>
+                            <li><a href="/portfolio">Portfolio</a></li>
+                            <li><a href="/contact-us">Contact</a></li>
+                            <li><a href="/privacy-policy">Privacy Policy</a></li>
                         </ul>
                     </div>
                 </div>
