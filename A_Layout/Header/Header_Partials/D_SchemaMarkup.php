@@ -37,7 +37,7 @@ $organizationSchema = [
 $schemas = [$organizationSchema];
 
 // Service schema for service pages
-if (!empty($SchemaService)) {
+if (!empty($SchemaService) && is_array($SchemaService)) {
     $schemas[] = [
         '@context' => 'https://schema.org',
         '@type' => 'Service',
@@ -52,9 +52,10 @@ if (!empty($SchemaService)) {
 }
 
 // FAQ schema for pages with FAQ
-if (!empty($SchemaFAQ)) {
+if (!empty($SchemaFAQ) && is_array($SchemaFAQ)) {
     $faqItems = [];
     foreach ($SchemaFAQ as $item) {
+        if (empty($item['question']) || empty($item['answer'])) continue;
         $faqItems[] = [
             '@type' => 'Question',
             'name' => $item['question'],
@@ -76,7 +77,7 @@ if (!empty($SchemaFAQ)) {
 <?php echo json_encode($organizationSchema, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT); ?>
 
 </script>
-<?php if (!empty($SchemaService)): ?>
+<?php if (!empty($SchemaService) && is_array($SchemaService)): ?>
 <script type="application/ld+json">
 <?php
 $svc = [
@@ -91,22 +92,24 @@ echo json_encode($svc, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
 ?>
 </script>
 <?php endif; ?>
-<?php if (!empty($SchemaFAQ)): ?>
-<script type="application/ld+json">
 <?php
-$faqItems = [];
-foreach ($SchemaFAQ as $item) {
-    $faqItems[] = [
-        '@type' => 'Question',
-        'name' => $item['question'],
-        'acceptedAnswer' => ['@type' => 'Answer', 'text' => $item['answer']]
-    ];
-}
-echo json_encode([
+if (!empty($SchemaFAQ) && is_array($SchemaFAQ)) {
+    $faqItems = [];
+    foreach ($SchemaFAQ as $item) {
+        if (empty($item['question']) || empty($item['answer'])) continue;
+        $faqItems[] = [
+            '@type' => 'Question',
+            'name' => $item['question'],
+            'acceptedAnswer' => ['@type' => 'Answer', 'text' => $item['answer']]
+        ];
+    }
+    if (!empty($faqItems)): ?>
+<script type="application/ld+json">
+<?php echo json_encode([
     '@context' => 'https://schema.org',
     '@type' => 'FAQPage',
     'mainEntity' => $faqItems
-], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
-?>
+], JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT); ?>
 </script>
-<?php endif; ?>
+<?php endif; }
+?>
