@@ -514,3 +514,119 @@
                 font-size: 0.85rem;
             }
         }
+
+/* ===== Header Navigation Redesign ===== */
+/* Sticky header - visible background when scrolled */
+.header-layout23 .sticky-wrapper.sticky {
+    background-color: #fff !important;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+}
+.header-layout23 .sticky-wrapper.sticky .menu-area {
+    padding: 12px 0;
+}
+
+/* CTA Button - Lead conversion */
+.header-cta-btn {
+    padding: 14px 28px !important;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(64, 102, 242, 0.35);
+}
+.header-cta-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(64, 102, 242, 0.45);
+}
+
+/* Header logo sizing */
+.header-logo-img {
+    max-height: 45px;
+    width: auto;
+}
+.sticky-wrapper.sticky .header-logo-img {
+    max-height: 40px;
+}
+
+/* Mega menu - Solutions dropdown */
+.main-menu .mega-menu.mega-menu-content {
+    left: 50%;
+    transform: translateX(-50%) scaleY(0);
+    transform-origin: top;
+    min-width: 600px;
+    padding: 25px 30px !important;
+    background: #fff !important;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.12);
+    border-radius: 8px;
+    transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s;
+    visibility: hidden;
+    opacity: 0;
+}
+.main-menu .menu-item-has-children:hover .mega-menu.mega-menu-content,
+.main-menu .mega-menu-wrap:hover .mega-menu.mega-menu-content {
+    transform: translateX(-50%) scaleY(1);
+    visibility: visible;
+    opacity: 1;
+}
+.main-menu .megamenu-list {
+    padding: 0 20px 0 0;
+    min-width: 240px;
+}
+.main-menu .megamenu-list:last-child {
+    padding-right: 0;
+}
+.main-menu .megamenu-list .mega-menu-title {
+    color: var(--theme-color, #4066f2);
+    font-weight: 700;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid rgba(64, 102, 242, 0.2);
+}
+.main-menu .megamenu-list ul li a {
+    padding: 8px 0;
+    transition: padding-left 0.2s ease, color 0.2s ease;
+}
+.main-menu .megamenu-list ul li a:hover {
+    padding-left: 8px;
+    color: var(--theme-color, #4066f2);
+}
+.main-menu .megamenu-list ul li a i {
+    opacity: 0.7;
+    font-size: 0.9em;
+}
+
+/* Dropdown sub-menu - smooth animation */
+.main-menu ul.sub-menu {
+    transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s;
+    min-width: 260px;
+}
+.main-menu ul.sub-menu li a i {
+    opacity: 0.7;
+    font-size: 0.9em;
+}
+
+/* Mobile menu - mega menu titles */
+.megamenu-mobile-title {
+    font-weight: 700;
+    color: var(--theme-color, #4066f2);
+    padding: 12px 0 6px;
+    margin-top: 8px;
+    border-top: 1px solid rgba(0,0,0,0.06);
+    list-style: none;
+}
+.megamenu-mobile-title:first-child {
+    margin-top: 0;
+    border-top: none;
+    padding-top: 0;
+}
+
+/* Sticky trigger earlier (100px) - override via JS if needed */
+@media (min-width: 992px) {
+    .main-menu.style2 > ul > li {
+        margin: 0 8px;
+    }
+    .main-menu.style2 > ul > li > a {
+        padding: 10px 14px;
+        font-size: 15px;
+    }
+}
