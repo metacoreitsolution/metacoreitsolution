@@ -28,7 +28,10 @@ RewriteRule ^education-technology-solution$ /industries/edtech-software-developm
 
 RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+# Only set header if mod_headers is available (prevents 500 on shared hosting)
+<IfModule mod_headers.c>
 Header always set Content-Security-Policy "upgrade-insecure-requests"
+</IfModule>
 
 # Define custom error pages
 ErrorDocument 404 /error.php
